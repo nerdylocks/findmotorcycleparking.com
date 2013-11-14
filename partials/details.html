@@ -1,0 +1,22 @@
+<div data-role="page" id="details_{{spotDetails.id}}">
+	<div data-role="header">
+		<a href="#list" data-rel="back">&lt; Back</a>
+		<h1>Details @ {{spotDetails.title}}</h1>
+	</div><!-- /header -->
+	<div data-role="content">
+		<h3>{{spotDetails.title}}, {{spotDetails.nbhood}}</h3>
+		<p>There are {{spotDetails.spaces}} {{spotDetails.free}} spaces.</p>
+		<p>{{distance}}</p>
+		<!-- <div class="google-map" 
+			center="coords"
+			zoom="zoomProperty" 
+			markers="markersProperty"
+			mark-click="false"
+			draggable="true"
+			fit="false"
+			events="eventsProperty"
+			style="height: 400px; width: 100%"
+			refresh="!isMapElementHidden">
+		</div> -->
+	</div>
+</div>

@@ -2,7 +2,7 @@
     "parking": {
         "spots": [
             {
-                "id": "12",
+                "id": 12,
                 "lat": 37.76443867757170,
                 "lng": -122.43125438690100,
                 "spaces": "3",
@@ -11,7 +11,7 @@
                 "title": "16th St at Sanchez"
             },
             {
-                "id": "157",
+                "id": 157,
                 "lat": 37.761181700917085,
                 "lng": -122.43179082870483,
                 "spaces": "2",
@@ -20,7 +20,7 @@
                 "title": "18th btw Sanchez & Noe"
             },
             {
-                "id": "0",
+                "id": 0,
                 "lat": 37.76102054470269,
                 "lng": -122.43415117263794,
                 "spaces": "8",
@@ -29,7 +29,7 @@
                 "title": "18th St east of Castro"
             },
             {
-                "id": "1",
+                "id": 1,
                 "lat": 37.76084242426770,
                 "lng": -122.43558883666900,
                 "spaces": "6",
@@ -38,7 +38,7 @@
                 "title": "18th St west of Castro"
             },
             {
-                "id": "234",
+                "id": 234,
                 "lat": 37.75127418206904,
                 "lng": -122.43503093719482,
                 "spaces": "2",
@@ -47,7 +47,7 @@
                 "title": "24th at Castro"
             },
             {
-                "id": "236",
+                "id": 236,
                 "lat": 37.74728704926916,
                 "lng": -122.4220061302185,
                 "spaces": "2",
@@ -56,7 +56,7 @@
                 "title": "27th at Guerrero"
             },
             {
-                "id": "2",
+                "id": 2,
                 "lat": 37.76190265862991,
                 "lng": -122.43512749671936,
                 "spaces": "6",
@@ -65,7 +65,7 @@
                 "title": "Castro btw 17th &18th Sts - 1"
             },
             {
-                "id": "276",
+                "id": 276,
                 "lat": 37.76211470367867,
                 "lng": -122.43514895439148,
                 "spaces": "6",
@@ -74,7 +74,7 @@
                 "title": "Castro btw 17th &18th Sts - 2"
             },
             {
-                "id": "159",
+                "id": 159,
                 "lat": 37.76662687821001,
                 "lng": -122.42876529693603,
                 "spaces": "2",
@@ -83,7 +83,7 @@
                 "title": "Church and 15th St"
             },
             {
-                "id": "161",
+                "id": 161,
                 "lat": 37.768249,
                 "lng": -122.426612,
                 "spaces": "3",
@@ -92,7 +92,7 @@
                 "title": "Dolores &14th St"
             },
             {
-                "id": "162",
+                "id": 162,
                 "lat": 37.76292895101701,
                 "lng": -122.426598072052,
                 "spaces": "2",
@@ -101,7 +101,7 @@
                 "title": "Dolores &17th St"
             },
             {
-                "id": "160",
+                "id": 160,
                 "lat": 37.76883197614526,
                 "lng": -122.42664098739624,
                 "spaces": "4",
@@ -110,7 +110,7 @@
                 "title": "Dolores & Market"
             },
             {
-                "id": "235",
+                "id": 235,
                 "lat": 37.74530188602822,
                 "lng": -122.42455959320068,
                 "spaces": "7",
@@ -119,7 +119,7 @@
                 "title": "Dolores at 28th St"
             },
             {
-                "id": "158",
+                "id": 158,
                 "lat": 37.76213166725632,
                 "lng": -122.42966651916504,
                 "spaces": "3",
@@ -128,7 +128,7 @@
                 "title": "Dorland St btw Church and Sanchez"
             },
             {
-                "id": "3",
+                "id": 3,
                 "lat": 37.76937475939850,
                 "lng": -122.43176937103200,
                 "spaces": "6",
@@ -137,14 +137,14 @@
                 "title": "Duboce at Steiner - on Duboce Park"
             },
             {
-                "id": "4",
+                "id": 4,
                 "lat": 37.76004511801640,
                 "lng": -122.43816375732400,
                 "nbhood": "Castro - Noe Valley",
                 "title": "Eureka btw 18th & 19th Sts"
             },
             {
-                "id": "126",
+                "id": 126,
                 "lat": 37.770108,
                 "lng": -122.424518,
                 "spaces": "3",
@@ -153,7 +153,7 @@
                 "title": "Guerrero btw. Market and Duboce - east side"
             },
             {
-                "id": "5",
+                "id": 5,
                 "lat": 37.76369229975580,
                 "lng": -122.43363618850700,
                 "spaces": "6",
@@ -162,7 +162,7 @@
                 "title": "Market east of Castro, south side"
             },
             {
-                "id": "9",
+                "id": 9,
                 "lat": 37.76559215574470,
                 "lng": -122.43337869644100,
                 "spaces": "2",
@@ -171,7 +171,7 @@
                 "title": "Noe at 15th"
             },
             {
-                "id": "10",
+                "id": 10,
                 "lat": 37.75118935169300,
                 "lng": -122.43183374404900,
                 "spaces": "6",
@@ -180,7 +180,7 @@
                 "title": "Noe at 24th St"
             },
             {
-                "id": "11",
+                "id": 11,
                 "lat": 37.7522222,
                 "lng": -122.431597,
                 "spaces": "2",
@@ -189,7 +189,7 @@
                 "title": "Noe at Elizabeth"
             },
             {
-                "id": "6",
+                "id": 6,
                 "lat": 37.76469312283280,
                 "lng": -122.43309974670400,
                 "spaces": "6",
@@ -198,7 +198,7 @@
                 "title": "Noe north of Market, east side"
             },
             {
-                "id": "7",
+                "id": 7,
                 "lat": 37.76342088777350,
                 "lng": -122.43314266204800,
                 "spaces": "4",
@@ -207,7 +207,7 @@
                 "title": "Noe south of Market, west side"
             },
             {
-                "id": "129",
+                "id": 129,
                 "lat": 37.80056961771293,
                 "lng": -122.41061210632324,
                 "spaces": "8",
@@ -216,7 +216,7 @@
                 "title": "Columbus btw Union and Powell"
             },
             {
-                "id": "13",
+                "id": 13,
                 "lat": 37.79891651046290,
                 "lng": -122.40819811820900,
                 "spaces": "6",
@@ -225,7 +225,7 @@
                 "title": "Columbus west of Vallejo"
             },
             {
-                "id": "15",
+                "id": 15,
                 "lat": 37.79986599196980,
                 "lng": -122.40823030471800,
                 "spaces": "6",
@@ -234,7 +234,7 @@
                 "title": "Green at Jasper Alley"
             },
             {
-                "id": "16",
+                "id": 16,
                 "lat": 37.80011183787070,
                 "lng": -122.40416407585100,
                 "spaces": "9",
@@ -243,7 +243,7 @@
                 "title": "Green at Montgomery"
             },
             {
-                "id": "14",
+                "id": 14,
                 "lat": 37.799403,
                 "lng": -122.403402,
                 "spaces": "6",
@@ -252,7 +252,7 @@
                 "title": "Green west of Columbus"
             },
             {
-                "id": "17",
+                "id": 17,
                 "lat": 37.79733966599640,
                 "lng": -122.40359544754000,
                 "spaces": "6",
@@ -261,7 +261,7 @@
                 "title": "Pacific at Montgomery"
             },
             {
-                "id": "128",
+                "id": 128,
                 "lat": 37.80615599868537,
                 "lng": -122.41536498069763,
                 "spaces": "5",
@@ -270,7 +270,7 @@
                 "title": "Taylor btw North Point and Bay St"
             },
             {
-                "id": "172",
+                "id": 172,
                 "lat": 37.80257872902474,
                 "lng": -122.40651369094848,
                 "spaces": "2",
@@ -279,7 +279,7 @@
                 "title": "Telegraph Hill"
             },
             {
-                "id": "18",
+                "id": 18,
                 "lat": 37.79872152614300,
                 "lng": -122.40766167640600,
                 "spaces": "10",
@@ -288,7 +288,7 @@
                 "title": "Vallejo east of Columbus"
             },
             {
-                "id": "242",
+                "id": 242,
                 "lat": 37.77505678240509,
                 "lng": -122.44121074676513,
                 "spaces": "1",
@@ -297,7 +297,7 @@
                 "title": "Baker at Hayes"
             },
             {
-                "id": "243",
+                "id": 243,
                 "lat": 37.77634577760317,
                 "lng": -122.44485855102539,
                 "spaces": "4",
@@ -306,7 +306,7 @@
                 "title": "Central at Fulton"
             },
             {
-                "id": "20",
+                "id": 20,
                 "lat": 37.78031438484980,
                 "lng": -122.41816520690900,
                 "spaces": "13",
@@ -316,7 +316,7 @@
                 "-notes": "Many closed due to construction 12/07"
             },
             {
-                "id": "21",
+                "id": 21,
                 "lat": 37.77982256047510,
                 "lng": -122.41844415664600,
                 "spaces": "6",
@@ -325,7 +325,7 @@
                 "title": "Civic Center Plaza - west sides"
             },
             {
-                "id": "22",
+                "id": 22,
                 "lat": 37.776517,
                 "lng": -122.418814,
                 "spaces": "10",
@@ -334,7 +334,7 @@
                 "title": "Fell btw. Van Ness and Market"
             },
             {
-                "id": "277",
+                "id": 277,
                 "lat": 37.773962814902774,
                 "lng": -122.43801355361938,
                 "spaces": "1",
@@ -344,7 +344,7 @@
                 "-notes": "In front of 1217 Fell St"
             },
             {
-                "id": "23",
+                "id": 23,
                 "lat": 37.77646449971470,
                 "lng": -122.43123292922900,
                 "spaces": "6",
@@ -353,7 +353,7 @@
                 "title": "Fillmore btw Hayes &Grove"
             },
             {
-                "id": "195",
+                "id": 195,
                 "lat": 37.77604049129784,
                 "lng": -122.4209976196289,
                 "spaces": "2",
@@ -362,7 +362,7 @@
                 "title": "Franklin at Fell"
             },
             {
-                "id": "26",
+                "id": 26,
                 "lat": 37.77919505565990,
                 "lng": -122.42168426513600,
                 "spaces": "6",
@@ -371,14 +371,14 @@
                 "title": "Franklin at Fulton"
             },
             {
-                "id": "24",
+                "id": 24,
                 "lat": 37.77729554915760,
                 "lng": -122.42131948471000,
                 "nbhood": "Civic Center / Hayes Valley / Alamo Square",
                 "title": "Franklin at Hayes"
             },
             {
-                "id": "25",
+                "id": 25,
                 "lat": 37.77980560095550,
                 "lng": -122.41532206535300,
                 "spaces": "3",
@@ -387,7 +387,7 @@
                 "title": "Fulton near Hyde"
             },
             {
-                "id": "189",
+                "id": 189,
                 "lat": 37.78201030587168,
                 "lng": -122.41419553756714,
                 "spaces": "6",
@@ -396,7 +396,7 @@
                 "title": "Golden Gate at Leavenworth"
             },
             {
-                "id": "27",
+                "id": 27,
                 "lat": 37.78112843179640,
                 "lng": -122.42016077041600,
                 "spaces": "2",
@@ -405,7 +405,7 @@
                 "title": "Golden Gate at Van Ness"
             },
             {
-                "id": "28",
+                "id": 28,
                 "lat": 37.78148457451640,
                 "lng": -122.41732835769600,
                 "spaces": "16",
@@ -414,7 +414,7 @@
                 "title": "Golden Gate near Larkin"
             },
             {
-                "id": "241",
+                "id": 241,
                 "lat": 37.774785412131244,
                 "lng": -122.44054555892944,
                 "spaces": "1",
@@ -423,7 +423,7 @@
                 "title": "Hayes at Baker"
             },
             {
-                "id": "240",
+                "id": 240,
                 "lat": 37.77488717610065,
                 "lng": -122.43919372558594,
                 "spaces": "2",
@@ -432,7 +432,7 @@
                 "title": "Hayes at Broderick"
             },
             {
-                "id": "29",
+                "id": 29,
                 "lat": 37.77700722693980,
                 "lng": -122.42249965667700,
                 "spaces": "4",
@@ -441,7 +441,7 @@
                 "title": "Hayes btw Franklin &Gough"
             },
             {
-                "id": "30",
+                "id": 30,
                 "lat": 37.78107755412490,
                 "lng": -122.41535425186100,
                 "spaces": "31",
@@ -450,14 +450,14 @@
                 "title": "Hyde btw McAllister &Golden Gate"
             },
             {
-                "id": "248",
+                "id": 248,
                 "lat": 37.77400521704548,
                 "lng": -122.42735981941223,
                 "nbhood": "Civic Center / Hayes Valley / Alamo Square",
                 "title": "Lily St at Buchanan"
             },
             {
-                "id": "194",
+                "id": 194,
                 "lat": 37.77378472563779,
                 "lng": -122.42052555084228,
                 "spaces": "6",
@@ -466,7 +466,7 @@
                 "title": "Market btw 12th and Brady"
             },
             {
-                "id": "190",
+                "id": 190,
                 "lat": 37.78084012452816,
                 "lng": -122.41398096084595,
                 "spaces": "9",
@@ -475,7 +475,7 @@
                 "title": "McAllister at Leavenworth"
             },
             {
-                "id": "31",
+                "id": 31,
                 "lat": 37.780649,
                 "lng": -122.420219,
                 "spaces": "4",
@@ -484,7 +484,7 @@
                 "title": "Van Ness at Redwood"
             },
             {
-                "id": "32",
+                "id": 32,
                 "lat": 37.77536207277250,
                 "lng": -122.42069721221900,
                 "spaces": "7",
@@ -493,7 +493,7 @@
                 "title": "Oak at Franklin"
             },
             {
-                "id": "191",
+                "id": 191,
                 "lat": 37.77551471748351,
                 "lng": -122.42415189743042,
                 "spaces": "6",
@@ -502,7 +502,7 @@
                 "title": "Octavia at Fell"
             },
             {
-                "id": "279",
+                "id": 279,
                 "lat": 37.772833,
                 "lng": -122.423454,
                 "spaces": "6",
@@ -511,7 +511,7 @@
                 "title": "Octavia south of Page"
             },
             {
-                "id": "214",
+                "id": 214,
                 "lat": 37.77230911236875,
                 "lng": -122.43689775466919,
                 "spaces": "2",
@@ -520,7 +520,7 @@
                 "title": "Page at Divisadero"
             },
             {
-                "id": "193",
+                "id": 193,
                 "lat": 37.77434443331179,
                 "lng": -122.4222207069397,
                 "spaces": "7",
@@ -529,7 +529,7 @@
                 "title": "Page at Gough"
             },
             {
-                "id": "33",
+                "id": 33,
                 "lat": 37.77300451999220,
                 "lng": -122.43159770965500,
                 "spaces": "2",
@@ -538,7 +538,7 @@
                 "title": "Page btw Fillmore &Steiner"
             },
             {
-                "id": "192",
+                "id": 192,
                 "lat": 37.77409002125797,
                 "lng": -122.42325067520141,
                 "spaces": "6",
@@ -547,7 +547,7 @@
                 "title": "Page btw Octavia & Gough"
             },
             {
-                "id": "34",
+                "id": 34,
                 "lat": 37.77285187009850,
                 "lng": -122.43303537368700,
                 "spaces": "2",
@@ -556,7 +556,7 @@
                 "title": "Page btw Steiner &Pierce"
             },
             {
-                "id": "35",
+                "id": 35,
                 "lat": 37.77225822862730,
                 "lng": -122.43382930755600,
                 "spaces": "4",
@@ -565,7 +565,7 @@
                 "title": "Pierce btw Haight &Page"
             },
             {
-                "id": "212",
+                "id": 212,
                 "lat": 37.77621009495645,
                 "lng": -122.43621110916137,
                 "spaces": "4",
@@ -574,7 +574,7 @@
                 "title": "Scott at Grove"
             },
             {
-                "id": "37",
+                "id": 37,
                 "lat": 37.77802482974780,
                 "lng": -122.43348598480200,
                 "spaces": "6",
@@ -583,7 +583,7 @@
                 "title": "Steiner near Fulton"
             },
             {
-                "id": "38",
+                "id": 38,
                 "lat": 37.77875410314340,
                 "lng": -122.43363618850700,
                 "spaces": "6",
@@ -592,7 +592,7 @@
                 "title": "Steiner near McAllister"
             },
             {
-                "id": "39",
+                "id": 39,
                 "lat": 37.78209510090130,
                 "lng": -122.41930246353100,
                 "spaces": "12",
@@ -601,7 +601,7 @@
                 "title": "Turk at Polk"
             },
             {
-                "id": "213",
+                "id": 213,
                 "lat": 37.78009391225896,
                 "lng": -122.43670463562012,
                 "spaces": "2",
@@ -610,7 +610,7 @@
                 "title": "Turk at Scott"
             },
             {
-                "id": "41",
+                "id": 41,
                 "lat": 37.783206,
                 "lng": -122.422296,
                 "spaces": "8",
@@ -619,7 +619,7 @@
                 "title": "Willow Alley at Franklin"
             },
             {
-                "id": "40",
+                "id": 40,
                 "lat": 37.78370618798190,
                 "lng": -122.41885185241600,
                 "spaces": "16",
@@ -628,7 +628,7 @@
                 "title": "Willow Alley (btw Polk & Larkin)"
             },
             {
-                "id": "42",
+                "id": 42,
                 "lat": 37.78873424970606,
                 "lng": -122.40062355995178,
                 "spaces": "31",
@@ -637,7 +637,7 @@
                 "title": "2nd St at Market"
             },
             {
-                "id": "45",
+                "id": 45,
                 "lat": 37.78289216942510,
                 "lng": -122.39353179931600,
                 "spaces": "6",
@@ -646,7 +646,7 @@
                 "title": "2nd St at Taber"
             },
             {
-                "id": "44",
+                "id": 44,
                 "lat": 37.78536811469730,
                 "lng": -122.39655733108500,
                 "spaces": "4",
@@ -655,7 +655,7 @@
                 "title": "2nd St south of Folsom, West side"
             },
             {
-                "id": "43",
+                "id": 43,
                 "lat": 37.78660605622850,
                 "lng": -122.39814519882200,
                 "spaces": "12",
@@ -664,7 +664,7 @@
                 "title": "2nd St south of Howard"
             },
             {
-                "id": "146",
+                "id": 146,
                 "lat": 37.78002607440637,
                 "lng": -122.39406824111938,
                 "spaces": "4",
@@ -673,7 +673,7 @@
                 "title": "3rd and Brannan"
             },
             {
-                "id": "275",
+                "id": 275,
                 "lat": 37.78236644434258,
                 "lng": -122.40166425704956,
                 "spaces": "5",
@@ -683,7 +683,7 @@
                 "-notes": "Parking restriction from 3pm-7pm, It's empty 90% of the time."
             },
             {
-                "id": "141",
+                "id": 141,
                 "lat": 37.78292608704408,
                 "lng": -122.40232944488525,
                 "spaces": "8",
@@ -692,7 +692,7 @@
                 "title": "4th at Howard"
             },
             {
-                "id": "143",
+                "id": 143,
                 "lat": 37.78123018703442,
                 "lng": -122.40018367767334,
                 "spaces": "2",
@@ -701,7 +701,7 @@
                 "title": "4th St &Clara"
             },
             {
-                "id": "149",
+                "id": 149,
                 "lat": 37.77670194336603,
                 "lng": -122.39413261413574,
                 "spaces": "5",
@@ -710,7 +710,7 @@
                 "title": "4th St & King"
             },
             {
-                "id": "152",
+                "id": 152,
                 "lat": 37.782095100901344,
                 "lng": -122.40576267242431,
                 "spaces": "8",
@@ -719,7 +719,7 @@
                 "title": "5th St at Minna"
             },
             {
-                "id": "153",
+                "id": 153,
                 "lat": 37.776752824049225,
                 "lng": -122.40342378616333,
                 "spaces": "6",
@@ -728,7 +728,7 @@
                 "title": "6th St btw Harrison & Bryant St"
             },
             {
-                "id": "48",
+                "id": 48,
                 "lat": 37.79130326217200,
                 "lng": -122.39597797393700,
                 "spaces": "12",
@@ -737,7 +737,7 @@
                 "title": "Beale at Mission"
             },
             {
-                "id": "132",
+                "id": 132,
                 "lat": 37.790056920744355,
                 "lng": -122.394357919693,
                 "spaces": "2",
@@ -746,7 +746,7 @@
                 "title": "Beale north of Howard"
             },
             {
-                "id": "46",
+                "id": 46,
                 "lat": 37.79740748795650,
                 "lng": -122.40093469619700,
                 "spaces": "14",
@@ -755,7 +755,7 @@
                 "title": "Battery at Pacific"
             },
             {
-                "id": "47",
+                "id": 47,
                 "lat": 37.79627146191150,
                 "lng": -122.40050554275500,
                 "spaces": "25",
@@ -764,7 +764,7 @@
                 "title": "Battery at Washington"
             },
             {
-                "id": "155",
+                "id": 155,
                 "lat": 37.7963053733897,
                 "lng": -122.40063428878784,
                 "spaces": "25",
@@ -773,7 +773,7 @@
                 "title": "Battery at Washington"
             },
             {
-                "id": "278",
+                "id": 278,
                 "lat": 37.78142521751564,
                 "lng": -122.39256620407104,
                 "spaces": "3",
@@ -782,7 +782,7 @@
                 "title": "Brannan St at Stanford St"
             },
             {
-                "id": "49",
+                "id": 49,
                 "lat": 37.794771,
                 "lng": -122.402834,
                 "spaces": "24",
@@ -791,7 +791,7 @@
                 "title": "Clay east of Montgomery(a)"
             },
             {
-                "id": "271",
+                "id": 271,
                 "lat": 37.794864,
                 "lng": -122.40205,
                 "spaces": "4",
@@ -800,7 +800,7 @@
                 "title": "Clay east of Montgomery(b)"
             },
             {
-                "id": "272",
+                "id": 272,
                 "lat": 37.79472,
                 "lng": -122.401879,
                 "spaces": "12",
@@ -809,7 +809,7 @@
                 "title": "Clay east of Montgomery(c)"
             },
             {
-                "id": "50",
+                "id": 50,
                 "lat": 37.79443174089100,
                 "lng": -122.40156769752500,
                 "spaces": "7",
@@ -818,7 +818,7 @@
                 "title": "Commercial at Sansome"
             },
             {
-                "id": "51",
+                "id": 51,
                 "lat": 37.79605951482010,
                 "lng": -122.39682555198600,
                 "spaces": "66",
@@ -827,7 +827,7 @@
                 "title": "Drumm btw Clay &Washington"
             },
             {
-                "id": "52",
+                "id": 52,
                 "lat": 37.78719958248480,
                 "lng": -122.39462614059400,
                 "spaces": "12",
@@ -836,7 +836,7 @@
                 "title": "Folsom at 1st St"
             },
             {
-                "id": "287",
+                "id": 287,
                 "lat": 37.790069,
                 "lng": -122.390998,
                 "spaces": "4",
@@ -845,7 +845,7 @@
                 "title": "Folsom at Spear"
             },
             {
-                "id": "53",
+                "id": 53,
                 "lat": 37.79055715554360,
                 "lng": -122.39690065383900,
                 "spaces": "11",
@@ -854,7 +854,7 @@
                 "title": "Fremont at Mission"
             },
             {
-                "id": "133",
+                "id": 133,
                 "lat": 37.78815769338271,
                 "lng": -122.39371418952942,
                 "spaces": "3",
@@ -864,7 +864,7 @@
                 "-notes": "Closed due to construction"
             },
             {
-                "id": "283",
+                "id": 283,
                 "lat": 37.78864946229359,
                 "lng": -122.39433646202087,
                 "spaces": "5",
@@ -873,7 +873,7 @@
                 "title": "Fremont at Transbay"
             },
             {
-                "id": "54",
+                "id": 54,
                 "lat": 37.79254958257690,
                 "lng": -122.39858508110000,
                 "spaces": "3",
@@ -882,7 +882,7 @@
                 "title": "Front at Pine"
             },
             {
-                "id": "131",
+                "id": 131,
                 "lat": 37.79358392776529,
                 "lng": -122.39876747131348,
                 "spaces": "7",
@@ -891,7 +891,7 @@
                 "title": "Front north of California"
             },
             {
-                "id": "273",
+                "id": 273,
                 "lat": 37.793496,
                 "lng": -122.401429,
                 "spaces": "7",
@@ -900,7 +900,7 @@
                 "title": "Halleck at Sansome"
             },
             {
-                "id": "154",
+                "id": 154,
                 "lat": 37.776180,
                 "lng": -122.403890,
                 "spaces": "12",
@@ -909,7 +909,7 @@
                 "title": "Harriet north of Bryant"
             },
             {
-                "id": "144",
+                "id": 144,
                 "lat": 37.782790416475244,
                 "lng": -122.39698648452759,
                 "spaces": "6",
@@ -918,7 +918,7 @@
                 "title": "Harrison at 3rd St"
             },
             {
-                "id": "56",
+                "id": 56,
                 "lat": 37.78492719900680,
                 "lng": -122.39800572395300,
                 "spaces": "20",
@@ -928,7 +928,7 @@
                 "-notes": "Construction on 12/07, closed until further notice"
             },
             {
-                "id": "127",
+                "id": 127,
                 "lat": 37.807632,
                 "lng": -122.420937,
                 "spaces": "6",
@@ -937,7 +937,7 @@
                 "title": "Jefferson at Hyde"
             },
             {
-                "id": "139",
+                "id": 139,
                 "lat": 37.78687738310861,
                 "lng": -122.40230798721313,
                 "spaces": "5",
@@ -946,7 +946,7 @@
                 "title": "Jessie at 3rd"
             },
             {
-                "id": "270",
+                "id": 270,
                 "lat": 37.78479789150266,
                 "lng": -122.40490436553955,
                 "spaces": "16",
@@ -955,7 +955,7 @@
                 "title": "Jessie at 4th"
             },
             {
-                "id": "151",
+                "id": 151,
                 "lat": 37.78323134491339,
                 "lng": -122.40743637084961,
                 "spaces": "8",
@@ -964,7 +964,7 @@
                 "title": "Jessie at Stevenson St"
             },
             {
-                "id": "57",
+                "id": 57,
                 "lat": 37.78810682054990,
                 "lng": -122.40089178085300,
                 "spaces": "34",
@@ -974,7 +974,7 @@
                 "-notes": "Enter on New Montgomery"
             },
             {
-                "id": "58",
+                "id": 58,
                 "lat": 37.78491871983320,
                 "lng": -122.39893913269000,
                 "spaces": "52",
@@ -984,7 +984,7 @@
                 "-notes": "Behind Moscone Garage, enter on third"
             },
             {
-                "id": "291",
+                "id": 291,
                 "lat": 37.79280662899016,
                 "lng": -122.3960340953835,
                 "spaces": "41",
@@ -993,7 +993,7 @@
                 "title": "Main at Market East"
             },
             {
-                "id": "60",
+                "id": 60,
                 "lat": 37.79262717427988,
                 "lng": -122.3960254647882,
                 "spaces": "52",
@@ -1002,7 +1002,7 @@
                 "title": "Main at Market West"
             },
             {
-                "id": "59",
+                "id": 59,
                 "lat": 37.79046389168530,
                 "lng": -122.39322066307000,
                 "spaces": "48",
@@ -1011,7 +1011,7 @@
                 "title": "Main south of Howard"
             },
             {
-                "id": "282",
+                "id": 282,
                 "lat": 37.78217989583374,
                 "lng": -122.40728616714478,
                 "spaces": "8",
@@ -1021,7 +1021,7 @@
                 "-notes": "at Mint Plaza, currently free 12/7"
             },
             {
-                "id": "61",
+                "id": 61,
                 "lat": 37.79162544225070,
                 "lng": -122.39537715911800,
                 "spaces": "61",
@@ -1031,7 +1031,7 @@
                 "-notes": "Closed through 7/07 due to construction"
             },
             {
-                "id": "244",
+                "id": 244,
                 "lat": 37.788847,
                 "lng": -122.396701,
                 "spaces": "8",
@@ -1040,7 +1040,7 @@
                 "title": "Natoma at 1st"
             },
             {
-                "id": "138",
+                "id": 138,
                 "lat": 37.787318287164034,
                 "lng": -122.40046262741089,
                 "spaces": "5",
@@ -1049,7 +1049,7 @@
                 "title": "New Montgomery at Mission"
             },
             {
-                "id": "62",
+                "id": 62,
                 "lat": 37.79757704258430,
                 "lng": -122.40166425704900,
                 "spaces": "11",
@@ -1058,7 +1058,7 @@
                 "title": "Pacific btw Battery &Sansome"
             },
             {
-                "id": "147",
+                "id": 147,
                 "lat": 37.7801278311619,
                 "lng": -122.39544153213501,
                 "spaces": "8",
@@ -1067,7 +1067,7 @@
                 "title": "Ritch off btw Brannan and Bryant"
             },
             {
-                "id": "148",
+                "id": 148,
                 "lat": 37.780717,
                 "lng": -122.396556,
                 "spaces": "4",
@@ -1076,7 +1076,7 @@
                 "title": "Brannan btw Ritch &Zoe"
             },
             {
-                "id": "140",
+                "id": 140,
                 "lat": 37.79342284217152,
                 "lng": -122.40134239196777,
                 "spaces": "7",
@@ -1085,7 +1085,7 @@
                 "title": "Sansome at California"
             },
             {
-                "id": "63",
+                "id": 63,
                 "lat": 37.79081151092240,
                 "lng": -122.40056991577100,
                 "spaces": "52",
@@ -1094,7 +1094,7 @@
                 "title": "Sansome btw Sutter &Bush"
             },
             {
-                "id": "64",
+                "id": 64,
                 "lat": 37.79516933039640,
                 "lng": -122.40142822265600,
                 "spaces": "5",
@@ -1103,7 +1103,7 @@
                 "-notes": "These spots are subject to towing from 3pm to 7pm "
             },
             {
-                "id": "65",
+                "id": 65,
                 "lat": 37.79335501655320,
                 "lng": -122.39496946334800,
                 "spaces": "61",
@@ -1112,7 +1112,7 @@
                 "title": "Spear at Market"
             },
             {
-                "id": "137",
+                "id": 137,
                 "lat": 37.79204130643789,
                 "lng": -122.3914512029367,
                 "spaces": "2",
@@ -1122,7 +1122,7 @@
                 "-notes": "Port Authority meter. No dollar coins or parking cards."
             },
             {
-                "id": "142",
+                "id": 142,
                 "lat": 37.78211205989562,
                 "lng": -122.40312337875366,
                 "spaces": "5",
@@ -1132,7 +1132,7 @@
                 "-notes": "Fills up by 10am on weekdays"
             },
             {
-                "id": "145",
+                "id": 145,
                 "lat": 37.78034830365159,
                 "lng": -122.39089250564575,
                 "spaces": "5",
@@ -1141,7 +1141,7 @@
                 "title": "Townsend at 2nd St"
             },
             {
-                "id": "150",
+                "id": 150,
                 "lat": 37.77509070361927,
                 "lng": -122.39758729934692,
                 "spaces": "10",
@@ -1150,7 +1150,7 @@
                 "title": "Townsend at 5th St"
             },
             {
-                "id": "171",
+                "id": 171,
                 "lat": 37.79562714086835,
                 "lng": -122.40290880203247,
                 "spaces": "13",
@@ -1159,7 +1159,7 @@
                 "title": "Washington east of Montgomery"
             },
             {
-                "id": "156",
+                "id": 156,
                 "lat": 37.79593234627349,
                 "lng": -122.40134239196777,
                 "spaces": "26",
@@ -1169,7 +1169,7 @@
                 "-notes": "Check back on this one. The lines are there, but the meters are gone, and cars park there."
             },
             {
-                "id": "66",
+                "id": 66,
                 "lat": 37.79608494850320,
                 "lng": -122.40001201629600,
                 "spaces": "33",
@@ -1178,7 +1178,7 @@
                 "title": "Washington east of Battery"
             },
             {
-                "id": "258",
+                "id": 258,
                 "lat": 37.791701747853054,
                 "lng": -122.39179372787475,
                 "free": false,
@@ -1187,7 +1187,7 @@
                 "-notes": "$4.00/day"
             },
             {
-                "id": "268",
+                "id": 268,
                 "lat": 37.77506526271009,
                 "lng": -122.40627765655517,
                 "free": false,
@@ -1196,7 +1196,7 @@
                 "-notes": "It is a Paid Lot. $3.00/day, $50/mo."
             },
             {
-                "id": "249",
+                "id": 249,
                 "lat": 37.79253262597779,
                 "lng": -122.40364909172058,
                 "free": false,
@@ -1205,7 +1205,7 @@
                 "-notes": "Reserved spaces $110/mo."
             },
             {
-                "id": "250",
+                "id": 250,
                 "lat": 37.77959360663275,
                 "lng": -122.41765022277832,
                 "free": false,
@@ -1214,7 +1214,7 @@
                 "-notes": "$4.00/day, $60/mo."
             },
             {
-                "id": "251",
+                "id": 251,
                 "lat": 37.791099779293255,
                 "lng": -122.40317702293396,
                 "free": false,
@@ -1223,7 +1223,7 @@
                 "-notes": "spaces for lease $65/mo."
             },
             {
-                "id": "252",
+                "id": 252,
                 "lat": 37.768178934763505,
                 "lng": -122.43544936180115,
                 "free": false,
@@ -1232,7 +1232,7 @@
                 "-notes": "Reserved spaces $40/mo.; see Patient Svcs, left lobby"
             },
             {
-                "id": "253",
+                "id": 253,
                 "lat": 37.786868904158666,
                 "lng": -122.40699648857116,
                 "free": false,
@@ -1241,7 +1241,7 @@
                 "-notes": "$5.00/day, $70/mo."
             },
             {
-                "id": "254",
+                "id": 254,
                 "lat": 37.78318894806246,
                 "lng": -122.40511894226074,
                 "free": false,
@@ -1250,7 +1250,7 @@
                 "-notes": "$5.00/day, $70/mo."
             },
             {
-                "id": "255",
+                "id": 255,
                 "lat": 37.79550844953692,
                 "lng": -122.40369200706482,
                 "free": false,
@@ -1259,7 +1259,7 @@
                 "-notes": "Spaces for lease $50/mo."
             },
             {
-                "id": "256",
+                "id": 256,
                 "lat": 37.79541519192846,
                 "lng": -122.398681640625,
                 "free": false,
@@ -1268,7 +1268,7 @@
                 "-notes": "$7.00/day, $90/mo."
             },
             {
-                "id": "257",
+                "id": 257,
                 "lat": 37.777914590120154,
                 "lng": -122.41406679153442,
                 "free": false,
@@ -1277,7 +1277,7 @@
                 "-notes": "Garaged spaces $165/mo."
             },
             {
-                "id": "259",
+                "id": 259,
                 "lat": 37.78497807402849,
                 "lng": -122.43031024932861,
                 "free": false,
@@ -1286,7 +1286,7 @@
                 "-notes": "Closes at midnight, $4.00/day, $60/mo."
             },
             {
-                "id": "262",
+                "id": 262,
                 "lat": 37.79984903704993,
                 "lng": -122.43524551391601,
                 "free": false,
@@ -1295,7 +1295,7 @@
                 "-notes": "$60/mo."
             },
             {
-                "id": "263",
+                "id": 263,
                 "lat": 37.756796430299374,
                 "lng": -122.41984963417053,
                 "free": false,
@@ -1304,7 +1304,7 @@
                 "-notes": "$60/mo."
             },
             {
-                "id": "264",
+                "id": 264,
                 "lat": 37.79844176513279,
                 "lng": -122.40938901901245,
                 "free": false,
@@ -1313,7 +1313,7 @@
                 "-notes": "$4.00/day, $60/mo."
             },
             {
-                "id": "261",
+                "id": 261,
                 "lat": 37.77805874960015,
                 "lng": -122.42243528366089,
                 "free": false,
@@ -1322,7 +1322,7 @@
                 "-notes": "$4.00/day, $60/mo."
             },
             {
-                "id": "265",
+                "id": 265,
                 "lat": 37.754565525566484,
                 "lng": -122.40452885627746,
                 "free": false,
@@ -1331,7 +1331,7 @@
                 "-notes": "$3.00/day, $50/mo."
             },
             {
-                "id": "266",
+                "id": 266,
                 "lat": 37.792176536497024,
                 "lng": -122.4045181274414,
                 "free": false,
@@ -1340,7 +1340,7 @@
                 "-notes": "$70/mo."
             },
             {
-                "id": "260",
+                "id": 260,
                 "lat": 37.7899975706282,
                 "lng": -122.40918517112732,
                 "free": false,
@@ -1349,7 +1349,7 @@
                 "-notes": "Difficult bike entrance on Bush St, $5.00/day, $65/mo."
             },
             {
-                "id": "267",
+                "id": 267,
                 "lat": 37.78825943894311,
                 "lng": -122.40766167640686,
                 "free": false,
@@ -1358,7 +1358,7 @@
                 "-notes": "$5.00/day, $70/mo."
             },
             {
-                "id": "227",
+                "id": 227,
                 "lat": 37.765371639249565,
                 "lng": -122.45421409606933,
                 "spaces": "4",
@@ -1367,7 +1367,7 @@
                 "title": "Carl at Willard"
             },
             {
-                "id": "225",
+                "id": 225,
                 "lat": 37.767390188782336,
                 "lng": -122.4457597732544,
                 "spaces": "2",
@@ -1376,7 +1376,7 @@
                 "title": "Frederick at Delmar"
             },
             {
-                "id": "226",
+                "id": 226,
                 "lat": 37.765843,
                 "lng": -122.457453,
                 "spaces": "6",
@@ -1385,7 +1385,7 @@
                 "title": "Frederick at Arguello, on the tip of the 'island'"
             },
             {
-                "id": "224",
+                "id": 224,
                 "lat": 37.76995146223971,
                 "lng": -122.44728326797485,
                 "spaces": "4",
@@ -1394,7 +1394,7 @@
                 "title": "Haight at Ashbury"
             },
             {
-                "id": "69",
+                "id": 69,
                 "lat": 37.77005323286240,
                 "lng": -122.44621038436800,
                 "spaces": "3",
@@ -1403,7 +1403,7 @@
                 "title": "Haight btw Masonic &Ashbury - south side"
             },
             {
-                "id": "70",
+                "id": 70,
                 "lat": 37.77018892680820,
                 "lng": -122.44621038436800,
                 "spaces": "3",
@@ -1412,7 +1412,7 @@
                 "title": "Haight btw Masonic &Ashbury - north side"
             },
             {
-                "id": "71",
+                "id": 71,
                 "lat": 37.77046031395270,
                 "lng": -122.44406461715600,
                 "spaces": "7",
@@ -1421,7 +1421,7 @@
                 "title": "Haight btw Masonic &Central"
             },
             {
-                "id": "72",
+                "id": 72,
                 "lat": 37.76935779748210,
                 "lng": -122.45247602462700,
                 "spaces": "11",
@@ -1430,7 +1430,7 @@
                 "title": "Haight btw Shrader &Stanyan"
             },
             {
-                "id": "68",
+                "id": 68,
                 "lat": 37.77213949976110,
                 "lng": -122.43095397949200,
                 "spaces": "12",
@@ -1439,7 +1439,7 @@
                 "title": "Haight btw Steiner &Fillmore"
             },
             {
-                "id": "125",
+                "id": 125,
                 "lat": 37.771470,
                 "lng": -122.427502,
                 "spaces": "2",
@@ -1448,7 +1448,7 @@
                 "title": "Waller btw Webster &Buchanan - south side"
             },
             {
-                "id": "73",
+                "id": 73,
                 "lat": 37.76448956669390,
                 "lng": -122.45790481567300,
                 "spaces": "4",
@@ -1456,7 +1456,7 @@
                 "title": "Irving at Arguello"
             },
             {
-                "id": "222",
+                "id": 222,
                 "lat": 37.77083346965009,
                 "lng": -122.44848489761352,
                 "spaces": "2",
@@ -1465,7 +1465,7 @@
                 "title": "Page at Clayton"
             },
             {
-                "id": "74",
+                "id": 74,
                 "lat": 37.76309858475090,
                 "lng": -122.45962142944300,
                 "spaces": "3",
@@ -1475,7 +1475,7 @@
                 "-notes": "Usually full by 6:30am"
             },
             {
-                "id": "223",
+                "id": 223,
                 "lat": 37.76869627970943,
                 "lng": -122.45020151138305,
                 "spaces": "2",
@@ -1484,7 +1484,7 @@
                 "title": "Waller at Cole"
             },
             {
-                "id": "216",
+                "id": 216,
                 "lat": 37.78355356018544,
                 "lng": -122.43258476257324,
                 "spaces": "10",
@@ -1493,7 +1493,7 @@
                 "title": "Fillmore at O'Farrell"
             },
             {
-                "id": "36",
+                "id": 36,
                 "lat": 37.78709783546510,
                 "lng": -122.43996620178200,
                 "spaces": "3",
@@ -1503,7 +1503,7 @@
                 "-notes": "Bottom of westside steps, Alamo Square"
             },
             {
-                "id": "75",
+                "id": 75,
                 "lat": 37.78563944612240,
                 "lng": -122.43009567260700,
                 "spaces": "5",
@@ -1512,7 +1512,7 @@
                 "title": "Post at Buchanan"
             },
             {
-                "id": "76",
+                "id": 76,
                 "lat": 37.78530028168530,
                 "lng": -122.43271350860500,
                 "spaces": "5",
@@ -1521,7 +1521,7 @@
                 "title": "Post near Fillmore"
             },
             {
-                "id": "217",
+                "id": 217,
                 "lat": 37.7853172399442,
                 "lng": -122.44028806686401,
                 "spaces": "5",
@@ -1530,7 +1530,7 @@
                 "title": "Sutter at Divisidero"
             },
             {
-                "id": "215",
+                "id": 215,
                 "lat": 37.78426582053905,
                 "lng": -122.43082523345947,
                 "spaces": "2",
@@ -1539,7 +1539,7 @@
                 "title": "Webster at Geary"
             },
             {
-                "id": "280",
+                "id": 280,
                 "lat": 37.748799,
                 "lng": -122.459628,
                 "spaces": "3",
@@ -1548,7 +1548,7 @@
                 "title": "Laguna Honda at Plaza"
             },
             {
-                "id": "233",
+                "id": 233,
                 "lat": 37.75468428264667,
                 "lng": -122.46402025222778,
                 "spaces": "3",
@@ -1557,7 +1557,7 @@
                 "title": "Noriega at Laguna Honda"
             },
             {
-                "id": "220",
+                "id": 220,
                 "lat": 37.800222044388384,
                 "lng": -122.43616819381714,
                 "spaces": "4",
@@ -1567,7 +1567,7 @@
                 "-notes": "Ill advised, bad corner"
             },
             {
-                "id": "218",
+                "id": 218,
                 "lat": 37.802443094538226,
                 "lng": -122.430739402771,
                 "spaces": "2",
@@ -1576,7 +1576,7 @@
                 "title": "Francisco btw Laguna &Octavia"
             },
             {
-                "id": "176",
+                "id": 176,
                 "lat": 37.79822134662092,
                 "lng": -122.42024660110473,
                 "spaces": "2",
@@ -1585,7 +1585,7 @@
                 "title": "Green btw Hyde &Larkin"
             },
             {
-                "id": "178",
+                "id": 178,
                 "lat": 37.80117150911384,
                 "lng": -122.4193024635315,
                 "spaces": "1",
@@ -1594,7 +1594,7 @@
                 "title": "Greenwich at Hyde"
             },
             {
-                "id": "179",
+                "id": 179,
                 "lat": 37.802631,
                 "lng": -122.421628,
                 "spaces": "1",
@@ -1603,7 +1603,7 @@
                 "title": "Chestnut at Larkin"
             },
             {
-                "id": "177",
+                "id": 177,
                 "lat": 37.799391252741934,
                 "lng": -122.42086887359619,
                 "spaces": "2",
@@ -1612,7 +1612,7 @@
                 "title": "Larkin btw Filbert &Union"
             },
             {
-                "id": "219",
+                "id": 219,
                 "lat": 37.80308735613073,
                 "lng": -122.43000984191894,
                 "spaces": "3",
@@ -1621,7 +1621,7 @@
                 "title": "Octavia at Francisco"
             },
             {
-                "id": "77",
+                "id": 77,
                 "lat": 37.80013727015860,
                 "lng": -122.43957996368400,
                 "spaces": "9",
@@ -1630,7 +1630,7 @@
                 "title": "Pierce at Chestnut"
             },
             {
-                "id": "221",
+                "id": 221,
                 "lat": 37.79689882173807,
                 "lng": -122.43685483932495,
                 "spaces": "2",
@@ -1639,7 +1639,7 @@
                 "title": "Union at Steiner"
             },
             {
-                "id": "79",
+                "id": 79,
                 "lat": 37.79839089938070,
                 "lng": -122.42604017257600,
                 "spaces": "2",
@@ -1648,7 +1648,7 @@
                 "title": "Union btw Gough &Octavia"
             },
             {
-                "id": "78",
+                "id": 78,
                 "lat": 37.79778050762410,
                 "lng": -122.43095397949200,
                 "spaces": "5",
@@ -1657,7 +1657,7 @@
                 "title": "Union btw Laguna &Buchanan"
             },
             {
-                "id": "80",
+                "id": 80,
                 "lat": 37.79850958608100,
                 "lng": -122.42520332336400,
                 "spaces": "3",
@@ -1666,7 +1666,7 @@
                 "title": "Union btw Van Ness &Franklin"
             },
             {
-                "id": "173",
+                "id": 173,
                 "lat": 37.79667839862233,
                 "lng": -122.42498874664306,
                 "spaces": "2",
@@ -1675,7 +1675,7 @@
                 "title": "Vallejo at Van Ness"
             },
             {
-                "id": "175",
+                "id": 175,
                 "lat": 37.79730575499307,
                 "lng": -122.41968870162964,
                 "spaces": "6",
@@ -1684,7 +1684,7 @@
                 "title": "Vallejo btw Larkin &Hyde"
             },
             {
-                "id": "174",
+                "id": 174,
                 "lat": 37.797068377533414,
                 "lng": -122.4213194847107,
                 "spaces": "2",
@@ -1693,7 +1693,7 @@
                 "title": "Vallejo btw Larkin &Polk"
             },
             {
-                "id": "85",
+                "id": 85,
                 "lat": 37.76496453014650,
                 "lng": -122.42312192916800,
                 "spaces": "12",
@@ -1702,7 +1702,7 @@
                 "title": "16th btw Valencia and Guerrero"
             },
             {
-                "id": "166",
+                "id": 166,
                 "lat": 37.76389585808897,
                 "lng": -122.41486072540283,
                 "spaces": "7",
@@ -1711,7 +1711,7 @@
                 "title": "17th at Folsom"
             },
             {
-                "id": "84",
+                "id": 84,
                 "lat": 37.76006208206860,
                 "lng": -122.42224216461100,
                 "spaces": "3",
@@ -1720,7 +1720,7 @@
                 "title": "19th btw Valencia and Guerrero"
             },
             {
-                "id": "164",
+                "id": 164,
                 "lat": 37.76379407899244,
                 "lng": -122.41850852966308,
                 "spaces": "10",
@@ -1729,7 +1729,7 @@
                 "title": "Capp at 17th St"
             },
             {
-                "id": "167",
+                "id": 167,
                 "lat": 37.7560436135038,
                 "lng": -122.42255330085754,
                 "spaces": "5",
@@ -1738,7 +1738,7 @@
                 "title": "Hill St.(close to Guerrero)"
             },
             {
-                "id": "168",
+                "id": 168,
                 "lat": 37.75677098309616,
                 "lng": -122.41891622543335,
                 "spaces": "2",
@@ -1747,7 +1747,7 @@
                 "title": "Mission at 21st"
             },
             {
-                "id": "165",
+                "id": 165,
                 "lat": 37.763505704124995,
                 "lng": -122.41621255874634,
                 "spaces": "6",
@@ -1756,7 +1756,7 @@
                 "title": "Shotwell at 17th St"
             },
             {
-                "id": "163",
+                "id": 163,
                 "lat": 37.76613496277764,
                 "lng": -122.42217779159546,
                 "spaces": "18",
@@ -1765,7 +1765,7 @@
                 "title": "Valencia at 15th St"
             },
             {
-                "id": "81",
+                "id": 81,
                 "lat": 37.76284413400410,
                 "lng": -122.42179155349700,
                 "spaces": "8",
@@ -1774,7 +1774,7 @@
                 "title": "Valencia btw 17th &18th"
             },
             {
-                "id": "82",
+                "id": 82,
                 "lat": 37.76119866470870,
                 "lng": -122.42149114608700,
                 "spaces": "6",
@@ -1783,7 +1783,7 @@
                 "title": "Valencia btw 18th &19th"
             },
             {
-                "id": "83",
+                "id": 83,
                 "lat": 37.75807726155250,
                 "lng": -122.42131948471000,
                 "spaces": "8",
@@ -1792,7 +1792,7 @@
                 "title": "Valencia btw 20th & 21st"
             },
             {
-                "id": "237",
+                "id": 237,
                 "lat": 37.75386994455459,
                 "lng": -122.41559028625488,
                 "spaces": "2",
@@ -1801,7 +1801,7 @@
                 "title": "23rd &Shotwell"
             },
             {
-                "id": "238",
+                "id": 238,
                 "lat": 37.752427865527316,
                 "lng": -122.41599798202514,
                 "spaces": "6",
@@ -1810,7 +1810,7 @@
                 "title": "24th St at S Van Ness"
             },
             {
-                "id": "269",
+                "id": 269,
                 "lat": 37.752563,
                 "lng": -122.412489,
                 "spaces": "3",
@@ -1819,7 +1819,7 @@
                 "title": "24th St at Balmy"
             },
             {
-                "id": "239",
+                "id": 239,
                 "lat": 37.75300470051097,
                 "lng": -122.41320848464966,
                 "spaces": "7",
@@ -1828,7 +1828,7 @@
                 "title": "Treat at 24th St"
             },
             {
-                "id": "169",
+                "id": 169,
                 "lat": 37.790104,
                 "lng": -122.409686,
                 "spaces": "8",
@@ -1837,7 +1837,7 @@
                 "title": "Bush btw. Mason &Powell"
             },
             {
-                "id": "86",
+                "id": 86,
                 "lat": 37.79191370744610,
                 "lng": -122.41127729415800,
                 "spaces": "5",
@@ -1846,7 +1846,7 @@
                 "title": "California btw Taylor &Mason"
             },
             {
-                "id": "87",
+                "id": 87,
                 "lat": 37.79318545223530,
                 "lng": -122.41586923599200,
                 "spaces": "4",
@@ -1856,7 +1856,7 @@
                 "-notes": "often full"
             },
             {
-                "id": "88",
+                "id": 88,
                 "lat": 37.78976016968680,
                 "lng": -122.41730690002400,
                 "spaces": "5",
@@ -1865,7 +1865,7 @@
                 "title": "Hyde at Pine"
             },
             {
-                "id": "170",
+                "id": 170,
                 "lat": 37.79388066346596,
                 "lng": -122.41292953491211,
                 "spaces": "9",
@@ -1874,7 +1874,7 @@
                 "title": "Taylor at Clay"
             },
             {
-                "id": "89",
+                "id": 89,
                 "lat": 37.78943798147490,
                 "lng": -122.41200685501000,
                 "spaces": "10",
@@ -1884,7 +1884,7 @@
                 "-notes": "Angled parking, "
             },
             {
-                "id": "286",
+                "id": 286,
                 "lat": 37.78828487531132,
                 "lng": -122.42305755615234,
                 "spaces": "5",
@@ -1893,7 +1893,7 @@
                 "title": "Bush at Franklin"
             },
             {
-                "id": "281",
+                "id": 281,
                 "lat": 37.79077759692252,
                 "lng": -122.41890549659729,
                 "spaces": "2",
@@ -1902,7 +1902,7 @@
                 "title": "California at Larkin"
             },
             {
-                "id": "90",
+                "id": 90,
                 "lat": 37.78923449345950,
                 "lng": -122.42419481277400,
                 "spaces": "3",
@@ -1911,7 +1911,7 @@
                 "title": "Pine west of Franklin"
             },
             {
-                "id": "182",
+                "id": 182,
                 "lat": 37.78663997214301,
                 "lng": -122.41844415664673,
                 "spaces": "5",
@@ -1920,7 +1920,7 @@
                 "title": "Cedar at Larkin"
             },
             {
-                "id": "183",
+                "id": 183,
                 "lat": 37.78638560240496,
                 "lng": -122.41775751113891,
                 "spaces": "5",
@@ -1929,7 +1929,7 @@
                 "title": "Geary at Larkin"
             },
             {
-                "id": "91",
+                "id": 91,
                 "lat": 37.794066,
                 "lng": -122.421650,
                 "spaces": "6",
@@ -1938,7 +1938,7 @@
                 "title": "Jackson east of Polk"
             },
             {
-                "id": "92",
+                "id": 92,
                 "lat": 37.787640,
                 "lng": -122.418336,
                 "spaces": "5",
@@ -1947,7 +1947,7 @@
                 "title": "Larkin btw Sutter &Post"
             },
             {
-                "id": "93",
+                "id": 93,
                 "lat": 37.78528332342260,
                 "lng": -122.42174863815300,
                 "spaces": "6",
@@ -1956,7 +1956,7 @@
                 "title": "Myrtle at Van Ness"
             },
             {
-                "id": "185",
+                "id": 185,
                 "lat": 37.78584294403752,
                 "lng": -122.42408752441406,
                 "spaces": "6",
@@ -1966,7 +1966,7 @@
                 "-notes": "Poorly marked, often parked on by cars"
             },
             {
-                "id": "97",
+                "id": 97,
                 "lat": 37.78953124662810,
                 "lng": -122.42177009582500,
                 "spaces": "15",
@@ -1976,7 +1976,7 @@
                 "-notes": "Often used illegally by cars after dark."
             },
             {
-                "id": "184",
+                "id": 184,
                 "lat": 37.78850532346908,
                 "lng": -122.4202036857605,
                 "spaces": "5",
@@ -1985,7 +1985,7 @@
                 "title": "Polk at Bush"
             },
             {
-                "id": "186",
+                "id": 186,
                 "lat": 37.784282779035216,
                 "lng": -122.41949558258056,
                 "spaces": "2",
@@ -1994,7 +1994,7 @@
                 "title": "Polk at Ellis"
             },
             {
-                "id": "94",
+                "id": 94,
                 "lat": 37.78703848297230,
                 "lng": -122.41994619369500,
                 "spaces": "6",
@@ -2003,7 +2003,7 @@
                 "title": "Polk at Post"
             },
             {
-                "id": "95",
+                "id": 95,
                 "lat": 37.79669535426990,
                 "lng": -122.42200613021800,
                 "spaces": "5",
@@ -2012,14 +2012,14 @@
                 "title": "Polk btw Broadway &Vallejo"
             },
             {
-                "id": "96",
+                "id": 96,
                 "lat": 37.79305827874140,
                 "lng": -122.42124438285800,
                 "nbhood": "Polk Gulch",
                 "title": "Polk btw Washington &Clay"
             },
             {
-                "id": "187",
+                "id": 187,
                 "lat": 37.78365531208477,
                 "lng": -122.41902351379394,
                 "spaces": "6",
@@ -2028,7 +2028,7 @@
                 "title": "Willow at Polk"
             },
             {
-                "id": "98",
+                "id": 98,
                 "lat": 37.78187463362180,
                 "lng": -122.46105909347500,
                 "spaces": "3",
@@ -2037,7 +2037,7 @@
                 "title": "3rd Ave btw Geary &Clement"
             },
             {
-                "id": "232",
+                "id": 232,
                 "lat": 37.784471,
                 "lng": -122.462339,
                 "spaces": "2",
@@ -2046,7 +2046,7 @@
                 "title": "4th Ave at Cornwall"
             },
             {
-                "id": "231",
+                "id": 231,
                 "lat": 37.783536601521924,
                 "lng": -122.46346235275268,
                 "spaces": "2",
@@ -2055,7 +2055,7 @@
                 "title": "5th Ave at Clement"
             },
             {
-                "id": "229",
+                "id": 229,
                 "lat": 37.77705810741294,
                 "lng": -122.46389150619507,
                 "spaces": "1",
@@ -2064,7 +2064,7 @@
                 "title": "6th Ave at Balboa"
             },
             {
-                "id": "284",
+                "id": 284,
                 "lat": 37.773611,
                 "lng": -122.463607,
                 "spaces": "4",
@@ -2073,7 +2073,7 @@
                 "title": "Fulton at 6th Ave"
             },
             {
-                "id": "228",
+                "id": 228,
                 "lat": 37.778652344496926,
                 "lng": -122.46822595596313,
                 "spaces": "2",
@@ -2082,7 +2082,7 @@
                 "title": "9th Ave at Anza"
             },
             {
-                "id": "100",
+                "id": 100,
                 "lat": 37.78214597787240,
                 "lng": -122.44942903518600,
                 "spaces": "5",
@@ -2091,7 +2091,7 @@
                 "title": "Geary at Wood"
             },
             {
-                "id": "99",
+                "id": 99,
                 "lat": 37.78131498295900,
                 "lng": -122.46170282363800,
                 "spaces": "10",
@@ -2100,7 +2100,7 @@
                 "title": "Geary btw 3rd &4th Aves"
             },
             {
-                "id": "230",
+                "id": 230,
                 "lat": 37.7831974274346,
                 "lng": -122.45788335800171,
                 "spaces": "2",
@@ -2109,7 +2109,7 @@
                 "title": "Palm at Euclid"
             },
             {
-                "id": "101",
+                "id": 101,
                 "lat": 37.77809266943690,
                 "lng": -122.49228000640800,
                 "spaces": "4",
@@ -2118,7 +2118,7 @@
                 "title": "32nd Ave at Anza"
             },
             {
-                "id": "181",
+                "id": 181,
                 "lat": 37.79659362032577,
                 "lng": -122.41507530212402,
                 "spaces": "1",
@@ -2127,7 +2127,7 @@
                 "title": "Jones at Broadway"
             },
             {
-                "id": "180",
+                "id": 180,
                 "lat": 37.797970,
                 "lng": -122.413805,
                 "spaces": "10",
@@ -2137,7 +2137,7 @@
                 "-notes": "Need to verify exact count"
             },
             {
-                "id": "102",
+                "id": 102,
                 "lat": 37.794628,
                 "lng": -122.413068,
                 "spaces": "6",
@@ -2147,7 +2147,7 @@
                 "-notes": "2 sets of 2, between driveways"
             },
             {
-                "id": "208",
+                "id": 208,
                 "lat": 37.77188508012014,
                 "lng": -122.4020504951477,
                 "spaces": "16",
@@ -2156,14 +2156,14 @@
                 "title": "7th at Townsend"
             },
             {
-                "id": "103",
+                "id": 103,
                 "lat": 37.77544687542860,
                 "lng": -122.40629911422700,
                 "nbhood": "SOMA above 7th Street",
                 "title": "7th St south of Harrison"
             },
             {
-                "id": "104",
+                "id": 104,
                 "lat": 37.77541295437780,
                 "lng": -122.41050481796200,
                 "spaces": "22",
@@ -2172,7 +2172,7 @@
                 "title": "8th St btw Howard &Folsom"
             },
             {
-                "id": "285",
+                "id": 285,
                 "lat": 37.770197407671574,
                 "lng": -122.40402460098267,
                 "spaces": "3",
@@ -2181,7 +2181,7 @@
                 "title": "8th at Townsend"
             },
             {
-                "id": "105",
+                "id": 105,
                 "lat": 37.77146104543970,
                 "lng": -122.40887403488100,
                 "spaces": "8",
@@ -2190,7 +2190,7 @@
                 "title": "9th at Bryant"
             },
             {
-                "id": "205",
+                "id": 205,
                 "lat": 37.774785412131244,
                 "lng": -122.41305828094482,
                 "spaces": "8",
@@ -2199,7 +2199,7 @@
                 "title": "9th at Howard"
             },
             {
-                "id": "106",
+                "id": 106,
                 "lat": 37.77202077070420,
                 "lng": -122.40960359573300,
                 "spaces": "5",
@@ -2208,7 +2208,7 @@
                 "title": "9th btw Bryant &Harrison"
             },
             {
-                "id": "107",
+                "id": 107,
                 "lat": 37.775473,
                 "lng": -122.418424,
                 "spaces": "12",
@@ -2217,7 +2217,7 @@
                 "title": "10th St at Market"
             },
             {
-                "id": "109",
+                "id": 109,
                 "lat": 37.77249568578770,
                 "lng": -122.41228580474800,
                 "spaces": "4",
@@ -2226,7 +2226,7 @@
                 "title": "10th St btw Folsom &Harrison"
             },
             {
-                "id": "108",
+                "id": 108,
                 "lat": 37.77490413674860,
                 "lng": -122.41539716720500,
                 "spaces": "8",
@@ -2235,7 +2235,7 @@
                 "title": "10th St btw Mission &Howard"
             },
             {
-                "id": "110",
+                "id": 110,
                 "lat": 37.771466,
                 "lng": -122.413659,
                 "spaces": "4",
@@ -2244,7 +2244,7 @@
                 "title": "11th St near Folsom"
             },
             {
-                "id": "204",
+                "id": 204,
                 "lat": 37.77135927675464,
                 "lng": -122.4157190322876,
                 "spaces": "4",
@@ -2253,7 +2253,7 @@
                 "title": "12th St btw Folsom &Howard"
             },
             {
-                "id": "211",
+                "id": 211,
                 "lat": 37.766915240907735,
                 "lng": -122.41299390792846,
                 "spaces": "1",
@@ -2262,7 +2262,7 @@
                 "title": "15th St at Harrison"
             },
             {
-                "id": "209",
+                "id": 209,
                 "lat": 37.766525102871746,
                 "lng": -122.39889621734619,
                 "spaces": "10",
@@ -2271,7 +2271,7 @@
                 "title": "16th St at Arkansas"
             },
             {
-                "id": "210",
+                "id": 210,
                 "lat": 37.76627066391339,
                 "lng": -122.4020504951477,
                 "spaces": "14",
@@ -2280,7 +2280,7 @@
                 "title": "16th St at De Haro"
             },
             {
-                "id": "274",
+                "id": 274,
                 "lat": 37.766302,
                 "lng": -122.398934,
                 "spaces": "10",
@@ -2289,7 +2289,7 @@
                 "title": "16th at 8th St"
             },
             {
-                "id": "111",
+                "id": 111,
                 "lat": 37.77415786455790,
                 "lng": -122.40507602691600,
                 "spaces": "15",
@@ -2298,7 +2298,7 @@
                 "title": "Bryant at 7th St"
             },
             {
-                "id": "200",
+                "id": 200,
                 "lat": 37.769883615080076,
                 "lng": -122.42183446884155,
                 "spaces": "12",
@@ -2307,7 +2307,7 @@
                 "title": "Duboce at Valencia"
             },
             {
-                "id": "206",
+                "id": 206,
                 "lat": 37.77471756940714,
                 "lng": -122.41050481796264,
                 "spaces": "5",
@@ -2316,7 +2316,7 @@
                 "title": "Folsom at 8th"
             },
             {
-                "id": "202",
+                "id": 202,
                 "lat": 37.77051119893143,
                 "lng": -122.41265058517456,
                 "spaces": "16",
@@ -2325,7 +2325,7 @@
                 "title": "Harrison at 11th"
             },
             {
-                "id": "112",
+                "id": 112,
                 "lat": 37.77225822862730,
                 "lng": -122.41059064865100,
                 "spaces": "5",
@@ -2334,7 +2334,7 @@
                 "title": "Harrison btw 9th &10th"
             },
             {
-                "id": "197",
+                "id": 197,
                 "lat": 37.773411584834484,
                 "lng": -122.41552591323852,
                 "spaces": "8",
@@ -2343,7 +2343,7 @@
                 "title": "Howard at 11th"
             },
             {
-                "id": "207",
+                "id": 207,
                 "lat": 37.7766849831305,
                 "lng": -122.4113416671753,
                 "spaces": "4",
@@ -2352,7 +2352,7 @@
                 "title": "Howard at 8th"
             },
             {
-                "id": "199",
+                "id": 199,
                 "lat": 37.771511929729804,
                 "lng": -122.42116928100586,
                 "spaces": "4",
@@ -2361,7 +2361,7 @@
                 "title": "Jessie St"
             },
             {
-                "id": "201",
+                "id": 201,
                 "lat": 37.77071473849608,
                 "lng": -122.41962432861328,
                 "spaces": "2",
@@ -2370,7 +2370,7 @@
                 "title": "Mission at Duboce"
             },
             {
-                "id": "203",
+                "id": 203,
                 "lat": 37.7709861237108,
                 "lng": -122.41357326507568,
                 "spaces": "2",
@@ -2379,7 +2379,7 @@
                 "title": "Norfolk St"
             },
             {
-                "id": "198",
+                "id": 198,
                 "lat": 37.77113877745632,
                 "lng": -122.41889476776123,
                 "spaces": "5",
@@ -2388,7 +2388,7 @@
                 "title": "Plum St"
             },
             {
-                "id": "114",
+                "id": 114,
                 "lat": 37.77037550557700,
                 "lng": -122.42252111434900,
                 "spaces": "4",
@@ -2397,7 +2397,7 @@
                 "title": "Valencia at Duboce"
             },
             {
-                "id": "113",
+                "id": 113,
                 "lat": 37.76905248232240,
                 "lng": -122.42219924926700,
                 "spaces": "2",
@@ -2406,7 +2406,7 @@
                 "title": "Valencia btw Duboce &14th St"
             },
             {
-                "id": "245",
+                "id": 245,
                 "lat": 37.727740,
                 "lng": -122.476168,
                 "spaces": "4",
@@ -2416,7 +2416,7 @@
                 "-notes": "Near the Olive Garden by the handicapped spots"
             },
             {
-                "id": "115",
+                "id": 115,
                 "lat": 37.76359052037910,
                 "lng": -122.46623039245600,
                 "spaces": "2",
@@ -2425,7 +2425,7 @@
                 "title": "9th Ave btw Irving &Judah"
             },
             {
-                "id": "247",
+                "id": 247,
                 "lat": 37.762145,
                 "lng": -122.465426,
                 "spaces": "2",
@@ -2435,7 +2435,7 @@
                 "-notes": "Rarely used"
             },
             {
-                "id": "116",
+                "id": 116,
                 "lat": 37.80163775964460,
                 "lng": -122.40159988403300,
                 "spaces": "18",
@@ -2444,7 +2444,7 @@
                 "title": "Battery north of Union"
             },
             {
-                "id": "117",
+                "id": 117,
                 "lat": 37.80125628215650,
                 "lng": -122.40152478218000,
                 "spaces": "14",
@@ -2453,7 +2453,7 @@
                 "title": "Battery south of Union"
             },
             {
-                "id": "188",
+                "id": 188,
                 "lat": 37.7851815737647,
                 "lng": -122.41089105606079,
                 "spaces": "10",
@@ -2462,7 +2462,7 @@
                 "title": "Ellis at Taylor"
             },
             {
-                "id": "55",
+                "id": 55,
                 "lat": 37.78890382423920,
                 "lng": -122.40532279014500,
                 "spaces": "6",
@@ -2471,7 +2471,7 @@
                 "title": "Grant at Post, NW corner"
             },
             {
-                "id": "118",
+                "id": 118,
                 "lat": 37.78726741375340,
                 "lng": -122.40490436553900,
                 "spaces": "12",
@@ -2480,7 +2480,7 @@
                 "title": "Grant btw O'Farrell &Geary"
             },
             {
-                "id": "120",
+                "id": 120,
                 "lat": 37.78690281995250,
                 "lng": -122.40979671478200,
                 "spaces": "10",
@@ -2489,7 +2489,7 @@
                 "title": "Mason btw Geary &O'Farrell"
             },
             {
-                "id": "134",
+                "id": 134,
                 "lat": 37.784537156011055,
                 "lng": -122.4093246459961,
                 "spaces": "4",
@@ -2498,7 +2498,7 @@
                 "title": "Mason north of Eddy"
             },
             {
-                "id": "135",
+                "id": 135,
                 "lat": 37.7851900529082,
                 "lng": -122.40947484970093,
                 "spaces": "6",
@@ -2507,7 +2507,7 @@
                 "title": "Mason south of Ellis"
             },
             {
-                "id": "121",
+                "id": 121,
                 "lat": 37.78769135777160,
                 "lng": -122.41378784179600,
                 "spaces": "6",
@@ -2516,7 +2516,7 @@
                 "title": "Post west of Jones"
             },
             {
-                "id": "123",
+                "id": 123,
                 "lat": 37.80317212697450,
                 "lng": -122.40293025970400,
                 "spaces": "12",
@@ -2525,7 +2525,7 @@
                 "title": "Greenwich btw Battery &Sansome"
             },
             {
-                "id": "124",
+                "id": 124,
                 "lat": 37.80490143094970,
                 "lng": -122.40523695945700,
                 "spaces": "9",
@@ -2534,7 +2534,7 @@
                 "title": "Montgomery at Chestnut"
             },
             {
-                "id": "122",
+                "id": 122,
                 "lat": 37.80095957608140,
                 "lng": -122.39946484565700,
                 "spaces": "3",

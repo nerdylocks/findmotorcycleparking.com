@@ -1,0 +1,13 @@
+<div data-role="page" id="list">
+	<div data-role="header">
+		<h1>Moto Park</h1>
+	</div><!-- /header -->
+	<div data-role="content">
+		<ul data-role="listview" data-filter="true">
+			<li ng-repeat="spot in spots"><a href="#/details/{{spot.id}}">{{spot.title}} 
+			<br style="clear:both;">
+			<span class="ui-li-count">{{spot.spaces}} spots {{spot.distance}} miles away!</span>
+			</a></li>
+		</ul>
+	</div>
+</div>
