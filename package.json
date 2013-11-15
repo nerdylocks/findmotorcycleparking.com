@@ -2,7 +2,7 @@
   "name": "ancient-wildwood-1028",
   "version": "0.0.1",
   "dependencies": {
-    "connect": "2.11.0"
+    "express": "3.1.x"
   },
   "engines": {
     "node": "0.10.x",
