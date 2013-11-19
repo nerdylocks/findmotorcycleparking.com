@@ -92,11 +92,10 @@ motoApp.controller('InitApp', function($scope, $http, $routeParams, $q, $log){
 			.then(function(){
 				setTimeout(function(){
 					window.location = '/#/list/address';
-					$log.log($scope.spots);
 				}, 1000);
 			});
 			defer.resolve();
-	}	
+	};
 });
 
 motoApp.controller('ShowList', function($scope, $http, $q, $routeParams){
@@ -213,12 +212,12 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Detail', 
 	};
 	setTimeout(function(){
 		$scope.fetchParkingData();
-	}, 500);
+	}, 1000);
 	setTimeout(function(){
 		$scope.$apply(function(){
 			$scope.spotDetails = Detail.get($scope.spots, {id: $routeParams.id});
 		});
-	}, 600);
+	}, 1200);
 	/*setTimeout(function(){
 		$scope.$apply(function(){
 			$scope.coords.latitude = $scope.spotDetails.lat;
