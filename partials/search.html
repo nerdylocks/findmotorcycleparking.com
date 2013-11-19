@@ -1,8 +1,6 @@
-<div data-role="page" id="select">
-	<div class="pick">
-		<form ng-submit="SearchFromAddress()">
-			<input ng-model="address" name="address" required type="text" placeholder="{{message}}">
-		</form>
-	<a href="#list" data-role="button" ng-click="GetCurrentLocation()">Find spots near me</a>
-	</div>
+<div class="pick">
+	<form ng-submit="SearchFromAddress()">
+		<input class="topcoat-search-input" ng-model="address" name="address" required type="text" placeholder="Seach near address">
+	</form>
+	<a href="/#/list/current-location" class="topcoat-button">Spots near me</a>
 </div>

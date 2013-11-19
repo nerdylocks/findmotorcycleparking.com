@@ -1,8 +1,13 @@
 <div data-role="page" id="details_{{spotDetails.id}}">
-	<div data-role="header">
-		<a href="#list" data-rel="back">&lt; Back</a>
+	<div class="topcoat-navigation-bar__item left quarter">
+        <a class="topcoat-icon-button--quiet back-button" href="" ng-click="back()">
+            <span class="topcoat-icon topcoat-icon--back">&lt;</span>
+        </a>
+    </div>
+	<div class="topcoat-navigation-bar__item center full">
+        <h1 class="topcoat-navigation-bar__title">@ {{spotDetails.title}}</h1>
+    </div>
 		<h1>Details @ {{spotDetails.title}}</h1>
-	</div><!-- /header -->
 	<div data-role="content">
 		<h3>{{spotDetails.title}}, {{spotDetails.nbhood}}</h3>
 		<p>There are {{spotDetails.spaces}} {{spotDetails.free}} spaces.</p>
