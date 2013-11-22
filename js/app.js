@@ -19,15 +19,3 @@ var findById = function (model, id) {
     }
     return spot;
 };
-motoApp.factory('Detail', [
-        function () {
-        return {
-            query: function () {
-                return model;
-            },
-            get: function (model, spot) {
-            	console.log(parseInt(spot['id']));
-                return findById(model, parseInt(spot['id']));
-            }
-        }
-}]);

@@ -23,7 +23,6 @@
 	        .list > li > a {
 				margin: 0px;
 				display: block;
-				height: 57px;
 				padding: 4px;
 			}
 			.count {
@@ -35,6 +34,12 @@
 				top: 10px;
 				position: absolute;
 			}
+			.topcoat-button {
+				text-align: center;
+			}
+			.topcoat-button--cta {
+				margin: 10px 0;
+			}
 	    </style>
 		<script src="js/lib/angular.min.js"></script>
 		<script src="js/lib/angular-resource.js"></script>
@@ -42,7 +47,8 @@
 
 		<script src="js/app.js"></script>
 		<script src="js/controllers.js"></script>
+		<script src="js/services.js"></script>
 	</head>
-	<body ng-controller="InitApp" ng-view>
+	<body ng-view>
 	</body>
 </html>
