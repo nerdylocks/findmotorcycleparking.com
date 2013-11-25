@@ -5,19 +5,10 @@ motoApp.factory('Data', function($http){
 		}
 	}
 });
-motoApp.factory('CalculateDistance',[
-	function(){
-	return {
-		doo: function(thing){
-			$scope.distance = GetDistance.get($scope.currentLocation.lat ,$scope.currentLocation.lng ,$scope.spotDetails.lat, $scope.spotDetails.lng);
-			$scope.distance = parseFloat(Math.round($scope.distance * 100) / 100).toFixed(2) + ' miles away!';
-		}
-	}
-}]);
+
 motoApp.factory('Distance',
 	function (){
 		return {
-
 			get: function(lat1, lng1, lat2, lng2, unit){
 				var radLat1, radLat2, radLng1, radLng2;
 				function getRadLat(coordinate){
@@ -42,9 +33,9 @@ motoApp.factory('Distance',
 				return distance;
 			},
 			calculateEachDistance: function(currentLocation, data) {
+				var self = this;
 				angular.forEach(data, function(key, value){
-					//console.log(currentLocation.lat,currentLocation.lng, key.lat, key.lng);
-					key.distance = parseFloat(Math.round(this.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
+					key.distance = parseFloat(Math.round(self.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
 				});
 			},
 			sortByDistance: function(spots){
@@ -92,30 +83,6 @@ motoApp.factory('LocationServices', function ($http){
 	}
 });
 
-motoApp.factory('CalculateEachDistance', function(){
-	return {
-		init: function(currentLocation, data) {
-			angular.forEach(data, function(key, value){
-				console.log(currentLocation.lat,currentLocation.lng, key.lat, key.lng);
-				key.distance = parseFloat(Math.round(Distance.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
-			});
-		}
-	}
-});
-motoApp.factory('SortByDistance', function(){
-	return {
-		init: function(spots){
-			spots.sort(function(a,b){
-				if(a.distance > b.distance){
-					return 1;
-				} else if(a.distance < b.distance){
-					return -1;
-				}
-				return 0;
-			});
-		}
-	}
-});
 motoApp.factory('Detail',[
 function () {
     return {

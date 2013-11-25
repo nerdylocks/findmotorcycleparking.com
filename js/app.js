@@ -1,6 +1,7 @@
 'use strict';
 
 var motoApp = angular.module("moto", ['ngRoute', 'ngResource']);
+
 motoApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider
 		.when('/', {templateUrl: 'partials/search.html', controller: 'InitApp'})

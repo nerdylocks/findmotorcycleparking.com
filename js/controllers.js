@@ -9,22 +9,18 @@ motoApp.controller('InitApp', ['$scope', 'LocationServices', 'Distance', 'Data',
 	}
 
 }]);
-motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', 'SortByDistance', function($scope, $routeParams, Data, LocationServices, Distance, SortByDistance){
+
+motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
 	$scope.spots = [];
 	$scope.currentLocation = {};
 	$scope.back = function(){
 		window.location = '/#/';
 	};
 
-	$scope.CalculateEachDistance = function(currentLocation, data) {
-		angular.forEach(data, function(key, value){
-			key.distance = parseFloat(Math.round(Distance.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
-		});
-	};
 	$scope.LoadData = function(currentLoc){
 		Data.fetchParkingData().success(function(data){
 			$scope.spots = data.parking.spots;
-			$scope.CalculateEachDistance(currentLoc, $scope.spots);
+			Distance.calculateEachDistance(currentLoc, $scope.spots);
 			Distance.sortByDistance($scope.spots);
 		});
 	};
