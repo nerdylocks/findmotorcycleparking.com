@@ -1,3 +1,5 @@
+'use strict';
+
 var motoApp = angular.module("moto", ['ngRoute', 'ngResource']);
 motoApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider
@@ -7,15 +9,3 @@ motoApp.config(['$routeProvider', function($routeProvider){
 		.when('/map', {templateUrl: 'partials/map.html', controller: 'ShowMap'})
 		.otherwise({redirectTo: '/'});
 }]);
-var findById = function (model, id) {
-    var spot = null,
-        l = model.length,
-        i;
-    for (i = 0; i < l; i = i + 1) {
-        if (model[i].id === id) {
-            spot = model[i];
-            break;
-        }
-    }
-    return spot;
-};

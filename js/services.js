@@ -71,7 +71,7 @@ motoApp.factory('LocationServices', function ($http){
 				});
 			}
 		},
-		convertAddressToLatLng: function(address, callback, spots){
+		convertAddressToLatLng: function(address, callback){
 			var addressToLatLngUrl = 'http://maps.googleapis.com/maps/api/geocode/json?address=';
 			var addressToLatLng;
 			if(address.search(/Francsico/i) < 1){
@@ -81,9 +81,8 @@ motoApp.factory('LocationServices', function ($http){
 			$http.get(addressToLatLngUrl + address + '&sensor=false').success(function(data, status){
 				if(status == 200 && data.status == 'OK'){
 					addressToLatLng = data.results[0].geometry.location;
-					//$scope.CalculateEachDistance($scope.addressToLatLng, $scope.spots);
-					callback(addressToLatLng, spots);
-					console.log(addressToLatLng, spots);
+					callback(addressToLatLng);
+					//console.log(addressToLatLng, spots);
 				} else {
 					console.info('GOOGLE STATUS', data.status);
 					console.info('HTTP', status);
@@ -120,12 +119,23 @@ motoApp.factory('SortByDistance', function(){
 motoApp.factory('Detail',[
 function () {
     return {
+    	findById: function (model, id) {
+		    var spot = null,
+		        l = model.length,
+		        i;
+		    for (i = 0; i < l; i = i + 1) {
+		        if (model[i].id === id) {
+		            spot = model[i];
+		            break;
+		        }
+		    }
+		    return spot;
+		},
         query: function () {
             return model;
         },
         get: function (model, spot) {
-        	console.log(parseInt(spot['id']));
-            return findById(model, parseInt(spot['id']));
+            return this.findById(model, parseInt(spot['id']));
         }
     }
 }]);
