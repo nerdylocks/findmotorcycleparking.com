@@ -87,10 +87,8 @@ motoApp.factory('Detail',[
 function () {
     return {
     	findById: function (model, id) {
-		    var spot = null,
-		        l = model.length,
-		        i;
-		    for (i = 0; i < l; i = i + 1) {
+		    var spot = null;
+		    for (i = 0; i < model.length; i = i + 1) {
 		        if (model[i].id === id) {
 		            spot = model[i];
 		            break;

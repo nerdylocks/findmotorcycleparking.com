@@ -1,14 +1,11 @@
 'use strict';
 
-motoApp.controller('InitApp', ['$scope', 'LocationServices', 'Distance', 'Data', function($scope, LocationServices, Distance, Data){
-	$scope.lnglat = {};
-	$scope.spots = [];
-
+motoApp.controller('InitApp', function($scope){
 	$scope.SearchFromAddress = function(){
 		window.location = '/#/list/' + $scope.address;
 	}
 
-}]);
+});
 
 motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
 	$scope.spots = [];
@@ -41,6 +38,12 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance'
 	setTimeout(function(){
 		$scope.$apply(function(){
 			$scope.spotDetails = Detail.get($scope.spots, {id: $routeParams.id});
+			console.log($scope.spotDetails);
+			if($scope.spotDetails.free){
+				$scope.spotDetails.free = 'unmetered';
+			} else {
+				$scope.spotDetails.free = 'metered';
+			}
 		});
 	}, 300);
 }]);
