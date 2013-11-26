@@ -10,21 +10,27 @@ motoApp.controller('InitApp', function($scope){
 motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
 	$scope.spots = [];
 	$scope.currentLocation = {};
+	$scope.limit = 5;
+	$scope.orderProp = 'distance';
 	$scope.back = function(){
 		window.location = '/#/';
 	};
+	$scope.LoadMore = function(){
+		$scope.limit += 5;
+	}
 
 	$scope.LoadData = function(currentLoc){
 		Data.fetchParkingData().success(function(data){
 			$scope.spots = data.parking.spots;
 			Distance.calculateEachDistance(currentLoc, $scope.spots);
-			Distance.sortByDistance($scope.spots);
 		});
 	};
 	if($routeParams.sortOption == 'current-location'){
 		LocationServices.getCurrentLocation($scope.LoadData);
+		//$('#fa-spinner').hide();
 	} else {
 		LocationServices.convertAddressToLatLng($routeParams.sortOption, $scope.LoadData);
+		
 	}
 }]);
 

@@ -37,16 +37,6 @@ motoApp.factory('Distance',
 				angular.forEach(data, function(key, value){
 					key.distance = parseFloat(Math.round(self.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
 				});
-			},
-			sortByDistance: function(spots){
-				spots.sort(function(a,b){
-					if(a.distance > b.distance){
-						return 1;
-					} else if(a.distance < b.distance){
-						return -1;
-					}
-					return 0;
-				});
 			}
 		}
 });
@@ -73,7 +63,6 @@ motoApp.factory('LocationServices', function ($http){
 				if(status == 200 && data.status == 'OK'){
 					addressToLatLng = data.results[0].geometry.location;
 					callback(addressToLatLng);
-					//console.log(addressToLatLng, spots);
 				} else {
 					console.info('GOOGLE STATUS', data.status);
 					console.info('HTTP', status);

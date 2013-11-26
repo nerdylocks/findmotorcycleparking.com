@@ -1,0 +1,90 @@
+body > * {
+    color: #fff;
+    padding: 0 20px;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+.left {
+	float:left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+/* Search */
+.current-location {
+	padding: 7px;
+	font-size: 21px;
+}
+
+/* List */
+.fa-spinner {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	margin: 50px;
+}
+.title {
+	margin: 8px 0px 0px 0px;
+}
+.distance {
+	font-size: 14px;
+	margin: 0px;
+	color: #ccc;
+}
+.count {
+	float: right;
+}
+.topcoat-button, input {
+	width: 100%;
+}
+.pick {
+	margin-top: 25%;
+}
+.search-bar {
+	padding: 10px 10px 12px 8px;
+}
+.list > li {
+	position: relative;
+}
+.list > li > a {
+	margin: 0px;
+	display: block;
+	padding: 15px;
+}
+.count {
+	color: #5DC1FF;
+	float: right;
+	font-weight: bold;
+	font-size: 24px;
+	position: absolute;
+	right: 66px;
+	top: 33%;
+}
+.list > li > a > .fa {
+	position: absolute;
+	right: 26px;
+	top: 33%;
+}
+.back-button {
+	top: 10px;
+	position: absolute;
+}
+.topcoat-button {
+	text-align: center;
+}
+.topcoat-button--cta {
+	margin: 10px 0;
+	padding: 9px;
+}
+
+.topcoat-button--cta .fa-2x{
+
+}
+.topcoat-list__item {
+	padding: 0;
+}

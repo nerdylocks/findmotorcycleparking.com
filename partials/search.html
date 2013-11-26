@@ -1,6 +1,8 @@
 <div class="pick">
 	<form ng-submit="SearchFromAddress()">
-		<input class="topcoat-search-input" ng-model="address" name="address" required type="text" placeholder="Search out of {{spotz}} spots">
+		<input class="topcoat-search-input" ng-model="address" name="address" required type="text" placeholder="Search near address">
 	</form>
-	<a href="/#/list/current-location" class="topcoat-button">Spots near me</a>
+	<a href="/#/list/current-location" class="current-location topcoat-button">
+		<i class="fa fa-location-arrow"></i> Near Me
+	</a>
 </div>

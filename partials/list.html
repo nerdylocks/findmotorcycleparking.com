@@ -1,7 +1,7 @@
 <div class="topcoat-navigation-bar">
     <div class="topcoat-navigation-bar__item left quarter">
         <a ng-click="back()" class="topcoat-button--cta">
-            Back
+            <i class="fa fa-chevron-left fa-2x"></i>
         </a>
     </div>
     <div class="topcoat-navigation-bar__item center half">
@@ -16,12 +16,15 @@
 </div>
 <div class="topcoat-list__container scroller">
 	<ul class="topcoat-list list">
-		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | filter:query | orderBy:orderProp">
+		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | filter:query | orderBy:orderProp | limitTo:limit">
 			<a href="#/details/{{spot.id}}">
-				{{spot.title}} 
-				<span class="ui-li-count">{{spot.distance}} miles away!</span>
-			<span class="count">{{spot.spaces}}</span>
+				<p class="title">{{spot.title}}</p>
+				<p class="distance">{{spot.distance}} mi</p>
+                <i class="fa fa-chevron-right fa-2x"></i>
+                <span class="count">{{spot.spaces}}</span>
 			</a>
 		</li>
 	</ul>
+    <i id="spinner" class="fa fa-spinner fa-spin fa-3x" ng-hide="spots"></i>
+    <a ng-click="LoadMore()" class="topcoat-button">Load More</a>
 </div>
