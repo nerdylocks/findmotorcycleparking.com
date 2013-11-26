@@ -20,6 +20,7 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 	}
 
 	$scope.LoadData = function(currentLoc){
+		console.log(currentLoc);
 		Data.fetchParkingData().success(function(data){
 			$scope.spots = data.parking.spots;
 			Distance.calculateEachDistance(currentLoc, $scope.spots);

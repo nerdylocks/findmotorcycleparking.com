@@ -19,7 +19,16 @@ a {
 .current-location {
 	font-size: 21px;
 }
-
+.pick h1, .pick h3 {
+	margin: 0;
+}
+.pick h3  {
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.pick input {
+	text-align: center;
+}
 /* List */
 .fa-spinner {
 	margin: 0 auto;
@@ -82,6 +91,8 @@ a {
 }
 .topcoat-search-input {
 	border-radius: 6px;
+	padding-left: 0;
+	text-align: center;
 }
 .topcoat-button--cta .fa-2x{
 
