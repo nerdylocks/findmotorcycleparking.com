@@ -27,10 +27,8 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 	};
 	if($routeParams.sortOption == 'current-location'){
 		LocationServices.getCurrentLocation($scope.LoadData);
-		//$('#fa-spinner').hide();
 	} else {
 		LocationServices.convertAddressToLatLng($routeParams.sortOption, $scope.LoadData);
-		
 	}
 }]);
 

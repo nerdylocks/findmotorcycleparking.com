@@ -79,9 +79,11 @@ a {
 }
 .topcoat-button--cta {
 	margin: 10px 0;
-	padding: 9px;
+	padding: 0px 10px;
 }
-
+.topcoat-search-input {
+	border-radius: 6px;
+}
 .topcoat-button--cta .fa-2x{
 
 }

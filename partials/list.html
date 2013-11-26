@@ -1,19 +1,16 @@
 <div class="topcoat-navigation-bar">
     <div class="topcoat-navigation-bar__item left quarter">
         <a ng-click="back()" class="topcoat-button--cta">
-            <i class="fa fa-chevron-left fa-2x"></i>
+            <i class="fa fa-chevron-left"></i> Back
         </a>
     </div>
-    <div class="topcoat-navigation-bar__item center half">
-        <h1 class="topcoat-navigation-bar__title">Parking Spots</h1>
-    </div>
-    <div class="topcoat-navigation-bar__item right quarter">
-        
+    <div class="topcoat-navigation-bar__item right three-quarters">
+        <div class="search-bar">
+            <input ng-model="query" type="search" placeholder="Filter spots" class="topcoat-search-input search-key">
+        </div>
     </div>
 </div>
-<div class="search-bar">
-    <input ng-model="query" type="search" placeholder="Filter spots" class="topcoat-search-input search-key">
-</div>
+
 <div class="topcoat-list__container scroller">
 	<ul class="topcoat-list list">
 		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | filter:query | orderBy:orderProp | limitTo:limit">
