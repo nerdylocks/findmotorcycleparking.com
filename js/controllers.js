@@ -18,6 +18,9 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 	$scope.LoadMore = function(){
 		$scope.limit += 5;
 	}
+	$scope.SearchFromAddress = function(){
+		LocationServices.convertAddressToLatLng($scope.newAddress, $scope.LoadData);
+	};
 
 	$scope.LoadData = function(currentLoc){
 		console.log(currentLoc);
