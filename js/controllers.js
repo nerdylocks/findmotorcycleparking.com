@@ -1,5 +1,12 @@
 'use strict';
 
+motoApp.controller('ShowSplash', function($scope){
+	setTimeout(function(){
+		window.location = '/#/search';
+	}, 2000)
+
+});
+
 motoApp.controller('InitApp', function($scope){
 	$scope.SearchFromAddress = function(){
 		window.location = '/#/list/' + $scope.address;
