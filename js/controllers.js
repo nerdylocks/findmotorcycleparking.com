@@ -16,14 +16,10 @@ motoApp.controller('InitApp', function($scope){
 motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
 	$scope.spots = [];
 	$scope.currentLocation = {};
-	$scope.limit = 5;
 	$scope.orderProp = 'distance';
 	$scope.back = function(){
 		window.location = '/#/';
 	};
-	$scope.LoadMore = function(){
-		$scope.limit += 5;
-	}
 	$scope.SearchFromAddress = function(){
 		LocationServices.convertAddressToLatLng($scope.newAddress, $scope.LoadData);
 	};
