@@ -16,6 +16,9 @@ a {
 	clear: both;
 }
 /* Splash */
+.splash-container {
+	width: 100%;
+}
 .splash-text {
 	top: 50%;
 	left: 25%;
