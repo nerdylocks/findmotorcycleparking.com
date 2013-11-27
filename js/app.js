@@ -1,6 +1,6 @@
 'use strict';
 
-var motoApp = angular.module("moto", ['ngRoute', 'ngResource']);
+var motoApp = angular.module("moto", ['ngRoute', 'ngResource', 'leaflet-directive']);
 
 motoApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider

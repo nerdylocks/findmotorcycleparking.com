@@ -4,27 +4,14 @@
             <i class="fa fa-chevron-left"></i> List
         </a>
     </div>
-    <div class="topcoat-navigation-bar__item center half">
-        <h1 class="topcoat-navigation-bar__title">Details</h1>
-    </div>
-    <div class="topcoat-navigation-bar__item right quarter">
-        
+    <div class="topcoat-navigation-bar__item right three-quarters">
+        <h4 class="topcoat-navigation-bar__title">{{spotDetails.spaces}} {{spotDetails.free}} spaces</h4>
     </div>
 </div>
 <i id="spinner" class="fa fa-spinner fa-spin fa-3x" ng-hide="spotDetails"></i>
 <div data-role="content">
-	<h3>{{spotDetails.title}}, {{spotDetails.nbhood}}</h3>
-	<p>There are {{spotDetails.spaces}} {{spotDetails.free}} spaces.</p>
-	<p>{{distance}}</p>
-	<!-- <div class="google-map" 
-		center="coords"
-		zoom="zoomProperty" 
-		markers="markersProperty"
-		mark-click="false"
-		draggable="true"
-		fit="false"
-		events="eventsProperty"
-		style="height: 400px; width: 100%"
-		refresh="!isMapElementHidden">
-	</div> -->
+	<div class="addy">
+		<p class="center">{{spotDetails.title}}</p>
+	</div>
+	<leaflet center="center" markers="markers" width="100%" height="300px"></leaflet>
 </div>

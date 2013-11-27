@@ -40,18 +40,37 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance'
 	Data.fetchParkingData().success(function(data){
 		$scope.spots = data.parking.spots;
 	});
+	angular.extend($scope, {
+        center: {
+            lat: 37.7833,
+            lng: -122.4167,
+            zoom: 16
+        },
+        markers: {
+            main_marker: {
+                lat: 37.7833,
+            	lng: -122.4167,
+                draggable: true
+            }
+        }
+    });
 	$scope.back = function(){
 		window.history.back();
 	};
 	setTimeout(function(){
 		$scope.$apply(function(){
 			$scope.spotDetails = Detail.get($scope.spots, {id: $routeParams.id});
-			console.log($scope.spotDetails);
 			if($scope.spotDetails.free){
 				$scope.spotDetails.free = 'unmetered';
 			} else {
 				$scope.spotDetails.free = 'metered';
 			}
+			console.log($scope.spotDetails.lat, $scope.spotDetails.lng);
+			$scope.center.lat = $scope.spotDetails.lat;
+			$scope.center.lng = $scope.spotDetails.lng;
+			$scope.markers.main_marker.lat = $scope.spotDetails.lat;
+			$scope.markers.main_marker.lng = $scope.spotDetails.lng;
+			console.log($scope.center);
 		});
 	}, 300);
 }]);
