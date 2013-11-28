@@ -54,7 +54,12 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance'
             	lng: -122.4167,
                 draggable: true
             }
-        }
+        },
+        defaults: {
+        	tileLayerOptions: {
+				detectRetina: true
+			}
+		}
     });
 	$scope.back = function(){
 		window.history.back();
