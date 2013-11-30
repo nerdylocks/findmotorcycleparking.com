@@ -2,9 +2,7 @@
   "name": "ancient-wildwood-1028",
   "version": "0.0.1",
   "dependencies": {
-    "express": "3.1.x",
-    "mongodb": "*",
-    "monk": "*"
+    "express": "3.1.x"
   },
   "engines": {
     "node": "0.10.x",

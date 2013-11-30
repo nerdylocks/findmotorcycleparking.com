@@ -1,36 +1,50 @@
 'use strict';
 
-motoApp.controller('ShowSplash', function($scope){
+motoApp.controller('ShowSplash', ['$scope', 'Data', function($scope, Data){
+	Data.fetchParkingData();
 	setTimeout(function(){
 		window.location = '/#/search';
-	}, 1500);
-});
+	}, 1000);
 
-motoApp.controller('InitApp', function($scope){
+}]);
+
+motoApp.controller('InitApp', ['$scope', 'Data', function($scope, Data){
+	Data.fetchParkingData();
 	$scope.SearchFromAddress = function(){
 		window.location = '/#/list/' + $scope.address;
 	}
-
-});
+}]);
 
 motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
-	$scope.spots = [];
+
+	$scope.spots = Data.parkingSpots;
+
+	if($scope.spots.length == 0){
+		Data.fetchParkingData();
+		console.log($scope.spots.length + ' records, so i loaded');
+	} else {
+		console.log($scope.spots.length + ' records loaded');
+	}
+
 	$scope.currentLocation = {};
 	$scope.orderProp = 'distance';
+
 	$scope.back = function(){
 		window.location = '/#/';
 	};
+
 	$scope.SearchFromAddress = function(){
 		LocationServices.convertAddressToLatLng($scope.newAddress, $scope.LoadData);
 	};
 
-	$scope.LoadData = function(currentLoc){
-		console.log(currentLoc);
-		Data.fetchParkingData().success(function(data){
-			$scope.spots = data.parking.spots;
-			Distance.calculateEachDistance(currentLoc, $scope.spots);
-		});
+	$scope.LoadData = function(location){
+		Distance.calculateEachDistance(location, $scope.spots);
+		console.log(location, $scope.spots);
+		if($routeParams.sortOption == 'current-location'){
+			$scope.$apply();
+		}
 	};
+
 	if($routeParams.sortOption == 'current-location'){
 		LocationServices.getCurrentLocation($scope.LoadData);
 	} else {
@@ -39,9 +53,8 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 }]);
 
 motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance', 'Data','Detail', function($http, $scope, $routeParams, Distance, Data, Detail){
-	Data.fetchParkingData().success(function(data){
-		$scope.spots = data.parking.spots;
-	});
+	$scope.spots = Data.parkingSpots;
+
 	angular.extend($scope, {
         center: {
             lat: 37.7833,
@@ -67,6 +80,7 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance'
 	setTimeout(function(){
 		$scope.$apply(function(){
 			$scope.spotDetails = Detail.get($scope.spots, {id: $routeParams.id});
+			
 			if($scope.spotDetails.free){
 				$scope.spotDetails.free = 'unmetered';
 			} else {

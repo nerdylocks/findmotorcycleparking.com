@@ -1,9 +1,16 @@
 motoApp.factory('Data', function($http){
-	return {
-		fetchParkingData : function(){
-			return $http.get('json/data.json')
-		}
-	}
+	var Data = {};
+
+	Data.parkingSpots = [];
+
+	Data.fetchParkingData = function(){
+		$http.get('json/data.json').then(function(response){
+			Data.parkingSpots = response.data.parking.spots;
+			//console.log(Data.parkingSpots);
+		});
+		return Data.parkingSpots;
+	};
+	return Data;
 });
 
 motoApp.factory('Distance',
@@ -44,13 +51,13 @@ motoApp.factory('Distance',
 });
 motoApp.factory('LocationServices', function ($http){
 	return {
-		getCurrentLocation: function(callback){
+		getCurrentLocation: function(callback, callbackParams){
 			var currentLocation = {};
 			if(navigator.geolocation){
 				navigator.geolocation.getCurrentPosition(function(position){
 					currentLocation.lat = position.coords.latitude
 					currentLocation.lng = position.coords.longitude;
-					callback(currentLocation);
+					callback(currentLocation, callbackParams);
 				});
 			}
 		},
