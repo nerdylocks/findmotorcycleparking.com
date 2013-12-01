@@ -47,6 +47,7 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 
 	if($routeParams.sortOption == 'current-location'){
 		LocationServices.getCurrentLocation($scope.LoadData);
+
 	} else {
 		LocationServices.convertAddressToLatLng($routeParams.sortOption, $scope.LoadData);
 	}
@@ -65,7 +66,7 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance'
             main_marker: {
                 lat: 37.7833,
             	lng: -122.4167,
-                draggable: true
+                draggable: false
             }
         },
         defaults: {

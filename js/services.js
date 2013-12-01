@@ -42,7 +42,7 @@ motoApp.factory('Distance',
 			calculateEachDistance: function(currentLocation, data) {
 				var self = this;
 				angular.forEach(data, function(key, value){
-					if(key["nbhood"] != "Garages"){
+					if(key["nbhood"] != "Garages" || data.hasOwnProperty("spaces")){
 						key.distance = parseFloat(Math.round(self.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
 					}
 				});
