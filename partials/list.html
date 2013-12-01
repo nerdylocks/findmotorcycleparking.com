@@ -15,7 +15,7 @@
 
 <div class="topcoat-list__container scroller">
 	<ul class="topcoat-list list">
-		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | filter:query | limitTo:limit | orderBy:orderProp">
+		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | orderBy:orderProp | limitTo:limit">
 			<a href="#/details/{{spot.id}}">
                 <div class="gradient"></div>
                 <div class="info">

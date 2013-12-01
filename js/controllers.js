@@ -24,7 +24,10 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 	}
 	if($scope.spots.length == 0){
 		Data.fetchParkingData();
-		console.log($scope.spots.length + ' records, so i loaded');
+		setTimeout(function(){
+			$scope.spots = Data.parkingSpots;
+			console.log($scope.spots.length + ' now');
+		}, 500);
 	} else {
 		console.log($scope.spots.length + ' records loaded');
 	}
@@ -42,17 +45,13 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 
 	$scope.LoadData = function(location){
 		Distance.calculateEachDistance(location, $scope.spots);
-		console.log(location, $scope.spots);
-		//if($routeParams.sortOption == 'current-location'){
 		setTimeout(function(){
 			$scope.$apply();
 		}, 500);
-		//}
 	};
 
 	if($routeParams.sortOption == 'current-location'){
 		LocationServices.getCurrentLocation($scope.LoadData);
-
 	} else {
 		LocationServices.convertAddressToLatLng($routeParams.sortOption, $scope.LoadData);
 	}

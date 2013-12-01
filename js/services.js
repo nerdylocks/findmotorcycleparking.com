@@ -13,8 +13,7 @@ motoApp.factory('Data', function($http){
 	return Data;
 });
 
-motoApp.factory('Distance',
-	function (){
+motoApp.factory('Distance', function(){
 		return {
 			get: function(lat1, lng1, lat2, lng2, unit){
 				var radLat1, radLat2, radLng1, radLng2;
@@ -42,10 +41,11 @@ motoApp.factory('Distance',
 			calculateEachDistance: function(currentLocation, data) {
 				var self = this;
 				angular.forEach(data, function(key, value){
-					if(key["nbhood"] != "Garages" || data.hasOwnProperty("spaces")){
+					if(key["nbhood"] != "Garages" || key.hasOwnProperty("spaces")){
 						key.distance = parseFloat(Math.round(self.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
 					}
 				});
+				//$scope.$apply();
 			}
 		}
 });
