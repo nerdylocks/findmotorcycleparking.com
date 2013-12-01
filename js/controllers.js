@@ -18,7 +18,10 @@ motoApp.controller('InitApp', ['$scope', 'Data', function($scope, Data){
 motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
 
 	$scope.spots = Data.parkingSpots;
-
+	$scope.limit = 5;
+	$scope.LoadMore = function(){
+		$scope.limit += 5;
+	}
 	if($scope.spots.length == 0){
 		Data.fetchParkingData();
 		console.log($scope.spots.length + ' records, so i loaded');
