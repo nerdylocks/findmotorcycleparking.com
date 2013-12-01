@@ -5,7 +5,7 @@ motoApp.controller('ShowSplash', ['$scope', 'Data', function($scope, Data){
 	setTimeout(function(){
 		window.location = '/#/search';
 	}, 1000);
-	console.log(angular.element(window).width());
+	
 }]);
 
 motoApp.controller('InitApp', ['$scope', 'Data', function($scope, Data){
@@ -16,7 +16,6 @@ motoApp.controller('InitApp', ['$scope', 'Data', function($scope, Data){
 }]);
 
 motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
-
 	$scope.spots = Data.parkingSpots;
 	$scope.limit = 5;
 	$scope.LoadMore = function(){
@@ -61,6 +60,19 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance'
 	$scope.spots = Data.parkingSpots;
 
 	angular.extend($scope, {
+		baselayers: {
+			name: 'Cloudmade Night Commander',
+	        type: 'xyz',
+	        url: 'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png',
+	        layerParams: {
+	            key: '007b9471b4c74da4a6ec7ff43552b16f',
+	            styleId: 999
+	        },
+	        layerOptions: {
+	            subdomains: ['a', 'b', 'c'],
+	            continuousWorld: true
+	        }
+		},
         center: {
             lat: 37.7833,
             lng: -122.4167,

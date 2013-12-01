@@ -51,17 +51,17 @@ motoApp.factory('Distance', function(){
 });
 motoApp.factory('LocationServices', function ($http){
 	return {
-		getCurrentLocation: function(callback, callbackParams){
+		getCurrentLocation: function(onSuccess){
 			var currentLocation = {};
 			if(navigator.geolocation){
 				navigator.geolocation.getCurrentPosition(function(position){
 					currentLocation.lat = position.coords.latitude
 					currentLocation.lng = position.coords.longitude;
-					callback(currentLocation, callbackParams);
+					onSuccess(currentLocation);
 				});
 			}
 		},
-		convertAddressToLatLng: function(address, callback){
+		convertAddressToLatLng: function(address, onSuccess){
 			var addressToLatLngUrl = 'http://maps.googleapis.com/maps/api/geocode/json?address=';
 			var addressToLatLng;
 			if(address.search(/Francsico/i) < 1){
@@ -71,7 +71,7 @@ motoApp.factory('LocationServices', function ($http){
 			$http.get(addressToLatLngUrl + address + '&sensor=false').success(function(data, status){
 				if(status == 200 && data.status == 'OK'){
 					addressToLatLng = data.results[0].geometry.location;
-					callback(addressToLatLng);
+					onSuccess(addressToLatLng);
 				} else {
 					console.info('GOOGLE STATUS', data.status);
 					console.info('HTTP', status);
