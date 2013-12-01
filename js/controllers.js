@@ -5,7 +5,7 @@ motoApp.controller('ShowSplash', ['$scope', 'Data', function($scope, Data){
 	setTimeout(function(){
 		window.location = '/#/search';
 	}, 1000);
-
+	console.log(angular.element(window).width());
 }]);
 
 motoApp.controller('InitApp', ['$scope', 'Data', function($scope, Data){
@@ -36,7 +36,7 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 	$scope.orderProp = 'distance';
 
 	$scope.back = function(){
-		window.location = '/#/';
+		window.location = '/#/search';
 	};
 
 	$scope.SearchFromAddress = function(){
