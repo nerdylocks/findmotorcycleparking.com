@@ -40,9 +40,11 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 	$scope.LoadData = function(location){
 		Distance.calculateEachDistance(location, $scope.spots);
 		console.log(location, $scope.spots);
-		if($routeParams.sortOption == 'current-location'){
+		//if($routeParams.sortOption == 'current-location'){
+		setTimeout(function(){
 			$scope.$apply();
-		}
+		}, 500);
+		//}
 	};
 
 	if($routeParams.sortOption == 'current-location'){
