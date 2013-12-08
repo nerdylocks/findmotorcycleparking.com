@@ -1,13 +1,19 @@
 'use strict';
 
-var motoApp = angular.module("moto", ['ngRoute', 'ngResource', 'leaflet-directive']);
+var motoApp = angular.module("moto", [
+	'ngRoute', 
+	'ngResource', 
+	'leaflet-directive', 
+	'ngTouch', 
+	'ngAnimate'
+]);
 
 motoApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider
-		.when('/', {templateUrl: 'partials/splash.html', controller: 'ShowSplash'})
-		.when('/search', {templateUrl: 'partials/search.html', controller: 'InitApp'})
-		.when('/list/:sortOption', {templateUrl: 'partials/list.html', controller: 'ShowList'})
-		.when('/details/:id', {templateUrl: 'partials/details.html', controller: 'ShowDetails'})
-		.when('/map', {templateUrl: 'partials/map.html', controller: 'ShowMap'})
+		.when('/', {templateUrl: 'views/splash.html', controller: 'Splash'})
+		.when('/search', {templateUrl: 'views/search.html', controller: 'Search'})
+		.when('/list/:sortOption', {templateUrl: 'views/list.html', controller: 'List'})
+		.when('/details/:id', {templateUrl: 'views/details.html', controller: 'Details'})
+		.when('/map', {templateUrl: 'views/map.html', controller: 'Map'})
 		.otherwise({redirectTo: '/search'});
 }]);

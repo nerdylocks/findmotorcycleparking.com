@@ -1,26 +1,42 @@
 'use strict';
 
-motoApp.controller('ShowSplash', ['$scope', 'Data', function($scope, Data){
+motoApp.controller('Splash', ['$scope', '$rootScope', '$location', '$window', 'Data', function($scope, $rootScope, $location, $window, Data){
 	Data.fetchParkingData();
+	$scope.slide = '';
+
+	$scope.back = function(){
+		$scope.slide = 'slide-right';
+		$window.history.back();
+	};
 	setTimeout(function(){
-		window.location = '/#/search';
+		$window.location = '#/search';
 	}, 1000);
-	
 }]);
 
-motoApp.controller('InitApp', ['$scope', 'Data', function($scope, Data){
+motoApp.controller('Search', ['$scope', '$location', 'Data', function($scope, $location, Data){
 	Data.fetchParkingData();
+    $scope.slide = '';
 	$scope.SearchFromAddress = function(){
-		window.location = '/#/list/' + $scope.address;
+        $scope.slide = 'slide-down';
+		$location.url('/list/' + $scope.address);
 	}
 }]);
 
-motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $routeParams, Data, LocationServices, Distance){
+motoApp.controller('List', ['$scope', '$location', '$window', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $location, $window, $routeParams, Data, LocationServices, Distance){
 	$scope.spots = Data.parkingSpots;
-	$scope.limit = 5;
+	/*$scope.limit = 5;
 	$scope.LoadMore = function(){
 		$scope.limit += 5;
-	}
+	}*/
+    $scope.slide = '';
+    $scope.go = function(path){
+        $scope.slide = 'slide-left';
+        $location.url(path);
+    }
+    $scope.back = function(){
+        $scope.slide = 'slide-up';
+        $window.history.back();
+    };
 	if($scope.spots.length == 0){
 		Data.fetchParkingData();
 		setTimeout(function(){
@@ -33,11 +49,9 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 
 	$scope.currentLocation = {};
 	$scope.orderProp = 'distance';
-
-	$scope.back = function(){
-		window.location = '/#/search';
-	};
-
+    $scope.getByCurrentLocation = function(){
+        LocationServices.getCurrentLocation($scope.LoadData);
+    };
 	$scope.SearchFromAddress = function(){
 		LocationServices.convertAddressToLatLng($scope.newAddress, $scope.LoadData);
 	};
@@ -50,15 +64,21 @@ motoApp.controller('ShowList', ['$scope', '$routeParams', 'Data', 'LocationServi
 	};
 
 	if($routeParams.sortOption == 'current-location'){
+        $scope.slide = 'slide-down';
 		LocationServices.getCurrentLocation($scope.LoadData);
 	} else {
 		LocationServices.convertAddressToLatLng($routeParams.sortOption, $scope.LoadData);
 	}
 }]);
 
-motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance', 'Data','Detail', function($http, $scope, $routeParams, Distance, Data, Detail){
+motoApp.controller('Details', ['$http', '$scope', '$window', '$routeParams', 'Distance', 'Data','Detail', function($http, $scope, $window, $routeParams, Distance, Data, Detail){
 	$scope.spots = Data.parkingSpots;
 
+    $scope.slide = '';
+    $scope.back = function(){
+        $scope.slide = 'slide-right';
+        $window.history.back();
+    };
 	angular.extend($scope, {
 		baselayers: {
 			name: 'Cloudmade Night Commander',
@@ -86,18 +106,13 @@ motoApp.controller('ShowDetails', ['$http', '$scope', '$routeParams', 'Distance'
             }
         },
         defaults: {
-        	tileLayerOptions: {
-				detectRetina: true
-			}
+        	detectRetina: true
 		}
     });
-	$scope.back = function(){
-		window.history.back();
-	};
+
 	setTimeout(function(){
 		$scope.$apply(function(){
 			$scope.spotDetails = Detail.get($scope.spots, {id: $routeParams.id});
-			
 			if($scope.spotDetails.free){
 				$scope.spotDetails.free = 'unmetered';
 			} else {

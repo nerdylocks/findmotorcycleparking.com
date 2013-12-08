@@ -1,3 +1,25 @@
+motoApp.factory('cordovaReady', function() {
+  return function (fn) {
+
+    var queue = [];
+
+    var impl = function () {
+      queue.push(Array.prototype.slice.call(arguments));
+    };
+
+    document.addEventListener('deviceready', function () {
+      queue.forEach(function (args) {
+        fn.apply(this, args);
+      });
+      impl = fn;
+    }, false);
+            
+    return function () {
+      return impl.apply(this, arguments);
+    };
+  };
+});
+
 motoApp.factory('Data', function($http){
 	var Data = {};
 
@@ -45,7 +67,6 @@ motoApp.factory('Distance', function(){
 						key.distance = parseFloat(Math.round(self.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
 					}
 				});
-				//$scope.$apply();
 			}
 		}
 });
