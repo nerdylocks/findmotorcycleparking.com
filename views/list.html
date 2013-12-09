@@ -1,7 +1,8 @@
 <div class="topcoat-navigation-bar">
-    <div class="topcoat-navigation-bar__item full">
+    <div class="full">
         <div class="search-bar left">
             <form ng-submit="SearchFromAddress()">
+
                 <input ng-model="newAddress" type="search" placeholder="Search by address or intersection" class="topcoat-search-input search-key">
             </form>
         </div>
@@ -21,7 +22,7 @@
     				<p class="distance">{{spot.distance}} mi</p>
                 </div>
                 <div class="center">
-                    <span class="count">{{spot.spaces}}</span>
+                    <span class="count right">{{spot.spaces}}</span>
                 </div>
                 <i class="fa fa-chevron-right"></i>
 			</a>

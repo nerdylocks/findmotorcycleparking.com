@@ -71,7 +71,7 @@ motoApp.controller('List', ['$scope', '$location', '$window', '$routeParams', 'D
 	}
 }]);
 
-motoApp.controller('Details', ['$http', '$scope', '$window', '$routeParams', 'Distance', 'Data','Detail', function($http, $scope, $window, $routeParams, Distance, Data, Detail){
+motoApp.controller('Details', ['$http', '$scope', '$window', '$routeParams', 'Distance', 'Data','Detail', 'LocationServices', function($http, $scope, $window, $routeParams, Distance, Data, Detail, LocationServices){
 	$scope.spots = Data.parkingSpots;
 
     $scope.slide = '';
@@ -109,14 +109,19 @@ motoApp.controller('Details', ['$http', '$scope', '$window', '$routeParams', 'Di
         	detectRetina: true
 		}
     });
-
+    $scope.GetDirections = function(address){
+        var url = 'maps:q=';
+        LocationServices.getCurrentLocation(function(){
+            $window.location = url + $scope.spotDetails.lat + ', ' + $scope.spotDetails.lng;
+        });
+    }
 	setTimeout(function(){
 		$scope.$apply(function(){
 			$scope.spotDetails = Detail.get($scope.spots, {id: $routeParams.id});
 			if($scope.spotDetails.free){
-				$scope.spotDetails.free = 'unmetered';
+				$scope.spotDetails.free = 'Unmetered';
 			} else {
-				$scope.spotDetails.free = 'metered';
+				$scope.spotDetails.free = 'Metered';
 			}
 			console.log($scope.spotDetails.lat, $scope.spotDetails.lng);
 			$scope.center.lat = $scope.spotDetails.lat;

@@ -1,5 +1,4 @@
 'use strict';
-
 var motoApp = angular.module("moto", [
 	'ngRoute', 
 	'ngResource', 
