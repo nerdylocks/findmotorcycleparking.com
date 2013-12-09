@@ -57,7 +57,9 @@ a {
 }
 
 .pick input {
-	text-align: center;
+	text-align: left;
+    border: 1px solid #11141b;
+    background: #14171e;
 }
 /* List */
 .topcoat-navigation-bar {
@@ -163,6 +165,7 @@ input::-webkit-input-placeholder {
 .topcoat-list__container {
 
 }
+
 .location {
     background: url(/img/location.svg) no-repeat;
     width: 42px;
@@ -170,6 +173,15 @@ input::-webkit-input-placeholder {
     display: block;
     margin: 19px 0px 0 0;
     background-size: 32px 32px;
+}
+.topcoat-list__container .bg{
+    /*background-color: #1f2129;
+    box-shadow: inset -1px 0 199px rgba(0,0,1,.11);
+    */
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+
 }
 /* Details */
 #details .topcoat-navigation-bar {

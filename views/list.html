@@ -13,7 +13,8 @@
 </div>
 <div class="clear"></div>
 <div class="topcoat-list__container scroller">
-	<ul class="topcoat-list list">
+    <!--<img class="bg" src="/img/bg.jpeg" alt="bg"/>-->
+	<ul class="topcoat-list list" ng-show="spots">
 		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | orderBy:orderProp">
 			<a ng-click="go('details/' + spot.id)">
                 <div class="gradient"></div>
