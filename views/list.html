@@ -2,20 +2,20 @@
     <div class="full">
         <div class="search-bar left">
             <form ng-submit="SearchFromAddress()">
-
                 <input ng-model="newAddress" type="search" placeholder="Search by address or intersection" class="topcoat-search-input search-key">
             </form>
         </div>
-        <a ng-click="getByCurrentLocation()">
-            <i class="location right"></i>
+        <a class="spinner-location right" ng-click="getByCurrentLocation()">
+            <i class="location list-view" ng-hide="loading"></i>
+            <i class="fa fa-spinner fa-spin fa-2x" ng-show="loading"></i>
         </a>
     </div>
 </div>
 <div class="clear"></div>
 <div class="topcoat-list__container scroller">
     <!--<img class="bg" src="/img/bg.jpeg" alt="bg"/>-->
-	<ul class="topcoat-list list" ng-show="spots">
-		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | orderBy:orderProp">
+	<ul class="topcoat-list list">
+		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | orderBy:orderProp | limitTo: limit">
 			<a ng-click="go('details/' + spot.id)">
                 <div class="gradient"></div>
                 <div class="info">
@@ -31,5 +31,5 @@
 
 	</ul>
     <i id="spinner" class="fa fa-spinner fa-spin fa-3x list-spinner" ng-hide="spots"></i>
-    <a ng-click="LoadMore()" class="topcoat-button" ng-show="spots">Load More</a>
+    <a ng-click="LoadMore()" class="button load-more" ng-show="spots">Load More</a>
 </div>

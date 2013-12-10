@@ -20,14 +20,15 @@ motoApp.factory('cordovaReady', function() {
   };
 });
 
-motoApp.factory('Data', function($http){
+motoApp.factory('Data', function($http, $rootScope){
 	var Data = {};
 
 	Data.parkingSpots = [];
-
+    $rootScope.$emit('LOAD');
 	Data.fetchParkingData = function(){
 		$http.get('json/data.json').then(function(response){
 			Data.parkingSpots = response.data.parking.spots;
+            $rootScope.$emit('UNLOAD');
 			//console.log(Data.parkingSpots);
 		});
 		return Data.parkingSpots;
@@ -35,7 +36,7 @@ motoApp.factory('Data', function($http){
 	return Data;
 });
 
-motoApp.factory('Distance', function(){
+motoApp.factory('Distance', function($rootScope){
 		return {
 			get: function(lat1, lng1, lat2, lng2, unit){
 				var radLat1, radLat2, radLng1, radLng2;
@@ -61,30 +62,35 @@ motoApp.factory('Distance', function(){
 				return distance;
 			},
 			calculateEachDistance: function(currentLocation, data) {
+                $rootScope.$emit('LOAD');
 				var self = this;
 				angular.forEach(data, function(key, value){
 					if(key["nbhood"] != "Garages" || key.hasOwnProperty("spaces")){
 						key.distance = parseFloat(Math.round(self.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
 					}
 				});
+                $rootScope.$emit('UNLOAD');
 			}
 		}
 });
-motoApp.factory('LocationServices', function ($http){
+motoApp.factory('LocationServices', function ($http, $rootScope){
 	return {
 		getCurrentLocation: function(onSuccess){
+            $rootScope.$emit('LOAD');
 			var currentLocation = {};
 			if(navigator.geolocation){
 				navigator.geolocation.getCurrentPosition(function(position){
 					currentLocation.lat = position.coords.latitude
 					currentLocation.lng = position.coords.longitude;
 					onSuccess(currentLocation);
+                    $rootScope.$emit('UNLOAD');
 				});
 			}
 		},
 		convertAddressToLatLng: function(address, onSuccess){
 			var addressToLatLngUrl = 'http://maps.googleapis.com/maps/api/geocode/json?address=';
 			var addressToLatLng;
+            $rootScope.$emit('LOAD');
 			if(address.search(/Francsico/i) < 1){
 				address = address + ', San Francsico, CA';
 			}
@@ -93,12 +99,17 @@ motoApp.factory('LocationServices', function ($http){
 				if(status == 200 && data.status == 'OK'){
 					addressToLatLng = data.results[0].geometry.location;
 					onSuccess(addressToLatLng);
+                    $rootScope.$emit('UNLOAD');
 				} else {
 					console.info('GOOGLE STATUS', data.status);
 					console.info('HTTP', status);
+                    $rootScope.$emit('UNLOAD');
 				}
 			});
-		}
+		},
+        getAddress: function(address, onSuccess){
+
+        }
 	}
 });
 

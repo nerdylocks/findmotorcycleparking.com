@@ -77,7 +77,7 @@ a {
 	left: 25%;
 }
 .gradient {
-    background: url(/img/gradient.png) repeat-y right center;
+    background: url(../img/gradient.png) repeat-y right center;
 	height: 100%;
 	position: absolute;
 	right: 0px;
@@ -149,8 +149,10 @@ input::-webkit-input-placeholder {
 .topcoat-list {
     background: #1f2229;
     border: none;
-    margin: 90px 5% 0 5%
+    margin: 90px 5% 0 5%;
+    min-height: 410px;
 }
+
 .topcoat-navigation-bar {
     position: fixed;
     width: 100%;
@@ -167,12 +169,26 @@ input::-webkit-input-placeholder {
 }
 
 .location {
-    background: url(/img/location.svg) no-repeat;
-    width: 42px;
-    height: 42px;
+    background: url(../img/location.svg) no-repeat;
+    width: 32px;
+    height: 32px;
     display: block;
-    margin: 19px 0px 0 0;
     background-size: 32px 32px;
+}
+.location.list-view {
+
+}
+.spinner-location {
+    margin: 19px 15px 0 0;
+    display: block;
+    width: 32px; height: 32px;
+    overflow: hidden;
+}
+.location.search-view {
+    display: inline-block;
+    background-size: 24px 30px;
+    width: 28px;
+    height: 28px;
 }
 .topcoat-list__container .bg{
     /*background-color: #1f2129;
@@ -195,13 +211,12 @@ input::-webkit-input-placeholder {
     width: 85%;
     display: table-cell;
     vertical-align: middle;
-    padding: 7px 0;
+
 }
 .count-container {
     display: table-cell;
     vertical-align: middle;
-    padding: 7px 0;
-    width: 15%;
+    width: 13%;
 }
 .location-info p {
     margin: 0;
@@ -211,7 +226,7 @@ input::-webkit-input-placeholder {
     padding: 0;
 }
 .addy {
-    height: 50px;
+    height: 42px;
     text-align: left;
     padding: 12px 0;
 }
@@ -242,6 +257,18 @@ input::-webkit-input-placeholder {
 .topcoat-navigation-bar__item {
     line-height: 2.6rem;
     padding: 7px 10px
+}
+.button.load-more {
+    width: 90%;
+    margin: 0 5%;
+    padding: 10px 0 8px 0;
+    text-align: center;
+    border-radius: 4px;
+    background-clip: padding-box;
+    background-color: #31333d;
+
+    font-size: 24px;
+    box-shadow: none;
 }
 /* Topcoat customization*/
 .topcoat-notification {
@@ -279,7 +306,7 @@ input::-webkit-input-placeholder {
 	margin-top: 0;
 }
 .button.directions {
-    padding: 12px 0;
+    padding: 10px 0 8px 0;
     text-align: center;
     border-radius: 4px;
     background-clip: padding-box;

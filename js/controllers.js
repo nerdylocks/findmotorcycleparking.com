@@ -8,9 +8,9 @@ motoApp.controller('Splash', ['$scope', '$rootScope', '$location', '$window', 'D
 		$scope.slide = 'slide-right';
 		$window.history.back();
 	};
-	setTimeout(function(){
-		$window.location = '#/search';
-	}, 1000);
+
+	$window.location = '#/search';
+
 }]);
 
 motoApp.controller('Search', ['$scope', '$location', 'Data', function($scope, $location, Data){
@@ -22,12 +22,18 @@ motoApp.controller('Search', ['$scope', '$location', 'Data', function($scope, $l
 	}
 }]);
 
-motoApp.controller('List', ['$scope', '$location', '$window', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $location, $window, $routeParams, Data, LocationServices, Distance){
+motoApp.controller('List', ['$scope', '$rootScope', '$location', '$window', '$routeParams', 'Data', 'LocationServices' , 'Distance', function($scope, $rootScope, $location, $window, $routeParams, Data, LocationServices, Distance){
+    $rootScope.$on('LOAD', function(){
+        $rootScope.loading = true;
+    });
+    $rootScope.$on('UNLOAD', function(){
+        $rootScope.loading = false;
+    });
 	$scope.spots = Data.parkingSpots;
-	/*$scope.limit = 5;
+	$scope.limit = 5;
 	$scope.LoadMore = function(){
 		$scope.limit += 5;
-	}*/
+	}
     $scope.slide = '';
     $scope.go = function(path){
         $scope.slide = 'slide-left';
@@ -111,9 +117,7 @@ motoApp.controller('Details', ['$http', '$scope', '$window', '$routeParams', 'Di
     });
     $scope.GetDirections = function(address){
         var url = 'maps:q=';
-        LocationServices.getCurrentLocation(function(){
-            $window.location = url + $scope.spotDetails.lat + ', ' + $scope.spotDetails.lng;
-        });
+        $window.location = url + $scope.spotDetails.lat + ', ' + $scope.spotDetails.lng;
     }
 	setTimeout(function(){
 		$scope.$apply(function(){
