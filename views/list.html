@@ -15,11 +15,11 @@
 <div class="topcoat-list__container scroller">
     <!--<img class="bg" src="/img/bg.jpeg" alt="bg"/>-->
 	<ul class="topcoat-list list">
-		<li class="topcoat-list__item" ng-show="{{spot.id}}" ng-repeat="spot in spots | orderBy:orderProp | limitTo: limit">
+		<li class="topcoat-list__item" ng-show="{{spot.distance}}" ng-repeat="spot in spots | orderBy:orderProp | limitTo: limit">
 			<a ng-click="go('details/' + spot.id)">
                 <div class="gradient"></div>
                 <div class="info">
-    				<p class="title">{{spot.title}}</p>
+    				<p class="title">{{spot.address}}</p>
     				<p class="distance">{{spot.distance}} mi</p>
                 </div>
                 <div class="center">

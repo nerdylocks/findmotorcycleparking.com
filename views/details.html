@@ -16,10 +16,14 @@
                 <span class="count">{{spotDetails.spaces}}</span>
             </div>
             <div class="left location-info">
-                <p>{{spotDetails.free}} spaces on {{spotDetails.title}}</p>
+                <p>{{spotDetails.free}} spaces on {{spotDetails.address}}</p>
             </div>
         </div>
-        <leaflet center="center" markers="markers" width="100%" height="300px"></leaflet>
+        <div id="map_container">
+            <leaflet center="center" markers="markers" width="100%" height="300px">
+                <i id="spinner" class="fa fa-spinner fa-spin fa-3x list-spinner" ng-hide="spots"></i>
+            </leaflet>
+        </div>
         <p class="right">{{spotDetails.distance}} mi away!</p>
         <div class="clear"></div>
         <a ng-click="GetDirections(address)" class="button directions">Get Directions</a>

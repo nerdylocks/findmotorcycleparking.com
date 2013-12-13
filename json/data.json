@@ -1,2548 +1,2218 @@
-{
-    "parking": {
-        "spots": [
-            {
-                "id": 12,
-                "lat": 37.76443867757170,
-                "lng": -122.43125438690100,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "16th St at Sanchez"
-            },
-            {
-                "id": 157,
-                "lat": 37.761181700917085,
-                "lng": -122.43179082870483,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "18th btw Sanchez & Noe"
-            },
-            {
-                "id": 0,
-                "lat": 37.76102054470269,
-                "lng": -122.43415117263794,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "18th St east of Castro"
-            },
-            {
-                "id": 1,
-                "lat": 37.76084242426770,
-                "lng": -122.43558883666900,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "18th St west of Castro"
-            },
-            {
-                "id": 234,
-                "lat": 37.75127418206904,
-                "lng": -122.43503093719482,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "24th at Castro"
-            },
-            {
-                "id": 236,
-                "lat": 37.74728704926916,
-                "lng": -122.4220061302185,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "27th at Guerrero"
-            },
-            {
-                "id": 2,
-                "lat": 37.76190265862991,
-                "lng": -122.43512749671936,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Castro btw 17th &18th Sts - 1"
-            },
-            {
-                "id": 276,
-                "lat": 37.76211470367867,
-                "lng": -122.43514895439148,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Castro btw 17th &18th Sts - 2"
-            },
-            {
-                "id": 159,
-                "lat": 37.76662687821001,
-                "lng": -122.42876529693603,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Church and 15th St"
-            },
-            {
-                "id": 161,
-                "lat": 37.768249,
-                "lng": -122.426612,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Dolores &14th St"
-            },
-            {
-                "id": 162,
-                "lat": 37.76292895101701,
-                "lng": -122.426598072052,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Dolores &17th St"
-            },
-            {
-                "id": 160,
-                "lat": 37.76883197614526,
-                "lng": -122.42664098739624,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Dolores & Market"
-            },
-            {
-                "id": 235,
-                "lat": 37.74530188602822,
-                "lng": -122.42455959320068,
-                "spaces": "7",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Dolores at 28th St"
-            },
-            {
-                "id": 158,
-                "lat": 37.76213166725632,
-                "lng": -122.42966651916504,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Dorland St btw Church and Sanchez"
-            },
-            {
-                "id": 3,
-                "lat": 37.76937475939850,
-                "lng": -122.43176937103200,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Duboce at Steiner - on Duboce Park"
-            },
-            {
-                "id": 4,
-                "lat": 37.76004511801640,
-                "lng": -122.43816375732400,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Eureka btw 18th & 19th Sts"
-            },
-            {
-                "id": 126,
-                "lat": 37.770108,
-                "lng": -122.424518,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Guerrero btw. Market and Duboce - east side"
-            },
-            {
-                "id": 5,
-                "lat": 37.76369229975580,
-                "lng": -122.43363618850700,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Market east of Castro, south side"
-            },
-            {
-                "id": 9,
-                "lat": 37.76559215574470,
-                "lng": -122.43337869644100,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Noe at 15th"
-            },
-            {
-                "id": 10,
-                "lat": 37.75118935169300,
-                "lng": -122.43183374404900,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Noe at 24th St"
-            },
-            {
-                "id": 11,
-                "lat": 37.7522222,
-                "lng": -122.431597,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Noe at Elizabeth"
-            },
-            {
-                "id": 6,
-                "lat": 37.76469312283280,
-                "lng": -122.43309974670400,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Noe north of Market, east side"
-            },
-            {
-                "id": 7,
-                "lat": 37.76342088777350,
-                "lng": -122.43314266204800,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Castro - Noe Valley",
-                "title": "Noe south of Market, west side"
-            },
-            {
-                "id": 129,
-                "lat": 37.80056961771293,
-                "lng": -122.41061210632324,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Columbus btw Union and Powell"
-            },
-            {
-                "id": 13,
-                "lat": 37.79891651046290,
-                "lng": -122.40819811820900,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Columbus west of Vallejo"
-            },
-            {
-                "id": 15,
-                "lat": 37.79986599196980,
-                "lng": -122.40823030471800,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Green at Jasper Alley"
-            },
-            {
-                "id": 16,
-                "lat": 37.80011183787070,
-                "lng": -122.40416407585100,
-                "spaces": "9",
-                "free": true,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Green at Montgomery"
-            },
-            {
-                "id": 14,
-                "lat": 37.799403,
-                "lng": -122.403402,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Green west of Columbus"
-            },
-            {
-                "id": 17,
-                "lat": 37.79733966599640,
-                "lng": -122.40359544754000,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Pacific at Montgomery"
-            },
-            {
-                "id": 128,
-                "lat": 37.80615599868537,
-                "lng": -122.41536498069763,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Taylor btw North Point and Bay St"
-            },
-            {
-                "id": 172,
-                "lat": 37.80257872902474,
-                "lng": -122.40651369094848,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Telegraph Hill"
-            },
-            {
-                "id": 18,
-                "lat": 37.79872152614300,
-                "lng": -122.40766167640600,
-                "spaces": "10",
-                "free": false,
-                "nbhood": "Chinatown / North Beach",
-                "title": "Vallejo east of Columbus"
-            },
-            {
-                "id": 242,
-                "lat": 37.77505678240509,
-                "lng": -122.44121074676513,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Baker at Hayes"
-            },
-            {
-                "id": 243,
-                "lat": 37.77634577760317,
-                "lng": -122.44485855102539,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Central at Fulton"
-            },
-            {
-                "id": 20,
-                "lat": 37.78031438484980,
-                "lng": -122.41816520690900,
-                "spaces": "13",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Civic Center Plaza - north sides",
-                "-notes": "Many closed due to construction 12/07"
-            },
-            {
-                "id": 21,
-                "lat": 37.77982256047510,
-                "lng": -122.41844415664600,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Civic Center Plaza - west sides"
-            },
-            {
-                "id": 22,
-                "lat": 37.776517,
-                "lng": -122.418814,
-                "spaces": "10",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Fell btw. Van Ness and Market"
-            },
-            {
-                "id": 277,
-                "lat": 37.773962814902774,
-                "lng": -122.43801355361938,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Fell St at Divisadero - west side",
-                "-notes": "In front of 1217 Fell St"
-            },
-            {
-                "id": 23,
-                "lat": 37.77646449971470,
-                "lng": -122.43123292922900,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Fillmore btw Hayes &Grove"
-            },
-            {
-                "id": 195,
-                "lat": 37.77604049129784,
-                "lng": -122.4209976196289,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Franklin at Fell"
-            },
-            {
-                "id": 26,
-                "lat": 37.77919505565990,
-                "lng": -122.42168426513600,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Franklin at Fulton"
-            },
-            {
-                "id": 24,
-                "lat": 37.77729554915760,
-                "lng": -122.42131948471000,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Franklin at Hayes"
-            },
-            {
-                "id": 25,
-                "lat": 37.77980560095550,
-                "lng": -122.41532206535300,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Fulton near Hyde"
-            },
-            {
-                "id": 189,
-                "lat": 37.78201030587168,
-                "lng": -122.41419553756714,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Golden Gate at Leavenworth"
-            },
-            {
-                "id": 27,
-                "lat": 37.78112843179640,
-                "lng": -122.42016077041600,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Golden Gate at Van Ness"
-            },
-            {
-                "id": 28,
-                "lat": 37.78148457451640,
-                "lng": -122.41732835769600,
-                "spaces": "16",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Golden Gate near Larkin"
-            },
-            {
-                "id": 241,
-                "lat": 37.774785412131244,
-                "lng": -122.44054555892944,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Hayes at Baker"
-            },
-            {
-                "id": 240,
-                "lat": 37.77488717610065,
-                "lng": -122.43919372558594,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Hayes at Broderick"
-            },
-            {
-                "id": 29,
-                "lat": 37.77700722693980,
-                "lng": -122.42249965667700,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Hayes btw Franklin &Gough"
-            },
-            {
-                "id": 30,
-                "lat": 37.78107755412490,
-                "lng": -122.41535425186100,
-                "spaces": "31",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Hyde btw McAllister &Golden Gate"
-            },
-            {
-                "id": 248,
-                "lat": 37.77400521704548,
-                "lng": -122.42735981941223,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Lily St at Buchanan"
-            },
-            {
-                "id": 194,
-                "lat": 37.77378472563779,
-                "lng": -122.42052555084228,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Market btw 12th and Brady"
-            },
-            {
-                "id": 190,
-                "lat": 37.78084012452816,
-                "lng": -122.41398096084595,
-                "spaces": "9",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "McAllister at Leavenworth"
-            },
-            {
-                "id": 31,
-                "lat": 37.780649,
-                "lng": -122.420219,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Van Ness at Redwood"
-            },
-            {
-                "id": 32,
-                "lat": 37.77536207277250,
-                "lng": -122.42069721221900,
-                "spaces": "7",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Oak at Franklin"
-            },
-            {
-                "id": 191,
-                "lat": 37.77551471748351,
-                "lng": -122.42415189743042,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Octavia at Fell"
-            },
-            {
-                "id": 279,
-                "lat": 37.772833,
-                "lng": -122.423454,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Octavia south of Page"
-            },
-            {
-                "id": 214,
-                "lat": 37.77230911236875,
-                "lng": -122.43689775466919,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Page at Divisadero"
-            },
-            {
-                "id": 193,
-                "lat": 37.77434443331179,
-                "lng": -122.4222207069397,
-                "spaces": "7",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Page at Gough"
-            },
-            {
-                "id": 33,
-                "lat": 37.77300451999220,
-                "lng": -122.43159770965500,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Page btw Fillmore &Steiner"
-            },
-            {
-                "id": 192,
-                "lat": 37.77409002125797,
-                "lng": -122.42325067520141,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Page btw Octavia & Gough"
-            },
-            {
-                "id": 34,
-                "lat": 37.77285187009850,
-                "lng": -122.43303537368700,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Page btw Steiner &Pierce"
-            },
-            {
-                "id": 35,
-                "lat": 37.77225822862730,
-                "lng": -122.43382930755600,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Pierce btw Haight &Page"
-            },
-            {
-                "id": 212,
-                "lat": 37.77621009495645,
-                "lng": -122.43621110916137,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Scott at Grove"
-            },
-            {
-                "id": 37,
-                "lat": 37.77802482974780,
-                "lng": -122.43348598480200,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Steiner near Fulton"
-            },
-            {
-                "id": 38,
-                "lat": 37.77875410314340,
-                "lng": -122.43363618850700,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Steiner near McAllister"
-            },
-            {
-                "id": 39,
-                "lat": 37.78209510090130,
-                "lng": -122.41930246353100,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Turk at Polk"
-            },
-            {
-                "id": 213,
-                "lat": 37.78009391225896,
-                "lng": -122.43670463562012,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Turk at Scott"
-            },
-            {
-                "id": 41,
-                "lat": 37.783206,
-                "lng": -122.422296,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Willow Alley at Franklin"
-            },
-            {
-                "id": 40,
-                "lat": 37.78370618798190,
-                "lng": -122.41885185241600,
-                "spaces": "16",
-                "free": false,
-                "nbhood": "Civic Center / Hayes Valley / Alamo Square",
-                "title": "Willow Alley (btw Polk & Larkin)"
-            },
-            {
-                "id": 42,
-                "lat": 37.78873424970606,
-                "lng": -122.40062355995178,
-                "spaces": "31",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "2nd St at Market"
-            },
-            {
-                "id": 45,
-                "lat": 37.78289216942510,
-                "lng": -122.39353179931600,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Downtown",
-                "title": "2nd St at Taber"
-            },
-            {
-                "id": 44,
-                "lat": 37.78536811469730,
-                "lng": -122.39655733108500,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "2nd St south of Folsom, West side"
-            },
-            {
-                "id": 43,
-                "lat": 37.78660605622850,
-                "lng": -122.39814519882200,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "2nd St south of Howard"
-            },
-            {
-                "id": 146,
-                "lat": 37.78002607440637,
-                "lng": -122.39406824111938,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "3rd and Brannan"
-            },
-            {
-                "id": 275,
-                "lat": 37.78236644434258,
-                "lng": -122.40166425704956,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "4th at Clementina",
-                "-notes": "Parking restriction from 3pm-7pm, It's empty 90% of the time."
-            },
-            {
-                "id": 141,
-                "lat": 37.78292608704408,
-                "lng": -122.40232944488525,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "4th at Howard"
-            },
-            {
-                "id": 143,
-                "lat": 37.78123018703442,
-                "lng": -122.40018367767334,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "4th St &Clara"
-            },
-            {
-                "id": 149,
-                "lat": 37.77670194336603,
-                "lng": -122.39413261413574,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "4th St & King"
-            },
-            {
-                "id": 152,
-                "lat": 37.782095100901344,
-                "lng": -122.40576267242431,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "5th St at Minna"
-            },
-            {
-                "id": 153,
-                "lat": 37.776752824049225,
-                "lng": -122.40342378616333,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Downtown",
-                "title": "6th St btw Harrison & Bryant St"
-            },
-            {
-                "id": 48,
-                "lat": 37.79130326217200,
-                "lng": -122.39597797393700,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Beale at Mission"
-            },
-            {
-                "id": 132,
-                "lat": 37.790056920744355,
-                "lng": -122.394357919693,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Beale north of Howard"
-            },
-            {
-                "id": 46,
-                "lat": 37.79740748795650,
-                "lng": -122.40093469619700,
-                "spaces": "14",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Battery at Pacific"
-            },
-            {
-                "id": 47,
-                "lat": 37.79627146191150,
-                "lng": -122.40050554275500,
-                "spaces": "25",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Battery at Washington"
-            },
-            {
-                "id": 155,
-                "lat": 37.7963053733897,
-                "lng": -122.40063428878784,
-                "spaces": "25",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Battery at Washington"
-            },
-            {
-                "id": 278,
-                "lat": 37.78142521751564,
-                "lng": -122.39256620407104,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Brannan St at Stanford St"
-            },
-            {
-                "id": 49,
-                "lat": 37.794771,
-                "lng": -122.402834,
-                "spaces": "24",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Clay east of Montgomery(a)"
-            },
-            {
-                "id": 271,
-                "lat": 37.794864,
-                "lng": -122.40205,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Clay east of Montgomery(b)"
-            },
-            {
-                "id": 272,
-                "lat": 37.79472,
-                "lng": -122.401879,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Clay east of Montgomery(c)"
-            },
-            {
-                "id": 50,
-                "lat": 37.79443174089100,
-                "lng": -122.40156769752500,
-                "spaces": "7",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Commercial at Sansome"
-            },
-            {
-                "id": 51,
-                "lat": 37.79605951482010,
-                "lng": -122.39682555198600,
-                "spaces": "66",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Drumm btw Clay &Washington"
-            },
-            {
-                "id": 52,
-                "lat": 37.78719958248480,
-                "lng": -122.39462614059400,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Folsom at 1st St"
-            },
-            {
-                "id": 287,
-                "lat": 37.790069,
-                "lng": -122.390998,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Folsom at Spear"
-            },
-            {
-                "id": 53,
-                "lat": 37.79055715554360,
-                "lng": -122.39690065383900,
-                "spaces": "11",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Fremont at Mission"
-            },
-            {
-                "id": 133,
-                "lat": 37.78815769338271,
-                "lng": -122.39371418952942,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Fremont north of Folsom",
-                "-notes": "Closed due to construction"
-            },
-            {
-                "id": 283,
-                "lat": 37.78864946229359,
-                "lng": -122.39433646202087,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Fremont at Transbay"
-            },
-            {
-                "id": 54,
-                "lat": 37.79254958257690,
-                "lng": -122.39858508110000,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Front at Pine"
-            },
-            {
-                "id": 131,
-                "lat": 37.79358392776529,
-                "lng": -122.39876747131348,
-                "spaces": "7",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Front north of California"
-            },
-            {
-                "id": 273,
-                "lat": 37.793496,
-                "lng": -122.401429,
-                "spaces": "7",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Halleck at Sansome"
-            },
-            {
-                "id": 154,
-                "lat": 37.776180,
-                "lng": -122.403890,
-                "spaces": "12",
-                "free": true,
-                "nbhood": "Downtown",
-                "title": "Harriet north of Bryant"
-            },
-            {
-                "id": 144,
-                "lat": 37.782790416475244,
-                "lng": -122.39698648452759,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Harrison at 3rd St"
-            },
-            {
-                "id": 56,
-                "lat": 37.78492719900680,
-                "lng": -122.39800572395300,
-                "spaces": "20",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Hawthorne north of Folsom",
-                "-notes": "Construction on 12/07, closed until further notice"
-            },
-            {
-                "id": 127,
-                "lat": 37.807632,
-                "lng": -122.420937,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Jefferson at Hyde"
-            },
-            {
-                "id": 139,
-                "lat": 37.78687738310861,
-                "lng": -122.40230798721313,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Jessie at 3rd"
-            },
-            {
-                "id": 270,
-                "lat": 37.78479789150266,
-                "lng": -122.40490436553955,
-                "spaces": "16",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Jessie at 4th"
-            },
-            {
-                "id": 151,
-                "lat": 37.78323134491339,
-                "lng": -122.40743637084961,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Jessie at Stevenson St"
-            },
-            {
-                "id": 57,
-                "lat": 37.78810682054990,
-                "lng": -122.40089178085300,
-                "spaces": "34",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Jessie btw Second and New Montgomery",
-                "-notes": "Enter on New Montgomery"
-            },
-            {
-                "id": 58,
-                "lat": 37.78491871983320,
-                "lng": -122.39893913269000,
-                "spaces": "52",
-                "free": true,
-                "nbhood": "Downtown",
-                "title": "Kaplan Lane btw Folsom &Howard",
-                "-notes": "Behind Moscone Garage, enter on third"
-            },
-            {
-                "id": 291,
-                "lat": 37.79280662899016,
-                "lng": -122.3960340953835,
-                "spaces": "41",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Main at Market East"
-            },
-            {
-                "id": 60,
-                "lat": 37.79262717427988,
-                "lng": -122.3960254647882,
-                "spaces": "52",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Main at Market West"
-            },
-            {
-                "id": 59,
-                "lat": 37.79046389168530,
-                "lng": -122.39322066307000,
-                "spaces": "48",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Main south of Howard"
-            },
-            {
-                "id": 282,
-                "lat": 37.78217989583374,
-                "lng": -122.40728616714478,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Mint at Mission",
-                "-notes": "at Mint Plaza, currently free 12/7"
-            },
-            {
-                "id": 61,
-                "lat": 37.79162544225070,
-                "lng": -122.39537715911800,
-                "spaces": "61",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Mission btw Main &Beale",
-                "-notes": "Closed through 7/07 due to construction"
-            },
-            {
-                "id": 244,
-                "lat": 37.788847,
-                "lng": -122.396701,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Natoma at 1st"
-            },
-            {
-                "id": 138,
-                "lat": 37.787318287164034,
-                "lng": -122.40046262741089,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "New Montgomery at Mission"
-            },
-            {
-                "id": 62,
-                "lat": 37.79757704258430,
-                "lng": -122.40166425704900,
-                "spaces": "11",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Pacific btw Battery &Sansome"
-            },
-            {
-                "id": 147,
-                "lat": 37.7801278311619,
-                "lng": -122.39544153213501,
-                "spaces": "8",
-                "free": true,
-                "nbhood": "Downtown",
-                "title": "Ritch off btw Brannan and Bryant"
-            },
-            {
-                "id": 148,
-                "lat": 37.780717,
-                "lng": -122.396556,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Brannan btw Ritch &Zoe"
-            },
-            {
-                "id": 140,
-                "lat": 37.79342284217152,
-                "lng": -122.40134239196777,
-                "spaces": "7",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Sansome at California"
-            },
-            {
-                "id": 63,
-                "lat": 37.79081151092240,
-                "lng": -122.40056991577100,
-                "spaces": "52",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Sansome btw Sutter &Bush"
-            },
-            {
-                "id": 64,
-                "lat": 37.79516933039640,
-                "lng": -122.40142822265600,
-                "spaces": "5",
-                "nbhood": "Downtown",
-                "title": "Sansome north of Clay",
-                "-notes": "These spots are subject to towing from 3pm to 7pm "
-            },
-            {
-                "id": 65,
-                "lat": 37.79335501655320,
-                "lng": -122.39496946334800,
-                "spaces": "61",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Spear at Market"
-            },
-            {
-                "id": 137,
-                "lat": 37.79204130643789,
-                "lng": -122.3914512029367,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Steuart &Howard",
-                "-notes": "Port Authority meter. No dollar coins or parking cards."
-            },
-            {
-                "id": 142,
-                "lat": 37.78211205989562,
-                "lng": -122.40312337875366,
-                "spaces": "5",
-                "free": true,
-                "nbhood": "Downtown",
-                "title": "Tehama off 5th St",
-                "-notes": "Fills up by 10am on weekdays"
-            },
-            {
-                "id": 145,
-                "lat": 37.78034830365159,
-                "lng": -122.39089250564575,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Townsend at 2nd St"
-            },
-            {
-                "id": 150,
-                "lat": 37.77509070361927,
-                "lng": -122.39758729934692,
-                "spaces": "10",
-                "free": true,
-                "nbhood": "Downtown",
-                "title": "Townsend at 5th St"
-            },
-            {
-                "id": 171,
-                "lat": 37.79562714086835,
-                "lng": -122.40290880203247,
-                "spaces": "13",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Washington east of Montgomery"
-            },
-            {
-                "id": 156,
-                "lat": 37.79593234627349,
-                "lng": -122.40134239196777,
-                "spaces": "26",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Washington at Sansome",
-                "-notes": "Check back on this one. The lines are there, but the meters are gone, and cars park there."
-            },
-            {
-                "id": 66,
-                "lat": 37.79608494850320,
-                "lng": -122.40001201629600,
-                "spaces": "33",
-                "free": false,
-                "nbhood": "Downtown",
-                "title": "Washington east of Battery"
-            },
-            {
-                "id": 258,
-                "lat": 37.791701747853054,
-                "lng": -122.39179372787475,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "75 Howard St Garage",
-                "-notes": "$4.00/day"
-            },
-            {
-                "id": 268,
-                "lat": 37.77506526271009,
-                "lng": -122.40627765655517,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "7th &Harrison Lot",
-                "-notes": "It is a Paid Lot. $3.00/day, $50/mo."
-            },
-            {
-                "id": 249,
-                "lat": 37.79253262597779,
-                "lng": -122.40364909172058,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Bank of America (555 California)",
-                "-notes": "Reserved spaces $110/mo."
-            },
-            {
-                "id": 250,
-                "lat": 37.77959360663275,
-                "lng": -122.41765022277832,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Civic Center Garage (355 McAllister)",
-                "-notes": "$4.00/day, $60/mo."
-            },
-            {
-                "id": 251,
-                "lat": 37.791099779293255,
-                "lng": -122.40317702293396,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Crocker Galleria",
-                "-notes": "spaces for lease $65/mo."
-            },
-            {
-                "id": 252,
-                "lat": 37.768178934763505,
-                "lng": -122.43544936180115,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Davies Medical Center (45 Castro)",
-                "-notes": "Reserved spaces $40/mo.; see Patient Svcs, left lobby"
-            },
-            {
-                "id": 253,
-                "lat": 37.786868904158666,
-                "lng": -122.40699648857116,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Ellis-O'Farrell Garage (123 O'Farrell)",
-                "-notes": "$5.00/day, $70/mo."
-            },
-            {
-                "id": 254,
-                "lat": 37.78318894806246,
-                "lng": -122.40511894226074,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Fifth &Mission Garage (833 Mission)",
-                "-notes": "$5.00/day, $70/mo."
-            },
-            {
-                "id": 255,
-                "lat": 37.79550844953692,
-                "lng": -122.40369200706482,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Garage Sciences (Washington near Columbus)",
-                "-notes": "Spaces for lease $50/mo."
-            },
-            {
-                "id": 256,
-                "lat": 37.79541519192846,
-                "lng": -122.398681640625,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Golden Gateway Garage",
-                "-notes": "$7.00/day, $90/mo."
-            },
-            {
-                "id": 257,
-                "lat": 37.777914590120154,
-                "lng": -122.41406679153442,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Holiday Inn SF Central (50 Eighth St)",
-                "-notes": "Garaged spaces $165/mo."
-            },
-            {
-                "id": 259,
-                "lat": 37.78497807402849,
-                "lng": -122.43031024932861,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Japan Center (1610 Geary)",
-                "-notes": "Closes at midnight, $4.00/day, $60/mo."
-            },
-            {
-                "id": 262,
-                "lat": 37.79984903704993,
-                "lng": -122.43524551391601,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Lombard Street Garage (2055 Lombard)",
-                "-notes": "$60/mo."
-            },
-            {
-                "id": 263,
-                "lat": 37.756796430299374,
-                "lng": -122.41984963417053,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Mission-Bartlett Garage",
-                "-notes": "$60/mo."
-            },
-            {
-                "id": 264,
-                "lat": 37.79844176513279,
-                "lng": -122.40938901901245,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "North Beach Garage (735 Vallejo St)",
-                "-notes": "$4.00/day, $60/mo."
-            },
-            {
-                "id": 261,
-                "lat": 37.77805874960015,
-                "lng": -122.42243528366089,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Performing Arts Center Garage (360 Grove)",
-                "-notes": "$4.00/day, $60/mo."
-            },
-            {
-                "id": 265,
-                "lat": 37.754565525566484,
-                "lng": -122.40452885627746,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "SF General Hospital",
-                "-notes": "$3.00/day, $50/mo."
-            },
-            {
-                "id": 266,
-                "lat": 37.792176536497024,
-                "lng": -122.4045181274414,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "St. Mary's Square Garage",
-                "-notes": "$70/mo."
-            },
-            {
-                "id": 260,
-                "lat": 37.7899975706282,
-                "lng": -122.40918517112732,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Sutter-Stockton (444 Stockton)",
-                "-notes": "Difficult bike entrance on Bush St, $5.00/day, $65/mo."
-            },
-            {
-                "id": 267,
-                "lat": 37.78825943894311,
-                "lng": -122.40766167640686,
-                "free": false,
-                "nbhood": "Garages",
-                "title": "Union Square Garage",
-                "-notes": "$5.00/day, $70/mo."
-            },
-            {
-                "id": 227,
-                "lat": 37.765371639249565,
-                "lng": -122.45421409606933,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Carl at Willard"
-            },
-            {
-                "id": 225,
-                "lat": 37.767390188782336,
-                "lng": -122.4457597732544,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Frederick at Delmar"
-            },
-            {
-                "id": 226,
-                "lat": 37.765843,
-                "lng": -122.457453,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Frederick at Arguello, on the tip of the 'island'"
-            },
-            {
-                "id": 224,
-                "lat": 37.76995146223971,
-                "lng": -122.44728326797485,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Haight at Ashbury"
-            },
-            {
-                "id": 69,
-                "lat": 37.77005323286240,
-                "lng": -122.44621038436800,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Haight btw Masonic &Ashbury - south side"
-            },
-            {
-                "id": 70,
-                "lat": 37.77018892680820,
-                "lng": -122.44621038436800,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Haight btw Masonic &Ashbury - north side"
-            },
-            {
-                "id": 71,
-                "lat": 37.77046031395270,
-                "lng": -122.44406461715600,
-                "spaces": "7",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Haight btw Masonic &Central"
-            },
-            {
-                "id": 72,
-                "lat": 37.76935779748210,
-                "lng": -122.45247602462700,
-                "spaces": "11",
-                "free": false,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Haight btw Shrader &Stanyan"
-            },
-            {
-                "id": 68,
-                "lat": 37.77213949976110,
-                "lng": -122.43095397949200,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Haight btw Steiner &Fillmore"
-            },
-            {
-                "id": 125,
-                "lat": 37.771470,
-                "lng": -122.427502,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Waller btw Webster &Buchanan - south side"
-            },
-            {
-                "id": 73,
-                "lat": 37.76448956669390,
-                "lng": -122.45790481567300,
-                "spaces": "4",
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Irving at Arguello"
-            },
-            {
-                "id": 222,
-                "lat": 37.77083346965009,
-                "lng": -122.44848489761352,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Page at Clayton"
-            },
-            {
-                "id": 74,
-                "lat": 37.76309858475090,
-                "lng": -122.45962142944300,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Parnassus, at UCSF steps",
-                "-notes": "Usually full by 6:30am"
-            },
-            {
-                "id": 223,
-                "lat": 37.76869627970943,
-                "lng": -122.45020151138305,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Haight-Ashbury / UCSF",
-                "title": "Waller at Cole"
-            },
-            {
-                "id": 216,
-                "lat": 37.78355356018544,
-                "lng": -122.43258476257324,
-                "spaces": "10",
-                "free": true,
-                "nbhood": "Japantown",
-                "title": "Fillmore at O'Farrell"
-            },
-            {
-                "id": 36,
-                "lat": 37.78709783546510,
-                "lng": -122.43996620178200,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Japantown",
-                "title": "Pine at Divisadero",
-                "-notes": "Bottom of westside steps, Alamo Square"
-            },
-            {
-                "id": 75,
-                "lat": 37.78563944612240,
-                "lng": -122.43009567260700,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Japantown",
-                "title": "Post at Buchanan"
-            },
-            {
-                "id": 76,
-                "lat": 37.78530028168530,
-                "lng": -122.43271350860500,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Japantown",
-                "title": "Post near Fillmore"
-            },
-            {
-                "id": 217,
-                "lat": 37.7853172399442,
-                "lng": -122.44028806686401,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Japantown",
-                "title": "Sutter at Divisidero"
-            },
-            {
-                "id": 215,
-                "lat": 37.78426582053905,
-                "lng": -122.43082523345947,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Japantown",
-                "title": "Webster at Geary"
-            },
-            {
-                "id": 280,
-                "lat": 37.748799,
-                "lng": -122.459628,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Laguna Honda",
-                "title": "Laguna Honda at Plaza"
-            },
-            {
-                "id": 233,
-                "lat": 37.75468428264667,
-                "lng": -122.46402025222778,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Laguna Honda",
-                "title": "Noriega at Laguna Honda"
-            },
-            {
-                "id": 220,
-                "lat": 37.800222044388384,
-                "lng": -122.43616819381714,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Fillmore north of Lombard",
-                "-notes": "Ill advised, bad corner"
-            },
-            {
-                "id": 218,
-                "lat": 37.802443094538226,
-                "lng": -122.430739402771,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Francisco btw Laguna &Octavia"
-            },
-            {
-                "id": 176,
-                "lat": 37.79822134662092,
-                "lng": -122.42024660110473,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Green btw Hyde &Larkin"
-            },
-            {
-                "id": 178,
-                "lat": 37.80117150911384,
-                "lng": -122.4193024635315,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Greenwich at Hyde"
-            },
-            {
-                "id": 179,
-                "lat": 37.802631,
-                "lng": -122.421628,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Chestnut at Larkin"
-            },
-            {
-                "id": 177,
-                "lat": 37.799391252741934,
-                "lng": -122.42086887359619,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Larkin btw Filbert &Union"
-            },
-            {
-                "id": 219,
-                "lat": 37.80308735613073,
-                "lng": -122.43000984191894,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Octavia at Francisco"
-            },
-            {
-                "id": 77,
-                "lat": 37.80013727015860,
-                "lng": -122.43957996368400,
-                "spaces": "9",
-                "free": false,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Pierce at Chestnut"
-            },
-            {
-                "id": 221,
-                "lat": 37.79689882173807,
-                "lng": -122.43685483932495,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Union at Steiner"
-            },
-            {
-                "id": 79,
-                "lat": 37.79839089938070,
-                "lng": -122.42604017257600,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Union btw Gough &Octavia"
-            },
-            {
-                "id": 78,
-                "lat": 37.79778050762410,
-                "lng": -122.43095397949200,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Union btw Laguna &Buchanan"
-            },
-            {
-                "id": 80,
-                "lat": 37.79850958608100,
-                "lng": -122.42520332336400,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Union btw Van Ness &Franklin"
-            },
-            {
-                "id": 173,
-                "lat": 37.79667839862233,
-                "lng": -122.42498874664306,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Vallejo at Van Ness"
-            },
-            {
-                "id": 175,
-                "lat": 37.79730575499307,
-                "lng": -122.41968870162964,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Vallejo btw Larkin &Hyde"
-            },
-            {
-                "id": 174,
-                "lat": 37.797068377533414,
-                "lng": -122.4213194847107,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Marina / Cow Hollow",
-                "title": "Vallejo btw Larkin &Polk"
-            },
-            {
-                "id": 85,
-                "lat": 37.76496453014650,
-                "lng": -122.42312192916800,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Mission - Inner",
-                "title": "16th btw Valencia and Guerrero"
-            },
-            {
-                "id": 166,
-                "lat": 37.76389585808897,
-                "lng": -122.41486072540283,
-                "spaces": "7",
-                "free": true,
-                "nbhood": "Mission - Inner",
-                "title": "17th at Folsom"
-            },
-            {
-                "id": 84,
-                "lat": 37.76006208206860,
-                "lng": -122.42224216461100,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Mission - Inner",
-                "title": "19th btw Valencia and Guerrero"
-            },
-            {
-                "id": 164,
-                "lat": 37.76379407899244,
-                "lng": -122.41850852966308,
-                "spaces": "10",
-                "free": true,
-                "nbhood": "Mission - Inner",
-                "title": "Capp at 17th St"
-            },
-            {
-                "id": 167,
-                "lat": 37.7560436135038,
-                "lng": -122.42255330085754,
-                "spaces": "5",
-                "free": true,
-                "nbhood": "Mission - Inner",
-                "title": "Hill St.(close to Guerrero)"
-            },
-            {
-                "id": 168,
-                "lat": 37.75677098309616,
-                "lng": -122.41891622543335,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Mission - Inner",
-                "title": "Mission at 21st"
-            },
-            {
-                "id": 165,
-                "lat": 37.763505704124995,
-                "lng": -122.41621255874634,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Mission - Inner",
-                "title": "Shotwell at 17th St"
-            },
-            {
-                "id": 163,
-                "lat": 37.76613496277764,
-                "lng": -122.42217779159546,
-                "spaces": "18",
-                "free": false,
-                "nbhood": "Mission - Inner",
-                "title": "Valencia at 15th St"
-            },
-            {
-                "id": 81,
-                "lat": 37.76284413400410,
-                "lng": -122.42179155349700,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Mission - Inner",
-                "title": "Valencia btw 17th &18th"
-            },
-            {
-                "id": 82,
-                "lat": 37.76119866470870,
-                "lng": -122.42149114608700,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Mission - Inner",
-                "title": "Valencia btw 18th &19th"
-            },
-            {
-                "id": 83,
-                "lat": 37.75807726155250,
-                "lng": -122.42131948471000,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Mission - Inner",
-                "title": "Valencia btw 20th & 21st"
-            },
-            {
-                "id": 237,
-                "lat": 37.75386994455459,
-                "lng": -122.41559028625488,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Mission - Outer",
-                "title": "23rd &Shotwell"
-            },
-            {
-                "id": 238,
-                "lat": 37.752427865527316,
-                "lng": -122.41599798202514,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Mission - Outer",
-                "title": "24th St at S Van Ness"
-            },
-            {
-                "id": 269,
-                "lat": 37.752563,
-                "lng": -122.412489,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Mission - Outer",
-                "title": "24th St at Balmy"
-            },
-            {
-                "id": 239,
-                "lat": 37.75300470051097,
-                "lng": -122.41320848464966,
-                "spaces": "7",
-                "free": false,
-                "nbhood": "Mission - Outer",
-                "title": "Treat at 24th St"
-            },
-            {
-                "id": 169,
-                "lat": 37.790104,
-                "lng": -122.409686,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "Nob Hill",
-                "title": "Bush btw. Mason &Powell"
-            },
-            {
-                "id": 86,
-                "lat": 37.79191370744610,
-                "lng": -122.41127729415800,
-                "spaces": "5",
-                "free": true,
-                "nbhood": "Nob Hill",
-                "title": "California btw Taylor &Mason"
-            },
-            {
-                "id": 87,
-                "lat": 37.79318545223530,
-                "lng": -122.41586923599200,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Nob Hill",
-                "title": "Clay at Leavenworth",
-                "-notes": "often full"
-            },
-            {
-                "id": 88,
-                "lat": 37.78976016968680,
-                "lng": -122.41730690002400,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Nob Hill",
-                "title": "Hyde at Pine"
-            },
-            {
-                "id": 170,
-                "lat": 37.79388066346596,
-                "lng": -122.41292953491211,
-                "spaces": "9",
-                "free": true,
-                "nbhood": "Nob Hill",
-                "title": "Taylor at Clay"
-            },
-            {
-                "id": 89,
-                "lat": 37.78943798147490,
-                "lng": -122.41200685501000,
-                "spaces": "10",
-                "free": false,
-                "nbhood": "Nob Hill",
-                "title": "Taylor btw Sutter &Bush",
-                "-notes": "Angled parking, "
-            },
-            {
-                "id": 286,
-                "lat": 37.78828487531132,
-                "lng": -122.42305755615234,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Bush at Franklin"
-            },
-            {
-                "id": 281,
-                "lat": 37.79077759692252,
-                "lng": -122.41890549659729,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "California at Larkin"
-            },
-            {
-                "id": 90,
-                "lat": 37.78923449345950,
-                "lng": -122.42419481277400,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Polk Gulch",
-                "title": "Pine west of Franklin"
-            },
-            {
-                "id": 182,
-                "lat": 37.78663997214301,
-                "lng": -122.41844415664673,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Cedar at Larkin"
-            },
-            {
-                "id": 183,
-                "lat": 37.78638560240496,
-                "lng": -122.41775751113891,
-                "spaces": "5",
-                "free": true,
-                "nbhood": "Polk Gulch",
-                "title": "Geary at Larkin"
-            },
-            {
-                "id": 91,
-                "lat": 37.794066,
-                "lng": -122.421650,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Jackson east of Polk"
-            },
-            {
-                "id": 92,
-                "lat": 37.787640,
-                "lng": -122.418336,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Larkin btw Sutter &Post"
-            },
-            {
-                "id": 93,
-                "lat": 37.78528332342260,
-                "lng": -122.42174863815300,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Myrtle at Van Ness"
-            },
-            {
-                "id": 185,
-                "lat": 37.78584294403752,
-                "lng": -122.42408752441406,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Polk Gulch",
-                "title": "Peter Yorke Way",
-                "-notes": "Poorly marked, often parked on by cars"
-            },
-            {
-                "id": 97,
-                "lat": 37.78953124662810,
-                "lng": -122.42177009582500,
-                "spaces": "15",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Pine btw Polk &Van Ness",
-                "-notes": "Often used illegally by cars after dark."
-            },
-            {
-                "id": 184,
-                "lat": 37.78850532346908,
-                "lng": -122.4202036857605,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Polk at Bush"
-            },
-            {
-                "id": 186,
-                "lat": 37.784282779035216,
-                "lng": -122.41949558258056,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Polk at Ellis"
-            },
-            {
-                "id": 94,
-                "lat": 37.78703848297230,
-                "lng": -122.41994619369500,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Polk at Post"
-            },
-            {
-                "id": 95,
-                "lat": 37.79669535426990,
-                "lng": -122.42200613021800,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Polk btw Broadway &Vallejo"
-            },
-            {
-                "id": 96,
-                "lat": 37.79305827874140,
-                "lng": -122.42124438285800,
-                "nbhood": "Polk Gulch",
-                "title": "Polk btw Washington &Clay"
-            },
-            {
-                "id": 187,
-                "lat": 37.78365531208477,
-                "lng": -122.41902351379394,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Polk Gulch",
-                "title": "Willow at Polk"
-            },
-            {
-                "id": 98,
-                "lat": 37.78187463362180,
-                "lng": -122.46105909347500,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "Richmond - Inner",
-                "title": "3rd Ave btw Geary &Clement"
-            },
-            {
-                "id": 232,
-                "lat": 37.784471,
-                "lng": -122.462339,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Richmond - Inner",
-                "title": "4th Ave at Cornwall"
-            },
-            {
-                "id": 231,
-                "lat": 37.783536601521924,
-                "lng": -122.46346235275268,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Richmond - Inner",
-                "title": "5th Ave at Clement"
-            },
-            {
-                "id": 229,
-                "lat": 37.77705810741294,
-                "lng": -122.46389150619507,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "Richmond - Inner",
-                "title": "6th Ave at Balboa"
-            },
-            {
-                "id": 284,
-                "lat": 37.773611,
-                "lng": -122.463607,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Richmond - Inner",
-                "title": "Fulton at 6th Ave"
-            },
-            {
-                "id": 228,
-                "lat": 37.778652344496926,
-                "lng": -122.46822595596313,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Richmond - Inner",
-                "title": "9th Ave at Anza"
-            },
-            {
-                "id": 100,
-                "lat": 37.78214597787240,
-                "lng": -122.44942903518600,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "Richmond - Inner",
-                "title": "Geary at Wood"
-            },
-            {
-                "id": 99,
-                "lat": 37.78131498295900,
-                "lng": -122.46170282363800,
-                "spaces": "10",
-                "free": false,
-                "nbhood": "Richmond - Inner",
-                "title": "Geary btw 3rd &4th Aves"
-            },
-            {
-                "id": 230,
-                "lat": 37.7831974274346,
-                "lng": -122.45788335800171,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Richmond - Inner",
-                "title": "Palm at Euclid"
-            },
-            {
-                "id": 101,
-                "lat": 37.77809266943690,
-                "lng": -122.49228000640800,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Richmond - Outer",
-                "title": "32nd Ave at Anza"
-            },
-            {
-                "id": 181,
-                "lat": 37.79659362032577,
-                "lng": -122.41507530212402,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "Russian Hill",
-                "title": "Jones at Broadway"
-            },
-            {
-                "id": 180,
-                "lat": 37.797970,
-                "lng": -122.413805,
-                "spaces": "10",
-                "free": true,
-                "nbhood": "Russian Hill",
-                "title": "Taylor at Vallejo",
-                "-notes": "Need to verify exact count"
-            },
-            {
-                "id": 102,
-                "lat": 37.794628,
-                "lng": -122.413068,
-                "spaces": "6",
-                "free": true,
-                "nbhood": "Russian Hill",
-                "title": "Taylor at Jackson",
-                "-notes": "2 sets of 2, between driveways"
-            },
-            {
-                "id": 208,
-                "lat": 37.77188508012014,
-                "lng": -122.4020504951477,
-                "spaces": "16",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "7th at Townsend"
-            },
-            {
-                "id": 103,
-                "lat": 37.77544687542860,
-                "lng": -122.40629911422700,
-                "nbhood": "SOMA above 7th Street",
-                "title": "7th St south of Harrison"
-            },
-            {
-                "id": 104,
-                "lat": 37.77541295437780,
-                "lng": -122.41050481796200,
-                "spaces": "22",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "8th St btw Howard &Folsom"
-            },
-            {
-                "id": 285,
-                "lat": 37.770197407671574,
-                "lng": -122.40402460098267,
-                "spaces": "3",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "8th at Townsend"
-            },
-            {
-                "id": 105,
-                "lat": 37.77146104543970,
-                "lng": -122.40887403488100,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "9th at Bryant"
-            },
-            {
-                "id": 205,
-                "lat": 37.774785412131244,
-                "lng": -122.41305828094482,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "9th at Howard"
-            },
-            {
-                "id": 106,
-                "lat": 37.77202077070420,
-                "lng": -122.40960359573300,
-                "spaces": "5",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "9th btw Bryant &Harrison"
-            },
-            {
-                "id": 107,
-                "lat": 37.775473,
-                "lng": -122.418424,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "10th St at Market"
-            },
-            {
-                "id": 109,
-                "lat": 37.77249568578770,
-                "lng": -122.41228580474800,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "10th St btw Folsom &Harrison"
-            },
-            {
-                "id": 108,
-                "lat": 37.77490413674860,
-                "lng": -122.41539716720500,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "10th St btw Mission &Howard"
-            },
-            {
-                "id": 110,
-                "lat": 37.771466,
-                "lng": -122.413659,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "11th St near Folsom"
-            },
-            {
-                "id": 204,
-                "lat": 37.77135927675464,
-                "lng": -122.4157190322876,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "12th St btw Folsom &Howard"
-            },
-            {
-                "id": 211,
-                "lat": 37.766915240907735,
-                "lng": -122.41299390792846,
-                "spaces": "1",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "15th St at Harrison"
-            },
-            {
-                "id": 209,
-                "lat": 37.766525102871746,
-                "lng": -122.39889621734619,
-                "spaces": "10",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "16th St at Arkansas"
-            },
-            {
-                "id": 210,
-                "lat": 37.76627066391339,
-                "lng": -122.4020504951477,
-                "spaces": "14",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "16th St at De Haro"
-            },
-            {
-                "id": 274,
-                "lat": 37.766302,
-                "lng": -122.398934,
-                "spaces": "10",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "16th at 8th St"
-            },
-            {
-                "id": 111,
-                "lat": 37.77415786455790,
-                "lng": -122.40507602691600,
-                "spaces": "15",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Bryant at 7th St"
-            },
-            {
-                "id": 200,
-                "lat": 37.769883615080076,
-                "lng": -122.42183446884155,
-                "spaces": "12",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Duboce at Valencia"
-            },
-            {
-                "id": 206,
-                "lat": 37.77471756940714,
-                "lng": -122.41050481796264,
-                "spaces": "5",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Folsom at 8th"
-            },
-            {
-                "id": 202,
-                "lat": 37.77051119893143,
-                "lng": -122.41265058517456,
-                "spaces": "16",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Harrison at 11th"
-            },
-            {
-                "id": 112,
-                "lat": 37.77225822862730,
-                "lng": -122.41059064865100,
-                "spaces": "5",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Harrison btw 9th &10th"
-            },
-            {
-                "id": 197,
-                "lat": 37.773411584834484,
-                "lng": -122.41552591323852,
-                "spaces": "8",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Howard at 11th"
-            },
-            {
-                "id": 207,
-                "lat": 37.7766849831305,
-                "lng": -122.4113416671753,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Howard at 8th"
-            },
-            {
-                "id": 199,
-                "lat": 37.771511929729804,
-                "lng": -122.42116928100586,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Jessie St"
-            },
-            {
-                "id": 201,
-                "lat": 37.77071473849608,
-                "lng": -122.41962432861328,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Mission at Duboce"
-            },
-            {
-                "id": 203,
-                "lat": 37.7709861237108,
-                "lng": -122.41357326507568,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Norfolk St"
-            },
-            {
-                "id": 198,
-                "lat": 37.77113877745632,
-                "lng": -122.41889476776123,
-                "spaces": "5",
-                "free": true,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Plum St"
-            },
-            {
-                "id": 114,
-                "lat": 37.77037550557700,
-                "lng": -122.42252111434900,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Valencia at Duboce"
-            },
-            {
-                "id": 113,
-                "lat": 37.76905248232240,
-                "lng": -122.42219924926700,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "SOMA above 7th Street",
-                "title": "Valencia btw Duboce &14th St"
-            },
-            {
-                "id": 245,
-                "lat": 37.727740,
-                "lng": -122.476168,
-                "spaces": "4",
-                "free": true,
-                "nbhood": "Stonestown",
-                "title": "Stonestown parking lot",
-                "-notes": "Near the Olive Garden by the handicapped spots"
-            },
-            {
-                "id": 115,
-                "lat": 37.76359052037910,
-                "lng": -122.46623039245600,
-                "spaces": "2",
-                "free": true,
-                "nbhood": "Sunset - Inner",
-                "title": "9th Ave btw Irving &Judah"
-            },
-            {
-                "id": 247,
-                "lat": 37.762145,
-                "lng": -122.465426,
-                "spaces": "2",
-                "free": false,
-                "nbhood": "Sunset - Inner",
-                "title": "Judah, at #331, just east of (uphill from) 9th Ave",
-                "-notes": "Rarely used"
-            },
-            {
-                "id": 116,
-                "lat": 37.80163775964460,
-                "lng": -122.40159988403300,
-                "spaces": "18",
-                "free": false,
-                "nbhood": "Telegraph Hill",
-                "title": "Battery north of Union"
-            },
-            {
-                "id": 117,
-                "lat": 37.80125628215650,
-                "lng": -122.40152478218000,
-                "spaces": "14",
-                "free": false,
-                "nbhood": "Telegraph Hill",
-                "title": "Battery south of Union"
-            },
-            {
-                "id": 188,
-                "lat": 37.7851815737647,
-                "lng": -122.41089105606079,
-                "spaces": "10",
-                "free": false,
-                "nbhood": "Union Square",
-                "title": "Ellis at Taylor"
-            },
-            {
-                "id": 55,
-                "lat": 37.78890382423920,
-                "lng": -122.40532279014500,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Union Square",
-                "title": "Grant at Post, NW corner"
-            },
-            {
-                "id": 118,
-                "lat": 37.78726741375340,
-                "lng": -122.40490436553900,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Union Square",
-                "title": "Grant btw O'Farrell &Geary"
-            },
-            {
-                "id": 120,
-                "lat": 37.78690281995250,
-                "lng": -122.40979671478200,
-                "spaces": "10",
-                "free": false,
-                "nbhood": "Union Square",
-                "title": "Mason btw Geary &O'Farrell"
-            },
-            {
-                "id": 134,
-                "lat": 37.784537156011055,
-                "lng": -122.4093246459961,
-                "spaces": "4",
-                "free": false,
-                "nbhood": "Union Square",
-                "title": "Mason north of Eddy"
-            },
-            {
-                "id": 135,
-                "lat": 37.7851900529082,
-                "lng": -122.40947484970093,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Union Square",
-                "title": "Mason south of Ellis"
-            },
-            {
-                "id": 121,
-                "lat": 37.78769135777160,
-                "lng": -122.41378784179600,
-                "spaces": "6",
-                "free": false,
-                "nbhood": "Union Square",
-                "title": "Post west of Jones"
-            },
-            {
-                "id": 123,
-                "lat": 37.80317212697450,
-                "lng": -122.40293025970400,
-                "spaces": "12",
-                "free": false,
-                "nbhood": "Waterfront",
-                "title": "Greenwich btw Battery &Sansome"
-            },
-            {
-                "id": 124,
-                "lat": 37.80490143094970,
-                "lng": -122.40523695945700,
-                "spaces": "9",
-                "free": false,
-                "nbhood": "Waterfront",
-                "title": "Montgomery at Chestnut"
-            },
-            {
-                "id": 122,
-                "lat": 37.80095957608140,
-                "lng": -122.39946484565700,
-                "spaces": "3",
-                "free": false,
-                "nbhood": "Waterfront",
-                "title": "The Embarcadero at Green St.",
-                "-notes": "Port Authority meters. No dollar coins or parking cards."
-            }
-        ]
+[
+    {
+        "id": 12,
+        "lat": 37.7644386775717,
+        "lng": -122.431254386901,
+        "spaces": 3,
+        "free": true,
+        "address": "3506 16th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 157,
+        "lat": 37.761181700917085,
+        "lng": -122.43179082870483,
+        "spaces": 2,
+        "free": true,
+        "address": "3948 18th Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 0,
+        "lat": 37.76102054470269,
+        "lng": -122.43415117263794,
+        "spaces": 8,
+        "free": false,
+        "address": "4053 18th Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 1,
+        "lat": 37.7608424242677,
+        "lng": -122.435588836669,
+        "spaces": 6,
+        "free": false,
+        "address": "4147-4159 18th Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 234,
+        "lat": 37.75127418206904,
+        "lng": -122.43503093719482,
+        "spaces": 2,
+        "free": true,
+        "address": "4144 24th Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 236,
+        "lat": 37.74728704926916,
+        "lng": -122.4220061302185,
+        "spaces": 2,
+        "free": true,
+        "address": "1499 Guerrero Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 2,
+        "lat": 37.76190265862991,
+        "lng": -122.43512749671936,
+        "spaces": 6,
+        "free": false,
+        "address": "436 Castro Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 276,
+        "lat": 37.76211470367867,
+        "lng": -122.43514895439148,
+        "spaces": 6,
+        "free": false,
+        "address": "Castro St & Market St, Castro Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 159,
+        "lat": 37.76662687821001,
+        "lng": -122.42876529693604,
+        "spaces": 2,
+        "free": false,
+        "address": "259 Church Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 161,
+        "lat": 37.768249,
+        "lng": -122.426612,
+        "spaces": 3,
+        "free": true,
+        "address": "73 Dolores Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 162,
+        "lat": 37.76292895101701,
+        "lng": -122.426598072052,
+        "spaces": 2,
+        "free": true,
+        "address": "3619 17th Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 160,
+        "lat": 37.76883197614526,
+        "lng": -122.42664098739624,
+        "spaces": 4,
+        "free": true,
+        "address": "11 Dolores Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 235,
+        "lat": 37.74530188602822,
+        "lng": -122.42455959320068,
+        "spaces": 7,
+        "free": true,
+        "address": "1506 Dolores Street, San Francisco, CA 94131, USA"
+    },
+    {
+        "id": 158,
+        "lat": 37.76213166725632,
+        "lng": -122.42966651916504,
+        "spaces": 3,
+        "free": true,
+        "address": "290 Dorland Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 3,
+        "lat": 37.7693747593985,
+        "lng": -122.431769371032,
+        "spaces": 6,
+        "free": true,
+        "address": "500-530 Duboce Avenue, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 4,
+        "lat": 37.7600451180164,
+        "lng": -122.438163757324,
+        "address": "125 Eureka Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 126,
+        "lat": 37.770108,
+        "lng": -122.424518,
+        "spaces": 3,
+        "free": true,
+        "address": "65 Guerrero Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 5,
+        "lat": 37.7636922997558,
+        "lng": -122.433636188507,
+        "spaces": 6,
+        "free": false,
+        "address": "2325-2327 Market Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 9,
+        "lat": 37.7655921557447,
+        "lng": -122.433378696441,
+        "spaces": 2,
+        "free": true,
+        "address": "206 Noe Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 10,
+        "lat": 37.751189351693,
+        "lng": -122.431833744049,
+        "spaces": 6,
+        "free": false,
+        "address": "1101-1119 Noe Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 11,
+        "lat": 37.7522222,
+        "lng": -122.431597,
+        "spaces": 2,
+        "free": true,
+        "address": "485-499 Elizabeth Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 6,
+        "lat": 37.7646931228328,
+        "lng": -122.433099746704,
+        "spaces": 6,
+        "free": false,
+        "address": "281-299 Noe Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 7,
+        "lat": 37.7634208877735,
+        "lng": -122.433142662048,
+        "spaces": 4,
+        "free": true,
+        "address": "340 Noe Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 129,
+        "lat": 37.80056961771293,
+        "lng": -122.41061210632324,
+        "spaces": 8,
+        "free": false,
+        "address": "601-671 Columbus Avenue, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 13,
+        "lat": 37.7989165104629,
+        "lng": -122.408198118209,
+        "spaces": 6,
+        "free": false,
+        "address": "400-450 Barbary Coast Trail, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 15,
+        "lat": 37.7998659919698,
+        "lng": -122.408230304718,
+        "spaces": 6,
+        "free": false,
+        "address": "2-24 Jasper, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 16,
+        "lat": 37.8001118378707,
+        "lng": -122.404164075851,
+        "spaces": 9,
+        "free": true,
+        "address": "273-299 Green Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 14,
+        "lat": 37.799403,
+        "lng": -122.403402,
+        "spaces": 6,
+        "free": false,
+        "address": "362 Vallejo Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 17,
+        "lat": 37.7973396659964,
+        "lng": -122.40359544754,
+        "spaces": 6,
+        "free": false,
+        "address": "480 Pacific Avenue, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 128,
+        "lat": 37.80615599868537,
+        "lng": -122.41536498069763,
+        "spaces": 5,
+        "free": false,
+        "address": "2552-2598 Taylor Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 172,
+        "lat": 37.80257872902474,
+        "lng": -122.40651369094849,
+        "spaces": 2,
+        "free": true,
+        "address": "167-195 Telegraph Hill Boulevard, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 18,
+        "lat": 37.798721526143,
+        "lng": -122.407661676406,
+        "spaces": 10,
+        "free": false,
+        "address": "611 Vallejo Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 242,
+        "lat": 37.77505678240509,
+        "lng": -122.44121074676514,
+        "spaces": 1,
+        "free": true,
+        "address": "420-498 Baker Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 243,
+        "lat": 37.77634577760317,
+        "lng": -122.44485855102539,
+        "spaces": 4,
+        "free": true,
+        "address": "715 Central Avenue, San Francisco, CA 94118, USA"
+    },
+    {
+        "id": 20,
+        "lat": 37.7803143848498,
+        "lng": -122.418165206909,
+        "spaces": 13,
+        "free": false,
+        "address": "367-399 McAllister Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 21,
+        "lat": 37.7798225604751,
+        "lng": -122.418444156646,
+        "spaces": 6,
+        "free": false,
+        "address": "400 Doctor Carlton B Goodlett Place, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 22,
+        "lat": 37.776517,
+        "lng": -122.418814,
+        "spaces": 10,
+        "free": false,
+        "address": "50 Fell Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 277,
+        "lat": 37.773962814902774,
+        "lng": -122.43801355361938,
+        "spaces": 1,
+        "free": true,
+        "address": "1201-1231 Fell Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 23,
+        "lat": 37.7764644997147,
+        "lng": -122.431232929229,
+        "spaces": 6,
+        "free": true,
+        "address": "722 Fillmore Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 195,
+        "lat": 37.77604049129784,
+        "lng": -122.4209976196289,
+        "spaces": 2,
+        "free": false,
+        "address": "150 Franklin Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 26,
+        "lat": 37.7791950556599,
+        "lng": -122.421684265136,
+        "spaces": 6,
+        "free": false,
+        "address": "466-530 Franklin Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 24,
+        "lat": 37.7772955491576,
+        "lng": -122.42131948471,
+        "address": "300 Franklin Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 25,
+        "lat": 37.7798056009555,
+        "lng": -122.415322065353,
+        "spaces": 3,
+        "free": false,
+        "address": "48 Fulton Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 189,
+        "lat": 37.78201030587168,
+        "lng": -122.41419553756714,
+        "spaces": 6,
+        "free": false,
+        "address": "220 Golden Gate Avenue, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 27,
+        "lat": 37.7811284317964,
+        "lng": -122.420160770416,
+        "spaces": 2,
+        "free": false,
+        "address": "558-598 Golden Gate Avenue, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 28,
+        "lat": 37.7814845745164,
+        "lng": -122.417328357696,
+        "spaces": 16,
+        "free": false,
+        "address": "400-450 Golden Gate Avenue, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 241,
+        "lat": 37.774785412131244,
+        "lng": -122.44054555892944,
+        "spaces": 1,
+        "free": true,
+        "address": "1458 Hayes Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 240,
+        "lat": 37.77488717610065,
+        "lng": -122.43919372558594,
+        "spaces": 2,
+        "free": true,
+        "address": "1396 Hayes Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 29,
+        "lat": 37.7770072269398,
+        "lng": -122.422499656677,
+        "spaces": 4,
+        "free": false,
+        "address": "370 Hayes Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 30,
+        "lat": 37.7810775541249,
+        "lng": -122.415354251861,
+        "spaces": 31,
+        "free": false,
+        "address": "76 Hyde Street, UC Hastings College of the Law, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 248,
+        "lat": 37.77400521704548,
+        "lng": -122.42735981941223,
+        "address": "386 Lily Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 194,
+        "lat": 37.77378472563779,
+        "lng": -122.42052555084229,
+        "spaces": 6,
+        "free": false,
+        "address": "1621 Market Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 190,
+        "lat": 37.78084012452816,
+        "lng": -122.41398096084595,
+        "spaces": 9,
+        "free": false,
+        "address": "101-153 McAllister Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 31,
+        "lat": 37.780649,
+        "lng": -122.420219,
+        "spaces": 4,
+        "free": false,
+        "address": "180 Redwood Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 32,
+        "lat": 37.7753620727725,
+        "lng": -122.420697212219,
+        "spaces": 7,
+        "free": false,
+        "address": "392 Franklin Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 191,
+        "lat": 37.77551471748351,
+        "lng": -122.42415189743042,
+        "spaces": 6,
+        "free": true,
+        "address": "350-398 Octavia Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 279,
+        "lat": 37.772833,
+        "lng": -122.423454,
+        "spaces": 6,
+        "free": true,
+        "address": "71 Haight Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 214,
+        "lat": 37.77230911236875,
+        "lng": -122.43689775466919,
+        "spaces": 2,
+        "free": true,
+        "address": "978 Page Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 193,
+        "lat": 37.77434443331179,
+        "lng": -122.4222207069397,
+        "spaces": 7,
+        "free": false,
+        "address": "110 Gough Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 33,
+        "lat": 37.7730045199922,
+        "lng": -122.431597709655,
+        "spaces": 2,
+        "free": true,
+        "address": "632 San Francisco Bicycle Route 32, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 192,
+        "lat": 37.77409002125797,
+        "lng": -122.42325067520142,
+        "spaces": 6,
+        "free": false,
+        "address": "144 San Francisco Bicycle Route 32, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 34,
+        "lat": 37.7728518700985,
+        "lng": -122.433035373687,
+        "spaces": 2,
+        "free": true,
+        "address": "738 Page Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 35,
+        "lat": 37.7722582286273,
+        "lng": -122.433829307556,
+        "spaces": 4,
+        "free": true,
+        "address": "230-298 Pierce Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 212,
+        "lat": 37.77621009495645,
+        "lng": -122.43621110916138,
+        "spaces": 4,
+        "free": true,
+        "address": "700-798 Scott Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 37,
+        "lat": 37.7780248297478,
+        "lng": -122.433485984802,
+        "spaces": 6,
+        "free": true,
+        "address": "943 Steiner Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 38,
+        "lat": 37.7787541031434,
+        "lng": -122.433636188507,
+        "spaces": 6,
+        "free": true,
+        "address": "1025 Steiner Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 39,
+        "lat": 37.7820951009013,
+        "lng": -122.419302463531,
+        "spaces": 12,
+        "free": false,
+        "address": "625 Turk Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 213,
+        "lat": 37.78009391225896,
+        "lng": -122.43670463562012,
+        "spaces": 2,
+        "free": true,
+        "address": "1600-1698 Turk Street, San Francisco, CA 94115, USA"
+    },
+    {
+        "id": 41,
+        "lat": 37.783206,
+        "lng": -122.422296,
+        "spaces": 8,
+        "free": false,
+        "address": "203-299 Willow Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 40,
+        "lat": 37.7837061879819,
+        "lng": -122.418851852416,
+        "spaces": 16,
+        "free": false,
+        "address": "2-98 Willow Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 42,
+        "lat": 37.78873424970606,
+        "lng": -122.40062355995178,
+        "spaces": 31,
+        "free": false,
+        "address": "55 2nd Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 45,
+        "lat": 37.7828921694251,
+        "lng": -122.393531799316,
+        "spaces": 6,
+        "free": true,
+        "address": "500 San Francisco Bicycle Route 11, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 44,
+        "lat": 37.7853681146973,
+        "lng": -122.396557331085,
+        "spaces": 4,
+        "free": false,
+        "address": "300-318 2nd Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 43,
+        "lat": 37.7866060562285,
+        "lng": -122.398145198822,
+        "spaces": 12,
+        "free": false,
+        "address": "2nd St & Howard St, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 146,
+        "lat": 37.78002607440637,
+        "lng": -122.39406824111938,
+        "spaces": 4,
+        "free": false,
+        "address": "601 3rd Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 275,
+        "lat": 37.78236644434258,
+        "lng": -122.40166425704956,
+        "spaces": 5,
+        "free": false,
+        "address": "266 4th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 141,
+        "lat": 37.78292608704408,
+        "lng": -122.40232944488525,
+        "spaces": 8,
+        "free": false,
+        "address": "200-240 4th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 143,
+        "lat": 37.78123018703442,
+        "lng": -122.40018367767334,
+        "spaces": 2,
+        "free": false,
+        "address": "100-150 Clara Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 149,
+        "lat": 37.77670194336603,
+        "lng": -122.39413261413574,
+        "spaces": 5,
+        "free": false,
+        "address": "298 King Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 152,
+        "lat": 37.782095100901344,
+        "lng": -122.40576267242432,
+        "spaces": 8,
+        "free": false,
+        "address": "132-168 5th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 153,
+        "lat": 37.776752824049225,
+        "lng": -122.40342378616333,
+        "spaces": 6,
+        "free": true,
+        "address": "424-434 6th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 48,
+        "lat": 37.791303262172,
+        "lng": -122.395977973937,
+        "spaces": 12,
+        "free": false,
+        "address": "77 Beale Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 132,
+        "lat": 37.790056920744355,
+        "lng": -122.394357919693,
+        "spaces": 2,
+        "free": false,
+        "address": "195 Beale Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 46,
+        "lat": 37.7974074879565,
+        "lng": -122.400934696197,
+        "spaces": 14,
+        "free": false,
+        "address": "645 Battery Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 47,
+        "lat": 37.7962714619115,
+        "lng": -122.400505542755,
+        "spaces": 25,
+        "free": false,
+        "address": "550 Battery Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 155,
+        "lat": 37.7963053733897,
+        "lng": -122.40063428878784,
+        "spaces": 25,
+        "free": false,
+        "address": "555 Battery Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 278,
+        "lat": 37.78142521751564,
+        "lng": -122.39256620407104,
+        "spaces": 3,
+        "free": false,
+        "address": "1-35 Stanford Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 49,
+        "lat": 37.794771,
+        "lng": -122.402834,
+        "spaces": 24,
+        "free": false,
+        "address": "550-598 Clay Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 271,
+        "lat": 37.794864,
+        "lng": -122.40205,
+        "spaces": 4,
+        "free": false,
+        "address": "526-548 Clay Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 272,
+        "lat": 37.79472,
+        "lng": -122.401879,
+        "spaces": 12,
+        "free": false,
+        "address": "525-545 Clay Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 50,
+        "lat": 37.794431740891,
+        "lng": -122.401567697525,
+        "spaces": 7,
+        "free": false,
+        "address": "501-509 Commercial Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 51,
+        "lat": 37.7960595148201,
+        "lng": -122.396825551986,
+        "spaces": 66,
+        "free": false,
+        "address": "218-298 Drumm Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 52,
+        "lat": 37.7871995824848,
+        "lng": -122.394626140594,
+        "spaces": 12,
+        "free": false,
+        "address": "501 Folsom Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 287,
+        "lat": 37.790069,
+        "lng": -122.390998,
+        "spaces": 4,
+        "free": false,
+        "address": "101-167 Folsom Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 53,
+        "lat": 37.7905571555436,
+        "lng": -122.396900653839,
+        "spaces": 11,
+        "free": false,
+        "address": "50-98 Fremont Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 133,
+        "lat": 37.78815769338271,
+        "lng": -122.39371418952942,
+        "spaces": 3,
+        "free": false,
+        "address": "250 Fremont Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 283,
+        "lat": 37.78864946229359,
+        "lng": -122.39433646202087,
+        "spaces": 5,
+        "free": false,
+        "address": "215 Fremont Street #215, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 54,
+        "lat": 37.7925495825769,
+        "lng": -122.3985850811,
+        "spaces": 3,
+        "free": false,
+        "address": "104 Front Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 131,
+        "lat": 37.79358392776529,
+        "lng": -122.39876747131348,
+        "spaces": 7,
+        "free": false,
+        "address": "212-234 Front Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 273,
+        "lat": 37.793496,
+        "lng": -122.401429,
+        "spaces": 7,
+        "free": false,
+        "address": "201-299 Halleck Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 154,
+        "lat": 37.77618,
+        "lng": -122.40389,
+        "spaces": 12,
+        "free": true,
+        "address": "272-298 Harriet Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 144,
+        "lat": 37.782790416475244,
+        "lng": -122.39698648452759,
+        "spaces": 6,
+        "free": false,
+        "address": "685 Harrison Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 56,
+        "lat": 37.7849271990068,
+        "lng": -122.398005723953,
+        "spaces": 20,
+        "free": false,
+        "address": "95 Hawthorne Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 127,
+        "lat": 37.807632,
+        "lng": -122.420937,
+        "spaces": 6,
+        "free": false,
+        "address": "500 Jefferson Street, Golden Gate National Recreation Area, San Francisco Maritime National Historical Park, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 139,
+        "lat": 37.78687738310861,
+        "lng": -122.40230798721313,
+        "spaces": 5,
+        "free": false,
+        "address": "165 Jessie Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 270,
+        "lat": 37.78479789150266,
+        "lng": -122.40490436553955,
+        "spaces": 16,
+        "free": false,
+        "address": "308 Jessie Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 151,
+        "lat": 37.78323134491339,
+        "lng": -122.40743637084961,
+        "spaces": 8,
+        "free": false,
+        "address": "40 5th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 57,
+        "lat": 37.7881068205499,
+        "lng": -122.400891780853,
+        "spaces": 34,
+        "free": false,
+        "address": "100-134 Jessie Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 58,
+        "lat": 37.7849187198332,
+        "lng": -122.39893913269,
+        "spaces": 52,
+        "free": true,
+        "address": "Kaplan Lane, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 291,
+        "lat": 37.79280662899016,
+        "lng": -122.3960340953835,
+        "spaces": 41,
+        "free": false,
+        "address": "9 Main Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 60,
+        "lat": 37.79262717427988,
+        "lng": -122.3960254647882,
+        "spaces": 52,
+        "free": false,
+        "address": "8 Main Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 59,
+        "lat": 37.7904638916853,
+        "lng": -122.39322066307,
+        "spaces": 48,
+        "free": false,
+        "address": "211 Main Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 282,
+        "lat": 37.78217989583374,
+        "lng": -122.40728616714478,
+        "spaces": 8,
+        "free": false,
+        "address": "932 Mission Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 61,
+        "lat": 37.7916254422507,
+        "lng": -122.395377159118,
+        "spaces": 61,
+        "free": false,
+        "address": "250 Mission Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 244,
+        "lat": 37.788847,
+        "lng": -122.396701,
+        "spaces": 8,
+        "free": false,
+        "address": "166-198 1st Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 138,
+        "lat": 37.787318287164034,
+        "lng": -122.40046262741089,
+        "spaces": 5,
+        "free": false,
+        "address": "114 New Montgomery Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 62,
+        "lat": 37.7975770425843,
+        "lng": -122.401664257049,
+        "spaces": 11,
+        "free": false,
+        "address": "394 Pacific Avenue, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 147,
+        "lat": 37.7801278311619,
+        "lng": -122.39544153213501,
+        "spaces": 8,
+        "free": true,
+        "address": "254 Ritch Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 148,
+        "lat": 37.780717,
+        "lng": -122.396556,
+        "spaces": 4,
+        "free": false,
+        "address": "527 Bryant Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 140,
+        "lat": 37.79342284217152,
+        "lng": -122.40134239196777,
+        "spaces": 7,
+        "free": false,
+        "address": "309-341 Sansome Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 63,
+        "lat": 37.7908115109224,
+        "lng": -122.400569915771,
+        "spaces": 52,
+        "free": false,
+        "address": "2-98 Sansome Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 64,
+        "lat": 37.7951693303964,
+        "lng": -122.401428222656,
+        "spaces": 5,
+        "address": "500 Sansome Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 65,
+        "lat": 37.7933550165532,
+        "lng": -122.394969463348,
+        "spaces": 61,
+        "free": false,
+        "address": "45-99 Spear Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 137,
+        "lat": 37.79204130643789,
+        "lng": -122.3914512029367,
+        "spaces": 2,
+        "free": false,
+        "address": "1-49 Howard Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 142,
+        "lat": 37.78211205989562,
+        "lng": -122.40312337875366,
+        "spaces": 5,
+        "free": true,
+        "address": "328 Tehama Street, Yerba Buena Square Shopping Center, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 145,
+        "lat": 37.78034830365159,
+        "lng": -122.39089250564575,
+        "spaces": 5,
+        "free": false,
+        "address": "101 Townsend Street #270, San Francisco, CA 94119, USA"
+    },
+    {
+        "id": 150,
+        "lat": 37.77509070361927,
+        "lng": -122.39758729934692,
+        "spaces": 10,
+        "free": true,
+        "address": "410 Townsend Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 171,
+        "lat": 37.79562714086835,
+        "lng": -122.40290880203247,
+        "spaces": 13,
+        "free": false,
+        "address": "584 Washington Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 156,
+        "lat": 37.79593234627349,
+        "lng": -122.40134239196777,
+        "spaces": 26,
+        "free": false,
+        "address": "444 Washington Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 66,
+        "lat": 37.7960849485032,
+        "lng": -122.400012016296,
+        "spaces": 33,
+        "free": false,
+        "address": "142-498 Washington Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 258,
+        "lat": 37.791701747853054,
+        "lng": -122.39179372787476,
+        "free": false,
+        "address": "75 Howard Street, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 268,
+        "lat": 37.77506526271009,
+        "lng": -122.40627765655518,
+        "free": false,
+        "address": "Bayshore Freeway, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 249,
+        "lat": 37.79253262597779,
+        "lng": -122.40364909172058,
+        "free": false,
+        "address": "501-549 California Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 250,
+        "lat": 37.77959360663275,
+        "lng": -122.41765022277832,
+        "free": false,
+        "address": "400 Doctor Carlton B Goodlett Place, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 251,
+        "lat": 37.791099779293255,
+        "lng": -122.40317702293396,
+        "free": false,
+        "address": "350 Bush Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 252,
+        "lat": 37.768178934763505,
+        "lng": -122.43544936180115,
+        "free": false,
+        "address": "61-87 Castro Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 253,
+        "lat": 37.786868904158666,
+        "lng": -122.40699648857117,
+        "free": false,
+        "address": "101 Stockton Street, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 254,
+        "lat": 37.78318894806246,
+        "lng": -122.40511894226074,
+        "free": false,
+        "address": "310-338 Minna Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 255,
+        "lat": 37.79550844953692,
+        "lng": -122.40369200706482,
+        "free": false,
+        "address": "611-699 Washington Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 256,
+        "lat": 37.79541519192846,
+        "lng": -122.398681640625,
+        "free": false,
+        "address": "262-264 Clay Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 257,
+        "lat": 37.777914590120155,
+        "lng": -122.41406679153442,
+        "free": false,
+        "address": "50 8th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 259,
+        "lat": 37.78497807402849,
+        "lng": -122.43031024932861,
+        "free": false,
+        "address": "1610 Geary Boulevard, Nihonmachi Mall Shopping Center, Japan Center, San Francisco, CA 94115, USA"
+    },
+    {
+        "id": 262,
+        "lat": 37.79984903704993,
+        "lng": -122.43524551391602,
+        "free": false,
+        "address": "2055 Lombard Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 263,
+        "lat": 37.756796430299374,
+        "lng": -122.41984963417053,
+        "free": false,
+        "address": "3245 21st Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 264,
+        "lat": 37.79844176513279,
+        "lng": -122.40938901901245,
+        "free": false,
+        "address": "717-723 Vallejo Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 261,
+        "lat": 37.77805874960015,
+        "lng": -122.42243528366089,
+        "free": false,
+        "address": "370 Grove Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 265,
+        "lat": 37.754565525566484,
+        "lng": -122.40452885627747,
+        "free": false,
+        "address": "2500-2548 23rd Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 266,
+        "lat": 37.792176536497024,
+        "lng": -122.4045181274414,
+        "free": false,
+        "address": "1 Bush Street #1700, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 260,
+        "lat": 37.7899975706282,
+        "lng": -122.40918517112732,
+        "free": false,
+        "address": "701 Bush Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 267,
+        "lat": 37.78825943894311,
+        "lng": -122.40766167640686,
+        "free": false,
+        "address": "Barbary Coast Trail, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 227,
+        "lat": 37.765371639249565,
+        "lng": -122.45421409606934,
+        "spaces": 4,
+        "free": true,
+        "address": "122 Willard Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 225,
+        "lat": 37.767390188782336,
+        "lng": -122.4457597732544,
+        "spaces": 2,
+        "free": true,
+        "address": "130 Frederick Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 226,
+        "lat": 37.765843,
+        "lng": -122.457453,
+        "spaces": 6,
+        "free": true,
+        "address": "775-779 Frederick Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 224,
+        "lat": 37.76995146223971,
+        "lng": -122.44728326797485,
+        "spaces": 4,
+        "free": false,
+        "address": "1511 Haight Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 69,
+        "lat": 37.7700532328624,
+        "lng": -122.446210384368,
+        "spaces": 3,
+        "free": false,
+        "address": "1445 Haight Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 70,
+        "lat": 37.7701889268082,
+        "lng": -122.446210384368,
+        "spaces": 3,
+        "free": true,
+        "address": "1432 Haight Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 71,
+        "lat": 37.7704603139527,
+        "lng": -122.444064617156,
+        "spaces": 7,
+        "free": true,
+        "address": "1312 Haight Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 72,
+        "lat": 37.7693577974821,
+        "lng": -122.452476024627,
+        "spaces": 11,
+        "free": false,
+        "address": "1816 Haight Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 68,
+        "lat": 37.7721394997611,
+        "lng": -122.430953979492,
+        "spaces": 12,
+        "free": false,
+        "address": "522 Haight Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 125,
+        "lat": 37.77147,
+        "lng": -122.427502,
+        "spaces": 2,
+        "free": true,
+        "address": "235 Waller Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 73,
+        "lat": 37.7644895666939,
+        "lng": -122.457904815673,
+        "spaces": 4,
+        "address": "14-38 Irving Street, San Francisco, CA 94122, USA"
+    },
+    {
+        "id": 222,
+        "lat": 37.77083346965009,
+        "lng": -122.44848489761353,
+        "spaces": 2,
+        "free": true,
+        "address": "1698 Page Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 74,
+        "lat": 37.7630985847509,
+        "lng": -122.459621429443,
+        "spaces": 3,
+        "free": false,
+        "address": "530-598 Parnassus Avenue, San Francisco, CA 94122, USA"
+    },
+    {
+        "id": 223,
+        "lat": 37.76869627970943,
+        "lng": -122.45020151138306,
+        "spaces": 2,
+        "free": true,
+        "address": "1584 Waller Street, San Francisco, CA 94117, USA"
+    },
+    {
+        "id": 216,
+        "lat": 37.78355356018544,
+        "lng": -122.43258476257324,
+        "spaces": 10,
+        "free": true,
+        "address": "1500 Fillmore Street, San Francisco, CA 94115, USA"
+    },
+    {
+        "id": 36,
+        "lat": 37.7870978354651,
+        "lng": -122.439966201782,
+        "spaces": 3,
+        "free": true,
+        "address": "2685 Pine Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 75,
+        "lat": 37.7856394461224,
+        "lng": -122.430095672607,
+        "spaces": 5,
+        "free": false,
+        "address": "1706 Post Street, Japan Center, San Francisco, CA 94115, USA"
+    },
+    {
+        "id": 76,
+        "lat": 37.7853002816853,
+        "lng": -122.432713508605,
+        "spaces": 5,
+        "free": false,
+        "address": "1820-1898 Post Street, San Francisco, CA 94115, USA"
+    },
+    {
+        "id": 217,
+        "lat": 37.7853172399442,
+        "lng": -122.44028806686401,
+        "spaces": 5,
+        "free": false,
+        "address": "2400 Sutter Street, San Francisco, CA 94115, USA"
+    },
+    {
+        "id": 215,
+        "lat": 37.78426582053905,
+        "lng": -122.43082523345947,
+        "spaces": 2,
+        "free": false,
+        "address": "Zampa Lane, San Francisco, CA 94115, USA"
+    },
+    {
+        "id": 280,
+        "lat": 37.748799,
+        "lng": -122.459628,
+        "spaces": 3,
+        "free": true,
+        "address": "300 Laguna Honda Boulevard, San Francisco, CA 94116, USA"
+    },
+    {
+        "id": 233,
+        "lat": 37.75468428264667,
+        "lng": -122.46402025222778,
+        "spaces": 3,
+        "free": true,
+        "address": "1798 Laguna Honda Blvd, San Francisco, CA 94122, USA"
+    },
+    {
+        "id": 220,
+        "lat": 37.800222044388384,
+        "lng": -122.43616819381714,
+        "spaces": 4,
+        "free": true,
+        "address": "3333 Fillmore Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 218,
+        "lat": 37.802443094538226,
+        "lng": -122.430739402771,
+        "spaces": 2,
+        "free": true,
+        "address": "1549 Francisco Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 176,
+        "lat": 37.79822134662092,
+        "lng": -122.42024660110474,
+        "spaces": 2,
+        "free": true,
+        "address": "1280 Green Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 178,
+        "lat": 37.80117150911384,
+        "lng": -122.4193024635315,
+        "spaces": 1,
+        "free": true,
+        "address": "1186 Greenwich Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 179,
+        "lat": 37.802631,
+        "lng": -122.421628,
+        "spaces": 1,
+        "free": true,
+        "address": "1111 Chestnut Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 177,
+        "lat": 37.799391252741934,
+        "lng": -122.42086887359619,
+        "spaces": 2,
+        "free": true,
+        "address": "2325-2335 Larkin Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 219,
+        "lat": 37.80308735613073,
+        "lng": -122.43000984191895,
+        "spaces": 3,
+        "free": true,
+        "address": "3337 Octavia Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 77,
+        "lat": 37.8001372701586,
+        "lng": -122.439579963684,
+        "spaces": 9,
+        "free": false,
+        "address": "3251 Pierce Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 221,
+        "lat": 37.79689882173807,
+        "lng": -122.43685483932495,
+        "spaces": 2,
+        "free": false,
+        "address": "2285 Union Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 79,
+        "lat": 37.7983908993807,
+        "lng": -122.426040172576,
+        "spaces": 2,
+        "free": false,
+        "address": "1618 Union Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 78,
+        "lat": 37.7977805076241,
+        "lng": -122.430953979492,
+        "spaces": 5,
+        "free": false,
+        "address": "1700 Jackson Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 80,
+        "lat": 37.798509586081,
+        "lng": -122.425203323364,
+        "spaces": 3,
+        "free": false,
+        "address": "1572 Union Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 173,
+        "lat": 37.79667839862233,
+        "lng": -122.42498874664307,
+        "spaces": 2,
+        "free": false,
+        "address": "1632 Vallejo Street, San Francisco, CA 94123, USA"
+    },
+    {
+        "id": 175,
+        "lat": 37.79730575499307,
+        "lng": -122.41968870162964,
+        "spaces": 6,
+        "free": true,
+        "address": "1348 Vallejo Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 174,
+        "lat": 37.797068377533414,
+        "lng": -122.4213194847107,
+        "spaces": 2,
+        "free": true,
+        "address": "1456 Vallejo Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 85,
+        "lat": 37.7649645301465,
+        "lng": -122.423121929168,
+        "spaces": 12,
+        "free": false,
+        "address": "85-99 Albion Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 166,
+        "lat": 37.76389585808897,
+        "lng": -122.41486072540283,
+        "spaces": 7,
+        "free": true,
+        "address": "2047 Folsom Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 84,
+        "lat": 37.7600620820686,
+        "lng": -122.422242164611,
+        "spaces": 3,
+        "free": true,
+        "address": "3532-3536 19th Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 164,
+        "lat": 37.76379407899244,
+        "lng": -122.41850852966309,
+        "spaces": 10,
+        "free": true,
+        "address": "3248 17th Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 167,
+        "lat": 37.7560436135038,
+        "lng": -122.42255330085754,
+        "spaces": 5,
+        "free": true,
+        "address": "30 Hill Street, San Francisco, CA 94114, USA"
+    },
+    {
+        "id": 168,
+        "lat": 37.75677098309616,
+        "lng": -122.41891622543335,
+        "spaces": 2,
+        "free": false,
+        "address": "2522 Mission Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 165,
+        "lat": 37.763505704124995,
+        "lng": -122.41621255874634,
+        "spaces": 6,
+        "free": true,
+        "address": "307 Shotwell Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 163,
+        "lat": 37.76613496277764,
+        "lng": -122.42217779159546,
+        "spaces": 18,
+        "free": false,
+        "address": "422 Valencia Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 81,
+        "lat": 37.7628441340041,
+        "lng": -122.421791553497,
+        "spaces": 8,
+        "free": false,
+        "address": "660-662 Valencia Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 82,
+        "lat": 37.7611986647087,
+        "lng": -122.421491146087,
+        "spaces": 6,
+        "free": false,
+        "address": "739 Valencia Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 83,
+        "lat": 37.7580772615525,
+        "lng": -122.42131948471,
+        "spaces": 8,
+        "free": false,
+        "address": "922-928 Valencia Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 237,
+        "lat": 37.75386994455459,
+        "lng": -122.41559028625488,
+        "spaces": 2,
+        "free": true,
+        "address": "3159 23rd Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 238,
+        "lat": 37.752427865527316,
+        "lng": -122.41599798202515,
+        "spaces": 6,
+        "free": false,
+        "address": "3184 24th Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 269,
+        "lat": 37.752563,
+        "lng": -122.412489,
+        "spaces": 3,
+        "free": false,
+        "address": "2-6 Balmy Street, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 239,
+        "lat": 37.75300470051097,
+        "lng": -122.41320848464966,
+        "spaces": 7,
+        "free": false,
+        "address": "1070 Treat Avenue, San Francisco, CA 94110, USA"
+    },
+    {
+        "id": 169,
+        "lat": 37.790104,
+        "lng": -122.409686,
+        "spaces": 8,
+        "free": false,
+        "address": "734-750 Bush Street, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 86,
+        "lat": 37.7919137074461,
+        "lng": -122.411277294158,
+        "spaces": 5,
+        "free": true,
+        "address": "1020-1044 California Street, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 87,
+        "lat": 37.7931854522353,
+        "lng": -122.415869235992,
+        "spaces": 4,
+        "free": true,
+        "address": "1390 Clay Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 88,
+        "lat": 37.7897601696868,
+        "lng": -122.417306900024,
+        "spaces": 5,
+        "free": false,
+        "address": "955 Hyde Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 170,
+        "lat": 37.79388066346596,
+        "lng": -122.41292953491211,
+        "spaces": 9,
+        "free": true,
+        "address": "1228-1234 Taylor Street, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 89,
+        "lat": 37.7894379814749,
+        "lng": -122.41200685501,
+        "spaces": 10,
+        "free": false,
+        "address": "740-750 Taylor Street, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 286,
+        "lat": 37.78828487531132,
+        "lng": -122.42305755615234,
+        "spaces": 5,
+        "free": false,
+        "address": "1565 Bush Street, San Francisco, CA 94104, USA"
+    },
+    {
+        "id": 281,
+        "lat": 37.79077759692252,
+        "lng": -122.41890549659729,
+        "spaces": 2,
+        "free": false,
+        "address": "1477-1499 California Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 90,
+        "lat": 37.7892344934595,
+        "lng": -122.424194812774,
+        "spaces": 3,
+        "free": true,
+        "address": "1700-1710 Pine Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 182,
+        "lat": 37.78663997214301,
+        "lng": -122.41844415664673,
+        "spaces": 5,
+        "free": false,
+        "address": "931 Larkin Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 183,
+        "lat": 37.78638560240496,
+        "lng": -122.41775751113892,
+        "spaces": 5,
+        "free": true,
+        "address": "882 Geary Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 91,
+        "lat": 37.794066,
+        "lng": -122.42165,
+        "spaces": 6,
+        "free": false,
+        "address": "1607 Jackson Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 92,
+        "lat": 37.78764,
+        "lng": -122.418336,
+        "spaces": 5,
+        "free": false,
+        "address": "1742 Polk Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 93,
+        "lat": 37.7852833234226,
+        "lng": -122.421748638153,
+        "spaces": 6,
+        "free": false,
+        "address": "1035 Van Ness Avenue, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 185,
+        "lat": 37.78584294403752,
+        "lng": -122.42408752441406,
+        "spaces": 6,
+        "free": true,
+        "address": "1-99 Peter Yorke Way, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 97,
+        "lat": 37.7895312466281,
+        "lng": -122.421770095825,
+        "spaces": 15,
+        "free": false,
+        "address": "1528-1598 Pine Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 184,
+        "lat": 37.78850532346908,
+        "lng": -122.4202036857605,
+        "spaces": 5,
+        "free": false,
+        "address": "1288 Polk Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 186,
+        "lat": 37.784282779035216,
+        "lng": -122.41949558258057,
+        "spaces": 2,
+        "free": false,
+        "address": "825 Polk Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 94,
+        "lat": 37.7870384829723,
+        "lng": -122.419946193695,
+        "spaces": 6,
+        "free": false,
+        "address": "1118 Polk Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 95,
+        "lat": 37.7966953542699,
+        "lng": -122.422006130218,
+        "spaces": 5,
+        "free": false,
+        "address": "2155 Polk Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 96,
+        "lat": 37.7930582787414,
+        "lng": -122.421244382858,
+        "address": "1749 Polk Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 187,
+        "lat": 37.78365531208477,
+        "lng": -122.41902351379395,
+        "spaces": 6,
+        "free": false,
+        "address": "2-98 Willow Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 98,
+        "lat": 37.7818746336218,
+        "lng": -122.461059093475,
+        "spaces": 3,
+        "free": true,
+        "address": "364-366 3rd Avenue, San Francisco, CA 94122, USA"
+    },
+    {
+        "id": 232,
+        "lat": 37.784471,
+        "lng": -122.462339,
+        "spaces": 2,
+        "free": true,
+        "address": "214 4th Avenue, San Francisco, CA 94118, USA"
+    },
+    {
+        "id": 231,
+        "lat": 37.783536601521924,
+        "lng": -122.46346235275269,
+        "spaces": 2,
+        "free": true,
+        "address": "269 5th Avenue, San Francisco, CA 94122, USA"
+    },
+    {
+        "id": 229,
+        "lat": 37.77705810741294,
+        "lng": -122.46389150619507,
+        "spaces": 1,
+        "free": true,
+        "address": "612 6th Avenue, San Francisco, CA 94118, USA"
+    },
+    {
+        "id": 284,
+        "lat": 37.773611,
+        "lng": -122.463607,
+        "spaces": 4,
+        "free": true,
+        "address": "3065-3099 Fulton Street, San Francisco, CA 94118, USA"
+    },
+    {
+        "id": 228,
+        "lat": 37.778652344496926,
+        "lng": -122.46822595596313,
+        "spaces": 2,
+        "free": true,
+        "address": "506 10th Avenue, San Francisco, CA 94118, USA"
+    },
+    {
+        "id": 100,
+        "lat": 37.7821459778724,
+        "lng": -122.449429035186,
+        "spaces": 5,
+        "free": false,
+        "address": "2835 Geary Boulevard, San Francisco, CA 94121, USA"
+    },
+    {
+        "id": 99,
+        "lat": 37.781314982959,
+        "lng": -122.461702823638,
+        "spaces": 10,
+        "free": false,
+        "address": "3936 Geary Boulevard, San Francisco, CA 94121, USA"
+    },
+    {
+        "id": 230,
+        "lat": 37.7831974274346,
+        "lng": -122.45788335800171,
+        "spaces": 2,
+        "free": true,
+        "address": "125 Palm Avenue, San Francisco, CA 94118, USA"
+    },
+    {
+        "id": 101,
+        "lat": 37.7780926694369,
+        "lng": -122.492280006408,
+        "spaces": 4,
+        "free": true,
+        "address": "587 32nd Avenue, San Francisco, CA 94116, USA"
+    },
+    {
+        "id": 181,
+        "lat": 37.79659362032577,
+        "lng": -122.41507530212402,
+        "spaces": 1,
+        "free": true,
+        "address": "1684-1694 Jones Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 180,
+        "lat": 37.79797,
+        "lng": -122.413805,
+        "spaces": 10,
+        "free": true,
+        "address": "1001 Vallejo Street, San Francisco, CA 94133, USA"
+    },
+    {
+        "id": 102,
+        "lat": 37.794628,
+        "lng": -122.413068,
+        "spaces": 6,
+        "free": true,
+        "address": "1314-1320 Taylor Street, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 208,
+        "lat": 37.77188508012014,
+        "lng": -122.4020504951477,
+        "spaces": 16,
+        "free": true,
+        "address": "1717 7th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 103,
+        "lat": 37.7754468754286,
+        "lng": -122.406299114227,
+        "address": "400-412 7th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 104,
+        "lat": 37.7754129543778,
+        "lng": -122.410504817962,
+        "spaces": 22,
+        "free": false,
+        "address": "275 8th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 285,
+        "lat": 37.770197407671574,
+        "lng": -122.40402460098267,
+        "spaces": 3,
+        "free": true,
+        "address": "699 8th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 105,
+        "lat": 37.7714610454397,
+        "lng": -122.408874034881,
+        "spaces": 8,
+        "free": false,
+        "address": "494 9th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 205,
+        "lat": 37.774785412131244,
+        "lng": -122.41305828094482,
+        "spaces": 8,
+        "free": false,
+        "address": "218 9th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 106,
+        "lat": 37.7720207707042,
+        "lng": -122.409603595733,
+        "spaces": 5,
+        "free": false,
+        "address": "434 Ninth Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 107,
+        "lat": 37.775473,
+        "lng": -122.418424,
+        "spaces": 12,
+        "free": false,
+        "address": "7-21 11th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 109,
+        "lat": 37.7724956857877,
+        "lng": -122.412285804748,
+        "spaces": 4,
+        "free": false,
+        "address": "327,329 10th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 108,
+        "lat": 37.7749041367486,
+        "lng": -122.415397167205,
+        "spaces": 8,
+        "free": false,
+        "address": "141 10th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 110,
+        "lat": 37.771466,
+        "lng": -122.413659,
+        "spaces": 4,
+        "free": false,
+        "address": "330 11th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 204,
+        "lat": 37.77135927675464,
+        "lng": -122.4157190322876,
+        "spaces": 4,
+        "free": true,
+        "address": "263-287 12th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 211,
+        "lat": 37.766915240907736,
+        "lng": -122.41299390792847,
+        "spaces": 1,
+        "free": true,
+        "address": "1200 15th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 209,
+        "lat": 37.766525102871746,
+        "lng": -122.39889621734619,
+        "spaces": 10,
+        "free": true,
+        "address": "485 Irwin Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 210,
+        "lat": 37.76627066391339,
+        "lng": -122.4020504951477,
+        "spaces": 14,
+        "free": true,
+        "address": "1580 16th Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 274,
+        "lat": 37.766302,
+        "lng": -122.398934,
+        "spaces": 10,
+        "free": true,
+        "address": "1201-1249 16th Street, San Francisco, CA 94107, USA"
+    },
+    {
+        "id": 111,
+        "lat": 37.7741578645579,
+        "lng": -122.405076026916,
+        "spaces": 15,
+        "free": false,
+        "address": "900-928 Bryant Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 200,
+        "lat": 37.769883615080076,
+        "lng": -122.42183446884155,
+        "spaces": 12,
+        "free": true,
+        "address": "91-95 Duboce Avenue, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 206,
+        "lat": 37.77471756940714,
+        "lng": -122.41050481796265,
+        "spaces": 5,
+        "free": true,
+        "address": "1220-1226 Folsom Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 202,
+        "lat": 37.77051119893143,
+        "lng": -122.41265058517456,
+        "spaces": 16,
+        "free": true,
+        "address": "1501-1565 Harrison Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 112,
+        "lat": 37.7722582286273,
+        "lng": -122.410590648651,
+        "spaces": 5,
+        "free": true,
+        "address": "1310 Harrison Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 197,
+        "lat": 37.773411584834484,
+        "lng": -122.41552591323853,
+        "spaces": 8,
+        "free": false,
+        "address": "1488 Howard Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 207,
+        "lat": 37.7766849831305,
+        "lng": -122.4113416671753,
+        "spaces": 4,
+        "free": false,
+        "address": "1180 Howard Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 199,
+        "lat": 37.771511929729805,
+        "lng": -122.42116928100586,
+        "spaces": 4,
+        "free": true,
+        "address": "37,35,33 San Francisco Bicycle Route 30, San Francisco, CA 94105, USA"
+    },
+    {
+        "id": 201,
+        "lat": 37.77071473849608,
+        "lng": -122.41962432861328,
+        "spaces": 2,
+        "free": false,
+        "address": "1673-1695 Mission Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 203,
+        "lat": 37.7709861237108,
+        "lng": -122.41357326507568,
+        "spaces": 2,
+        "free": true,
+        "address": "55 Norfolk Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 198,
+        "lat": 37.77113877745632,
+        "lng": -122.41889476776123,
+        "spaces": 5,
+        "free": true,
+        "address": "1-99 Plum Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 114,
+        "lat": 37.770375505577,
+        "lng": -122.422521114349,
+        "spaces": 4,
+        "free": false,
+        "address": "170-172 Valencia Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 113,
+        "lat": 37.7690524823224,
+        "lng": -122.422199249267,
+        "spaces": 2,
+        "free": false,
+        "address": "235-259 Valencia Street, San Francisco, CA 94103, USA"
+    },
+    {
+        "id": 245,
+        "lat": 37.72774,
+        "lng": -122.476168,
+        "spaces": 4,
+        "free": true,
+        "address": "3251 20th Avenue, San Francisco, CA 94132, USA"
+    },
+    {
+        "id": 115,
+        "lat": 37.7635905203791,
+        "lng": -122.466230392456,
+        "spaces": 2,
+        "free": true,
+        "address": "1326 9th Avenue, San Francisco, CA 94122, USA"
+    },
+    {
+        "id": 247,
+        "lat": 37.762145,
+        "lng": -122.465426,
+        "spaces": 2,
+        "free": false,
+        "address": "301-309 Judah Street, San Francisco, CA 94122, USA"
+    },
+    {
+        "id": 116,
+        "lat": 37.8016377596446,
+        "lng": -122.401599884033,
+        "spaces": 18,
+        "free": false,
+        "address": "1160 Battery Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 117,
+        "lat": 37.8012562821565,
+        "lng": -122.40152478218,
+        "spaces": 14,
+        "free": false,
+        "address": "1050 Battery Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 188,
+        "lat": 37.7851815737647,
+        "lng": -122.41089105606079,
+        "spaces": 10,
+        "free": false,
+        "address": "200-298 Ellis Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 55,
+        "lat": 37.7889038242392,
+        "lng": -122.405322790145,
+        "spaces": 6,
+        "free": false,
+        "address": "201-229 Grant Avenue, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 118,
+        "lat": 37.7872674137534,
+        "lng": -122.404904365539,
+        "spaces": 12,
+        "free": false,
+        "address": "2-40 Grant Avenue, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 120,
+        "lat": 37.7869028199525,
+        "lng": -122.409796714782,
+        "spaces": 10,
+        "free": false,
+        "address": "336 Mason Street, San Francisco, CA 94108, USA"
+    },
+    {
+        "id": 134,
+        "lat": 37.784537156011055,
+        "lng": -122.4093246459961,
+        "spaces": 4,
+        "free": false,
+        "address": "100-124 Mason Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 135,
+        "lat": 37.7851900529082,
+        "lng": -122.40947484970093,
+        "spaces": 6,
+        "free": false,
+        "address": "164-198 Mason Street, San Francisco, CA 94102, USA"
+    },
+    {
+        "id": 121,
+        "lat": 37.7876913577716,
+        "lng": -122.413787841796,
+        "spaces": 6,
+        "free": false,
+        "address": "720 Post Street, San Francisco, CA 94109, USA"
+    },
+    {
+        "id": 123,
+        "lat": 37.8031721269745,
+        "lng": -122.402930259704,
+        "spaces": 12,
+        "free": false,
+        "address": "150-198 Greenwich Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 124,
+        "lat": 37.8049014309497,
+        "lng": -122.405236959457,
+        "spaces": 9,
+        "free": false,
+        "address": "1701-1725 Montgomery Street, San Francisco, CA 94111, USA"
+    },
+    {
+        "id": 122,
+        "lat": 37.8009595760814,
+        "lng": -122.399464845657,
+        "spaces": 3,
+        "free": false,
+        "address": "1098 The Embarcadero, San Francisco, CA 94111, USA"
     }
-}
+]

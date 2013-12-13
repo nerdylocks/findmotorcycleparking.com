@@ -27,9 +27,10 @@ motoApp.factory('Data', function($http, $rootScope){
     $rootScope.$emit('LOAD');
 	Data.fetchParkingData = function(){
 		$http.get('json/data.json').then(function(response){
-			Data.parkingSpots = response.data.parking.spots;
+            console.log(response.data);
+			Data.parkingSpots = response.data;
+            $rootScope.spots = Data.parkingSpots;
             $rootScope.$emit('UNLOAD');
-			//console.log(Data.parkingSpots);
 		});
 		return Data.parkingSpots;
 	};
@@ -65,6 +66,8 @@ motoApp.factory('Distance', function($rootScope){
                 $rootScope.$emit('LOAD');
 				var self = this;
 				angular.forEach(data, function(key, value){
+                    key.address = key.address.split(',');
+                    key.address = key.address[0];
 					if(key["nbhood"] != "Garages" || key.hasOwnProperty("spaces")){
 						key.distance = parseFloat(Math.round(self.get(currentLocation.lat,currentLocation.lng, key.lat, key.lng) * 100) / 100).toFixed(2);
 					}
@@ -87,18 +90,24 @@ motoApp.factory('LocationServices', function ($http, $rootScope){
 				});
 			}
 		},
-		convertAddressToLatLng: function(address, onSuccess){
+		googleLocations: function(location, onSuccess){
 			var addressToLatLngUrl = 'http://maps.googleapis.com/maps/api/geocode/json?address=';
 			var addressToLatLng;
-            $rootScope.$emit('LOAD');
-			if(address.search(/Francsico/i) < 1){
-				address = address + ', San Francsico, CA';
-			}
 
-			$http.get(addressToLatLngUrl + address + '&sensor=false').success(function(data, status){
+            $rootScope.$emit('LOAD');
+
+            if($rootScope.searchFromAddress){
+                if(location.search(/Francsico/i) < 1){
+                    location = location + ', San Francsico, CA';
+                }
+            }
+
+
+			$http.get(addressToLatLngUrl + location + '&sensor=false').success(function(data, status){
 				if(status == 200 && data.status == 'OK'){
-					addressToLatLng = data.results[0].geometry.location;
-					onSuccess(addressToLatLng);
+					addressToLatLng = data.results[0];
+                    onSuccess(addressToLatLng);
+                    console.log(addressToLatLng);
                     $rootScope.$emit('UNLOAD');
 				} else {
 					console.info('GOOGLE STATUS', data.status);
@@ -107,8 +116,16 @@ motoApp.factory('LocationServices', function ($http, $rootScope){
 				}
 			});
 		},
-        getAddress: function(address, onSuccess){
-
+        getAddress: function(){
+            var googUrl = 'http://maps.googleapis.com/maps/api/geocode/json?address=';
+                angular.forEach($rootScope.spots, function(key, value){
+                    $http.get(googUrl + key.lat + ',' + key.lng + '&sensor=false').success(function(data){
+                        if(status == 200 && data.status == 'OK'){
+                            key.address = data.results[0].formatted_address;
+                            console.log(data.results[0].formatted_address);
+                        }
+                    });
+                });
         }
 	}
 });
